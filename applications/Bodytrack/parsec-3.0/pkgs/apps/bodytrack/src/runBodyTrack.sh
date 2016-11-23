@@ -1,0 +1,1 @@
+../obj/amd64-linux.gcc/TrackingBenchmark/bodytrack ../inputs/sequenceB_1 4 1 1000 5 0 1

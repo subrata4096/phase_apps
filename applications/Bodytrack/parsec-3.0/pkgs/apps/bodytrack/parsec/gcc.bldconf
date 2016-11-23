@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# gcc.bldconf - configuration file for PARSEC
+
+# Default parallelization is pthreads
+source ${PARSECDIR}/pkgs/apps/bodytrack/parsec/gcc-pthreads.bldconf
+#source ${PARSECDIR}/pkgs/apps/bodytrack/parsec/gcc.bldconf
+
+# Override build environment
+#build_conf="--disable-threads"
+

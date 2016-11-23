@@ -1,0 +1,1 @@
+./build/bin/ffmpeg -y -i ./approx_vid_out_combined_phases/static_adele/25/1280_720/input.mp4  -vf convolution="-2 -1 0 -1 1 1 0 1 2:-2 -1 0 -1 1 1 0 1 2:-2 -1 0 -1 1 1 0 1 2:-2 -1 0 -1 1 1 0 1 2" ./approx_vid_out_combined_phases/static_adele/25/1280_720/1_5_1/globalApprox.mp4

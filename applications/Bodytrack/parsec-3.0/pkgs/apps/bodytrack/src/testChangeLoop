@@ -1,0 +1,3 @@
+parsecmgmt -a fullclean -p parsec.bodytrack -c gcc-serial
+parsecmgmt -a uninstall -p parsec.bodytrack -c gcc-serial                   
+parsecmgmt -a build -p parsec.bodytrack -c gcc-serial               
