@@ -1,0 +1,70 @@
+<HTML>
+<CENTER><A HREF = "http://lammps.sandia.gov">LAMMPS WWW Site</A> - <A HREF = "Manual.html">LAMMPS Documentation</A> - <A HREF = "Section_commands.html#comm">LAMMPS Commands</A> 
+</CENTER>
+
+
+
+
+
+
+<HR>
+
+<H3>fix wall/lj126 command 
+</H3>
+<P><B>Syntax:</B>
+</P>
+<PRE>fix ID group-ID wall/lj126 style coord epsilon sigma cutoff 
+</PRE>
+<UL><LI>ID, group-ID are documented in <A HREF = "fix.html">fix</A> command
+<LI>wall/lj126 = style name of this fix command
+<LI>style = <I>xlo</I> or <I>xhi</I> or <I>ylo</I> or <I>yhi</I> or <I>zlo</I> or <I>zhi</I>
+<LI>coord = position of wall
+<LI>epsilon = Lennard-Jones epsilon for wall-particle interaction
+<LI>sigma = Lennard-Jones sigma for wall-particle interaction
+<LI>cutoff = distance from wall at which wall-particle interaction is cut off 
+</UL>
+<P><B>Examples:</B>
+</P>
+<PRE>fix wallhi all wall/lj126 xhi 10.0 1.0 1.0 1.12 
+</PRE>
+<P><B>Description:</B>
+</P>
+<P>Bound the simulation domain with a Lennard-Jones wall that encloses
+the atoms.  The energy E of a wall-particle interactions is given by
+the 12-6 potential
+</P>
+<CENTER><IMG SRC = "Eqs/pair_lj.jpg">
+</CENTER>
+<P>where <I>r</I> is the distance from the particle to the wall <I>coord</I>, and
+epsilon and sigma are the usual LJ parameters.  Rc is the cutoff value
+specified in the command.  This interaction provides a harder, more
+repulsive interaction with the wall than the softer 9-3 potential
+provided by the <A HREF = "fix_wall_lj93.html">fix wall/lj93</A> command.
+</P>
+<P>The wall potential is shifted so that the energy of a wall-particle
+interaction is 0.0 at the cutoff distance.
+</P>
+<P>This fix makes a contribution to the potential energy of the system
+that can be included in thermodynamic output of potential energy using
+the <A HREF = "fix_modify.html">fix_modify energy</A> option.  The contribution can
+also be printed by itself via the keyword <I>f_fix-ID</I> in the
+<A HREF = "thermo_style.html">thermo_style custom</A> command.
+</P>
+<P>The forces due to this fix are also imposed during an energy
+minimization, invoked by the <A HREF = "minimize.html">minimize</A> command.  If you
+want that energy to be included in the total potential energy of the
+system (the quantity being minimized), you must enable the
+<A HREF = "fix_modify.html">fix_modify</A> <I>energy</I> option for this fix.
+</P>
+<P><B>Restrictions:</B>
+</P>
+<P>Any dimension (xyz) that has a LJ 12/6 wall must be non-periodic.
+</P>
+<P><B>Related commands:</B>
+</P>
+<P><A HREF = "fix_wall_reflect.html">fix wall/reflect</A>, <A HREF = "fix_wall_lj93.html">fix
+wall/lj93</A>
+</P>
+<P><B>Default:</B> none
+</P>
+</HTML>

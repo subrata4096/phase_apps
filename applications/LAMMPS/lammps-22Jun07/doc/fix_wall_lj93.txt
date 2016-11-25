@@ -1,0 +1,66 @@
+"LAMMPS WWW Site"_lws - "LAMMPS Documentation"_ld - "LAMMPS Commands"_lc :c
+
+:link(lws,http://lammps.sandia.gov)
+:link(ld,Manual.html)
+:link(lc,Section_commands.html#comm)
+
+:line
+
+fix wall/lj93 command :h3
+
+[Syntax:]
+
+fix ID group-ID wall/lj93 style coord epsilon sigma cutoff :pre
+
+ID, group-ID are documented in "fix"_fix.html command
+wall/lj93 = style name of this fix command
+style = {xlo} or {xhi} or {ylo} or {yhi} or {zlo} or {zhi}
+coord = position of wall
+epsilon = Lennard-Jones epsilon for wall-particle interaction
+sigma = Lennard-Jones sigma for wall-particle interaction
+cutoff = distance from wall at which wall-particle interaction is cut off :ul
+
+[Examples:]
+
+fix wallhi all wall/lj93 xhi 10.0 1.0 1.0 2.5 :pre
+
+[Description:]
+
+Bound the simulation domain with a Lennard-Jones wall that encloses
+the atoms.  The energy E of a wall-particle interactions is given by
+the 9-3 potential
+
+:c,image(Eqs/fix_wall_lj93.jpg)
+
+where {r} is the distance from the particle to the wall {coord}, and
+epsilon and sigma are the usual LJ parameters.  Rc is the cutoff value
+specified in the command.  This interaction is derived by integrating
+over a 3d half-lattice of Lennard-Jones 12-6 particles.  A harder,
+more repulsive wall interaction can be computed by using the "fix
+wall/lj126"_fix_wall_lj126.html command.
+
+The wall potential is shifted so that the energy of a wall-particle
+interaction is 0.0 at the cutoff distance.
+
+This fix makes a contribution to the potential energy of the system
+that can be included in thermodynamic output of potential energy using
+the "fix_modify energy"_fix_modify.html option.  The contribution can
+also be printed by itself via the keyword {f_fix-ID} in the
+"thermo_style custom"_thermo_style.html command.
+
+The forces due to this fix are also imposed during an energy
+minimization, invoked by the "minimize"_minimize.html command.  If you
+want that energy to be included in the total potential energy of the
+system (the quantity being minimized), you must enable the
+"fix_modify"_fix_modify.html {energy} option for this fix.
+
+[Restrictions:]
+
+Any dimension (xyz) that has a LJ 9/3 wall must be non-periodic.
+
+[Related commands:]
+
+"fix wall/reflect"_fix_wall_reflect.html, "fix
+wall/lj126"_fix_wall_lj126.html
+
+[Default:] none

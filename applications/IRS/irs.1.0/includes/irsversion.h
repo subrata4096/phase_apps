@@ -1,0 +1,6 @@
+#define VER_NODENAME "cab668"
+#define VER_DATE "01/19/14"
+#define VER_TIME "11:32:55"
+#define VER_OS "Linux 2.6.32-358.14.1.3chaos.ch5.1.1.x86_64 #1 SMP Mon Oct 7 13:06:43 PDT 2013"
+#define VER_OPT "Optimized"
+#define VER_PERSON "mitra3"

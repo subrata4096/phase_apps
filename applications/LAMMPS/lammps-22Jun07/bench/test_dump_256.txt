@@ -1,0 +1,380 @@
+srun: First task exited 30s ago
+srun: task 104: running
+srun: tasks 0-103,105-255: exited
+srun: Terminating job step 507030.0
+slurmd[cab216]: *** STEP 507030.0 KILLED AT 2013-11-09T21:11:31 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.0
+Sat Nov  9 21:11:45 PST 2013
+srun: First task exited 30s ago
+srun: task 61: running
+srun: tasks 0-60,62-255: exited
+srun: Terminating job step 507030.1
+slurmd[cab75]: *** STEP 507030.1 KILLED AT 2013-11-09T21:13:50 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab75]: *** STEP 507030.1 KILLED AT 2013-11-09T21:13:50 WITH SIGNAL 9 ***
+Sat Nov  9 21:13:50 PST 2013
+srun: First task exited 30s ago
+srun: task 108: running
+srun: tasks 0-107,109-255: exited
+srun: Terminating job step 507030.2
+slurmd[cab216]: *** STEP 507030.2 KILLED AT 2013-11-09T21:15:56 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.2 KILLED AT 2013-11-09T21:15:56 WITH SIGNAL 9 ***
+Sat Nov  9 21:15:56 PST 2013
+srun: First task exited 30s ago
+srun: task 169: running
+srun: tasks 0-168,170-255: exited
+srun: Terminating job step 507030.3
+slurmd[cab488]: *** STEP 507030.3 KILLED AT 2013-11-09T21:17:47 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab488]: *** STEP 507030.3 KILLED AT 2013-11-09T21:17:47 WITH SIGNAL 9 ***
+Sat Nov  9 21:17:47 PST 2013
+srun: First task exited 30s ago
+srun: task 36: running
+srun: tasks 0-35,37-255: exited
+srun: Terminating job step 507030.4
+slurmd[cab75]: *** STEP 507030.4 KILLED AT 2013-11-09T21:19:54 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab75]: *** STEP 507030.4 KILLED AT 2013-11-09T21:19:54 WITH SIGNAL 9 ***
+Sat Nov  9 21:19:54 PST 2013
+srun: First task exited 30s ago
+srun: task 231: running
+srun: tasks 0-230,232-255: exited
+srun: Terminating job step 507030.5
+slurmd[cab1027]: *** STEP 507030.5 KILLED AT 2013-11-09T21:21:52 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab1027]: *** STEP 507030.5 KILLED AT 2013-11-09T21:21:52 WITH SIGNAL 9 ***
+Sat Nov  9 21:21:52 PST 2013
+srun: First task exited 30s ago
+srun: task 255: running
+srun: tasks 0-254: exited
+srun: Terminating job step 507030.6
+slurmd[cab1027]: *** STEP 507030.6 KILLED AT 2013-11-09T21:23:56 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab1027]: *** STEP 507030.6 KILLED AT 2013-11-09T21:23:56 WITH SIGNAL 9 ***
+Sat Nov  9 21:23:56 PST 2013
+srun: First task exited 30s ago
+srun: task 2: running
+srun: tasks 0-1,3-255: exited
+srun: Terminating job step 507030.7
+slurmd[cab57]: *** STEP 507030.7 KILLED AT 2013-11-09T21:25:48 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.7
+Sat Nov  9 21:25:48 PST 2013
+srun: First task exited 30s ago
+srun: task 117: running
+srun: tasks 0-116,118-255: exited
+srun: Terminating job step 507030.8
+slurmd[cab216]: *** STEP 507030.8 KILLED AT 2013-11-09T21:27:59 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.8 KILLED AT 2013-11-09T21:27:59 WITH SIGNAL 9 ***
+Sat Nov  9 21:27:59 PST 2013
+srun: First task exited 30s ago
+srun: task 217: running
+srun: tasks 0-216,218-255: exited
+srun: Terminating job step 507030.9
+slurmd[cab907]: *** STEP 507030.9 KILLED AT 2013-11-09T21:29:59 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.9 KILLED AT 2013-11-09T21:29:59 WITH SIGNAL 9 ***
+Sat Nov  9 21:29:59 PST 2013
+srun: First task exited 30s ago
+srun: task 234: running
+srun: tasks 0-233,235-255: exited
+srun: Terminating job step 507030.10
+slurmd[cab1027]: *** STEP 507030.10 KILLED AT 2013-11-09T21:32:07 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab1027]: *** STEP 507030.10 KILLED AT 2013-11-09T21:32:07 WITH SIGNAL 9 ***
+Sat Nov  9 21:32:07 PST 2013
+srun: First task exited 30s ago
+srun: task 205: running
+srun: tasks 0-204,206-255: exited
+srun: Terminating job step 507030.11
+slurmd[cab907]: *** STEP 507030.11 KILLED AT 2013-11-09T21:34:07 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.11 KILLED AT 2013-11-09T21:34:07 WITH SIGNAL 9 ***
+Sat Nov  9 21:34:07 PST 2013
+srun: First task exited 30s ago
+srun: task 189: running
+srun: tasks 0-188,190-255: exited
+srun: Terminating job step 507030.12
+slurmd[cab488]: *** STEP 507030.12 KILLED AT 2013-11-09T21:36:06 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab488]: *** STEP 507030.12 KILLED AT 2013-11-09T21:36:06 WITH SIGNAL 9 ***
+Sat Nov  9 21:36:06 PST 2013
+srun: First task exited 30s ago
+srun: task 13: running
+srun: tasks 0-12,14-255: exited
+srun: Terminating job step 507030.13
+slurmd[cab57]: *** STEP 507030.13 KILLED AT 2013-11-09T21:38:11 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.13
+Sat Nov  9 21:38:11 PST 2013
+srun: First task exited 30s ago
+srun: task 17: running
+srun: tasks 0-16,18-255: exited
+srun: Terminating job step 507030.14
+slurmd[cab57]: *** STEP 507030.14 KILLED AT 2013-11-09T21:40:05 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.14
+Sat Nov  9 21:40:05 PST 2013
+srun: First task exited 30s ago
+srun: task 102: running
+srun: tasks 0-101,103-255: exited
+srun: Terminating job step 507030.15
+slurmd[cab216]: *** STEP 507030.15 KILLED AT 2013-11-09T21:42:02 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.15 KILLED AT 2013-11-09T21:42:03 WITH SIGNAL 9 ***
+Sat Nov  9 21:42:03 PST 2013
+srun: First task exited 30s ago
+srun: task 19: running
+srun: tasks 0-18,20-255: exited
+srun: Terminating job step 507030.16
+slurmd[cab57]: *** STEP 507030.16 KILLED AT 2013-11-09T21:44:14 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab57]: *** STEP 507030.16 KILLED AT 2013-11-09T21:44:14 WITH SIGNAL 9 ***
+Sat Nov  9 21:44:14 PST 2013
+srun: First task exited 30s ago
+srun: task 191: running
+srun: tasks 0-190,192-255: exited
+srun: Terminating job step 507030.17
+slurmd[cab488]: *** STEP 507030.17 KILLED AT 2013-11-09T21:46:30 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.17
+Sat Nov  9 21:46:30 PST 2013
+srun: First task exited 30s ago
+srun: task 85: running
+srun: tasks 0-84,86-255: exited
+srun: Terminating job step 507030.18
+slurmd[cab81]: *** STEP 507030.18 KILLED AT 2013-11-09T21:48:36 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab81]: *** STEP 507030.18 KILLED AT 2013-11-09T21:48:36 WITH SIGNAL 9 ***
+Sat Nov  9 21:48:36 PST 2013
+srun: First task exited 30s ago
+srun: task 121: running
+srun: tasks 0-120,122-255: exited
+srun: Terminating job step 507030.19
+slurmd[cab216]: *** STEP 507030.19 KILLED AT 2013-11-09T21:50:39 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.19
+Sat Nov  9 21:50:39 PST 2013
+srun: First task exited 30s ago
+srun: task 124: running
+srun: tasks 0-123,125-255: exited
+srun: Terminating job step 507030.20
+slurmd[cab216]: *** STEP 507030.20 KILLED AT 2013-11-09T21:52:38 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.20 KILLED AT 2013-11-09T21:52:39 WITH SIGNAL 9 ***
+Sat Nov  9 21:52:39 PST 2013
+srun: First task exited 30s ago
+srun: task 56: running
+srun: tasks 0-55,57-255: exited
+srun: Terminating job step 507030.21
+slurmd[cab75]: *** STEP 507030.21 KILLED AT 2013-11-09T21:54:36 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab75]: *** STEP 507030.21 KILLED AT 2013-11-09T21:54:36 WITH SIGNAL 9 ***
+Sat Nov  9 21:54:36 PST 2013
+srun: First task exited 30s ago
+srun: task 223: running
+srun: tasks 0-222,224-255: exited
+srun: Terminating job step 507030.22
+slurmd[cab907]: *** STEP 507030.22 KILLED AT 2013-11-09T21:56:29 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.22 KILLED AT 2013-11-09T21:56:29 WITH SIGNAL 9 ***
+Sat Nov  9 21:56:29 PST 2013
+srun: First task exited 30s ago
+srun: task 97: running
+srun: tasks 0-96,98-255: exited
+srun: Terminating job step 507030.23
+slurmd[cab216]: *** STEP 507030.23 KILLED AT 2013-11-09T21:58:34 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.23 KILLED AT 2013-11-09T21:58:34 WITH SIGNAL 9 ***
+Sat Nov  9 21:58:34 PST 2013
+srun: First task exited 30s ago
+srun: task 213: running
+srun: tasks 0-212,214-255: exited
+srun: Terminating job step 507030.24
+slurmd[cab907]: *** STEP 507030.24 KILLED AT 2013-11-09T22:00:27 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.24 KILLED AT 2013-11-09T22:00:27 WITH SIGNAL 9 ***
+Sat Nov  9 22:00:27 PST 2013
+srun: First task exited 30s ago
+srun: task 127: running
+srun: tasks 0-126,128-255: exited
+srun: Terminating job step 507030.25
+slurmd[cab216]: *** STEP 507030.25 KILLED AT 2013-11-09T22:02:20 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.25 KILLED AT 2013-11-09T22:02:20 WITH SIGNAL 9 ***
+Sat Nov  9 22:02:20 PST 2013
+srun: First task exited 30s ago
+srun: task 1: running
+srun: tasks 0,2-255: exited
+srun: Terminating job step 507030.26
+slurmd[cab57]: *** STEP 507030.26 KILLED AT 2013-11-09T22:04:23 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.26
+Sat Nov  9 22:04:23 PST 2013
+srun: First task exited 30s ago
+srun: task 60: running
+srun: tasks 0-59,61-255: exited
+srun: Terminating job step 507030.27
+slurmd[cab75]: *** STEP 507030.27 KILLED AT 2013-11-09T22:06:24 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab75]: *** STEP 507030.27 KILLED AT 2013-11-09T22:06:24 WITH SIGNAL 9 ***
+Sat Nov  9 22:06:24 PST 2013
+srun: First task exited 30s ago
+srun: task 188: running
+srun: tasks 0-187,189-255: exited
+srun: Terminating job step 507030.28
+slurmd[cab488]: *** STEP 507030.28 KILLED AT 2013-11-09T22:08:17 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab488]: *** STEP 507030.28 KILLED AT 2013-11-09T22:08:17 WITH SIGNAL 9 ***
+Sat Nov  9 22:08:17 PST 2013
+srun: First task exited 30s ago
+srun: task 250: running
+srun: tasks 0-249,251-255: exited
+srun: Terminating job step 507030.29
+slurmd[cab1027]: *** STEP 507030.29 KILLED AT 2013-11-09T22:10:30 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab1027]: *** STEP 507030.29 KILLED AT 2013-11-09T22:10:31 WITH SIGNAL 9 ***
+Sat Nov  9 22:10:31 PST 2013
+srun: First task exited 30s ago
+srun: task 76: running
+srun: tasks 0-75,77-255: exited
+srun: Terminating job step 507030.30
+slurmd[cab81]: *** STEP 507030.30 KILLED AT 2013-11-09T22:12:23 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab81]: *** STEP 507030.30 KILLED AT 2013-11-09T22:12:23 WITH SIGNAL 9 ***
+Sat Nov  9 22:12:23 PST 2013
+srun: First task exited 30s ago
+srun: task 197: running
+srun: tasks 0-196,198-255: exited
+srun: Terminating job step 507030.31
+slurmd[cab907]: *** STEP 507030.31 KILLED AT 2013-11-09T22:14:26 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.31 KILLED AT 2013-11-09T22:14:26 WITH SIGNAL 9 ***
+Sat Nov  9 22:14:26 PST 2013
+srun: First task exited 30s ago
+srun: task 183: running
+srun: tasks 0-182,184-255: exited
+srun: Terminating job step 507030.32
+slurmd[cab488]: *** STEP 507030.32 KILLED AT 2013-11-09T22:16:32 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab488]: *** STEP 507030.32 KILLED AT 2013-11-09T22:16:32 WITH SIGNAL 9 ***
+Sat Nov  9 22:16:32 PST 2013
+srun: First task exited 30s ago
+srun: task 12: running
+srun: tasks 0-11,13-255: exited
+srun: Terminating job step 507030.33
+slurmd[cab57]: *** STEP 507030.33 KILLED AT 2013-11-09T22:18:27 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.33
+Sat Nov  9 22:18:27 PST 2013
+srun: First task exited 30s ago
+srun: task 0: running
+srun: tasks 1-255: exited
+srun: Terminating job step 507030.34
+slurmd[cab57]: *** STEP 507030.34 KILLED AT 2013-11-09T22:20:20 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.34
+Sat Nov  9 22:20:20 PST 2013
+srun: First task exited 30s ago
+srun: task 68: running
+srun: tasks 0-67,69-255: exited
+srun: Terminating job step 507030.35
+slurmd[cab81]: *** STEP 507030.35 KILLED AT 2013-11-09T22:22:21 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab81]: *** STEP 507030.35 KILLED AT 2013-11-09T22:22:21 WITH SIGNAL 9 ***
+Sat Nov  9 22:22:21 PST 2013
+srun: First task exited 30s ago
+srun: task 251: running
+srun: tasks 0-250,252-255: exited
+srun: Terminating job step 507030.36
+slurmd[cab1027]: *** STEP 507030.36 KILLED AT 2013-11-09T22:24:15 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+Sat Nov  9 22:24:15 PST 2013
+srun: First task exited 30s ago
+srun: task 205: running
+srun: tasks 0-204,206-255: exited
+srun: Terminating job step 507030.37
+slurmd[cab907]: *** STEP 507030.37 KILLED AT 2013-11-09T22:26:13 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.37 KILLED AT 2013-11-09T22:26:13 WITH SIGNAL 9 ***
+Sat Nov  9 22:26:13 PST 2013
+srun: First task exited 30s ago
+srun: task 8: running
+srun: tasks 0-7,9-255: exited
+srun: Terminating job step 507030.38
+slurmd[cab57]: *** STEP 507030.38 KILLED AT 2013-11-09T22:28:07 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.38
+Sat Nov  9 22:28:07 PST 2013
+Sat Nov  9 22:29:13 PST 2013
+srun: First task exited 30s ago
+srun: task 113: running
+srun: tasks 0-112,114-255: exited
+srun: Terminating job step 507030.40
+slurmd[cab216]: *** STEP 507030.40 KILLED AT 2013-11-09T22:31:09 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.40 KILLED AT 2013-11-09T22:31:09 WITH SIGNAL 9 ***
+Sat Nov  9 22:31:09 PST 2013
+srun: First task exited 30s ago
+srun: task 8: running
+srun: tasks 0-7,9-255: exited
+srun: Terminating job step 507030.41
+slurmd[cab57]: *** STEP 507030.41 KILLED AT 2013-11-09T22:33:13 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.41
+Sat Nov  9 22:33:13 PST 2013
+srun: First task exited 30s ago
+srun: task 97: running
+srun: tasks 0-96,98-255: exited
+srun: Terminating job step 507030.42
+slurmd[cab216]: *** STEP 507030.42 KILLED AT 2013-11-09T22:35:10 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab216]: *** STEP 507030.42 KILLED AT 2013-11-09T22:35:10 WITH SIGNAL 9 ***
+Sat Nov  9 22:35:10 PST 2013
+srun: First task exited 30s ago
+srun: task 185: running
+srun: tasks 0-184,186-255: exited
+srun: Terminating job step 507030.43
+slurmd[cab488]: *** STEP 507030.43 KILLED AT 2013-11-09T22:37:03 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab488]: *** STEP 507030.43 KILLED AT 2013-11-09T22:37:03 WITH SIGNAL 9 ***
+Sat Nov  9 22:37:03 PST 2013
+srun: First task exited 30s ago
+srun: task 27: running
+srun: tasks 0-26,28-255: exited
+srun: Terminating job step 507030.44
+slurmd[cab57]: *** STEP 507030.44 KILLED AT 2013-11-09T22:39:08 WITH SIGNAL 9 ***
+srun: Force Terminated job step 507030.44
+Sat Nov  9 22:39:09 PST 2013
+srun: First task exited 30s ago
+srun: task 220: running
+srun: tasks 0-219,221-255: exited
+srun: Terminating job step 507030.45
+slurmd[cab907]: *** STEP 507030.45 KILLED AT 2013-11-09T22:41:03 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.45 KILLED AT 2013-11-09T22:41:03 WITH SIGNAL 9 ***
+Sat Nov  9 22:41:03 PST 2013
+srun: First task exited 30s ago
+srun: task 131: running
+srun: tasks 0-130,132-255: exited
+srun: Terminating job step 507030.46
+slurmd[cab373]: *** STEP 507030.46 KILLED AT 2013-11-09T22:43:01 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab373]: *** STEP 507030.46 KILLED AT 2013-11-09T22:43:01 WITH SIGNAL 9 ***
+Sat Nov  9 22:43:01 PST 2013
+srun: First task exited 30s ago
+srun: task 214: running
+srun: tasks 0-213,215-255: exited
+srun: Terminating job step 507030.47
+slurmd[cab907]: *** STEP 507030.47 KILLED AT 2013-11-09T22:45:16 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab907]: *** STEP 507030.47 KILLED AT 2013-11-09T22:45:16 WITH SIGNAL 9 ***
+Sat Nov  9 22:45:16 PST 2013
+srun: First task exited 30s ago
+srun: task 250: running
+srun: tasks 0-249,251-255: exited
+srun: Terminating job step 507030.48
+slurmd[cab1027]: *** STEP 507030.48 KILLED AT 2013-11-09T22:47:27 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab1027]: *** STEP 507030.48 KILLED AT 2013-11-09T22:47:27 WITH SIGNAL 9 ***
+Sat Nov  9 22:47:27 PST 2013
+srun: First task exited 30s ago
+srun: task 253: running
+srun: tasks 0-252,254-255: exited
+srun: Terminating job step 507030.49
+slurmd[cab1027]: *** STEP 507030.49 KILLED AT 2013-11-09T22:49:32 WITH SIGNAL 9 ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+slurmd[cab1027]: *** STEP 507030.49 KILLED AT 2013-11-09T22:49:32 WITH SIGNAL 9 ***
+Sat Nov  9 22:49:32 PST 2013

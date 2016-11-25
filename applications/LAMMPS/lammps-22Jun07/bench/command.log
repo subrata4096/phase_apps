@@ -1,0 +1,700 @@
+
+ ***********************************************************
+CASE: 1  Injecting for function:  _ZN9LAMMPS_NS8Variable4findEPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Variable4findEPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 2  Injecting for function:  _ZN9LAMMPS_NS6Thermo12compute_emolEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo12compute_emolEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 3  Injecting for function:  _ZN9LAMMPS_NS11ComputeTempC1EPNS_6LAMMPSEiPPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS11ComputeTempC1EPNS_6LAMMPSEiPPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 4  Injecting for function:  _ZN9LAMMPS_NS6Memory20destroy_2d_int_arrayEPPi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=6;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory20destroy_2d_int_arrayEPPi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 5  Injecting for function:  _ZN9LAMMPS_NS8Neighbor5buildEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor5buildEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 6  Injecting for function:  _ZN9LAMMPS_NS4Atom8new_avecEPciPS1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Atom8new_avecEPciPS1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 7  Injecting for function:  _ZN9LAMMPS_NS6Memory23destroy_2d_double_arrayEPPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory23destroy_2d_double_arrayEPPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 8  Injecting for function:  _ZN9LAMMPS_NS6Thermo12compute_tempEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo12compute_tempEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 9  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic9pack_commEiPiPdiS1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic9pack_commEiPiPdiS1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 10  Injecting for function:  _ZN9LAMMPS_NS6Finish5statsEiPdS1_S1_S1_iPi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Finish5statsEiPdS1_S1_S1_iPi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 11  Injecting for function:  _ZN9LAMMPS_NS6FixNVE15final_integrateEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=4;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6FixNVE15final_integrateEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 12  Injecting for function:  _ZN9LAMMPS_NS8Variable3setEiPPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Variable3setEiPPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 13  Injecting for function:  _ZN9LAMMPS_NS6Thermo7computeEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo7computeEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 14  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomicD0Ev
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomicD0Ev;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 15  Injecting for function:  _ZN9LAMMPS_NS7Lattice11lattice2boxERdS1_S1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7Lattice11lattice2boxERdS1_S1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 16  Injecting for function:  _ZN9LAMMPS_NS5Timer5stampEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=4;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Timer5stampEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 17  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic13unpack_borderEiiPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic13unpack_borderEiiPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 18  Injecting for function:  _ZN9LAMMPS_NS6Thermo8addfieldEPcMS0_FvvEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo8addfieldEPcMS0_FvvEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 19  Injecting for function:  _ZN9LAMMPS_NS8Neighbor18clear_pages_middleEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor18clear_pages_middleEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 20  Injecting for function:  _ZN9LAMMPS_NS6Modify18restart_deallocateEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Modify18restart_deallocateEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 21  Injecting for function:  _ZN9LAMMPS_NS6Modify12find_computeEPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Modify12find_computeEPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 22  Injecting for function:  _ZN9LAMMPS_NS9PairLJCut7computeEii
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS9PairLJCut7computeEii;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 23  Injecting for function:  _ZN9LAMMPS_NS8Neighbor12bin_distanceEiii
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor12bin_distanceEiii;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 24  Injecting for function:  _ZN9LAMMPS_NS7Lattice11box2latticeERdS1_S1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7Lattice11box2latticeERdS1_S1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 25  Injecting for function:  _ZN9LAMMPS_NS7Lattice4bboxEidddRdS1_S1_S1_S1_S1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=6;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7Lattice4bboxEidddRdS1_S1_S1_S1_S1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 26  Injecting for function:  _ZN9LAMMPS_NS6Thermo11add_computeEPci
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo11add_computeEPci;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 27  Injecting for function:  _ZN9LAMMPS_NS6Domain13set_local_boxEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Domain13set_local_boxEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 28  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic4copyEii
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic4copyEii;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 29  Injecting for function:  _ZN9LAMMPS_NS15ComputePressure14virial_computeEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS15ComputePressure14virial_computeEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 30  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic11pack_borderEiPiPdiS1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic11pack_borderEiPiPdiS1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 31  Injecting for function:  _ZN9LAMMPS_NS6Thermo10compute_peEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo10compute_peEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 32  Injecting for function:  _ZN9LAMMPS_NS6Modify9list_initEiRiRPi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Modify9list_initEiRiRPi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 33  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic15unpack_exchangeEPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=7;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic15unpack_exchangeEPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 34  Injecting for function:  _ZN9LAMMPS_NS8Neighbor15half_bin_newtonEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=6;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor15half_bin_newtonEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 35  Injecting for function:  _ZN9LAMMPS_NS4Comm7bordersEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Comm7bordersEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 36  Injecting for function:  _ZN9LAMMPS_NS8Neighbor9coord2binEPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=7;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor9coord2binEPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 37  Injecting for function:  _ZN9LAMMPS_NS6Domain14set_global_boxEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Domain14set_global_boxEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 38  Injecting for function:  _ZN9LAMMPS_NS6Domain3pbcEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Domain3pbcEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 39  Injecting for function:  .plt
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=4;export PIN_FAULTY_FUNC=.plt;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 40  Injecting for function:  _ZN9LAMMPS_NS5Force6boundsEPciRiS2_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Force6boundsEPciRiS2_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 41  Injecting for function:  _ZN9LAMMPS_NS5Input10substituteEPci
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Input10substituteEPci;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 42  Injecting for function:  _ZN9LAMMPS_NS6Memory5sfreeEPv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory5sfreeEPv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 43  Injecting for function:  _ZN9LAMMPS_NS7AtomVecC1EPNS_6LAMMPSEiPPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7AtomVecC1EPNS_6LAMMPSEiPPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 44  Injecting for function:  _ZN9LAMMPS_NS8Neighbor9add_pagesEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=9;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor9add_pagesEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 45  Injecting for function:  _ZN9LAMMPS_NS8PointersC2EPNS_6LAMMPSE
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8PointersC2EPNS_6LAMMPSE;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 46  Injecting for function:  _ZN9LAMMPS_NS8Neighbor16clear_pages_fullEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor16clear_pages_fullEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 47  Injecting for function:  _ZN9LAMMPS_NS4Comm9grow_listEii
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Comm9grow_listEii;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 48  Injecting for function:  _ZN9LAMMPS_NS6Memory20grow_2d_double_arrayEPPdiiPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=7;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory20grow_2d_double_arrayEPPdiiPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 49  Injecting for function:  _ZN9LAMMPS_NS6Modify15final_integrateEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=6;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Modify15final_integrateEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 50  Injecting for function:  _ZN9LAMMPS_NS6Thermo13compute_pressEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo13compute_pressEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 51  Injecting for function:  _ZN9LAMMPS_NS6FixNVE17initial_integrateEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6FixNVE17initial_integrateEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 52  Injecting for function:  _ZN9LAMMPS_NS6Thermo14compute_etotalEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo14compute_etotalEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 53  Injecting for function:  _ZN9LAMMPS_NS6Thermo13compute_epairEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo13compute_epairEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 54  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic11create_atomEiPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=8;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic11create_atomEiPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 55  Injecting for function:  _ZN9LAMMPS_NS6Memory22create_2d_double_arrayEiiPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory22create_2d_double_arrayEiiPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 56  Injecting for function:  _ZN9LAMMPS_NS6Verlet11force_clearEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=8;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Verlet11force_clearEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 57  Injecting for function:  _ZN9LAMMPS_NS5Group4findEPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=7;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Group4findEPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 58  Injecting for function:  _ZN9LAMMPS_NS4Atom10check_massEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Atom10check_massEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 59  Injecting for function:  _ZN9LAMMPS_NS11ComputeTemp4initEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS11ComputeTemp4initEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 60  Injecting for function:  _ZN9LAMMPS_NS5Timer5stampEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Timer5stampEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 61  Injecting for function:  _ZN9LAMMPS_NS6Modify11add_computeEiPPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Modify11add_computeEiPPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 62  Injecting for function:  _ZN9LAMMPS_NS8PointersD2Ev
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=6;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8PointersD2Ev;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 63  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic4growEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic4growEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 64  Injecting for function:  _ZN9LAMMPS_NS6Modify17initial_integrateEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Modify17initial_integrateEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 65  Injecting for function:  _ZN9LAMMPS_NS4Comm19reverse_communicateEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=10;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Comm19reverse_communicateEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 66  Injecting for function:  _ZN9LAMMPS_NS5Input5parseEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Input5parseEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 67  Injecting for function:  _ZN9LAMMPS_NS11ComputeTemp14compute_scalarEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS11ComputeTemp14compute_scalarEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 68  Injecting for function:  _ZN9LAMMPS_NS6Domain11find_regionEPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Domain11find_regionEPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 69  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic13pack_exchangeEiPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic13pack_exchangeEiPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 70  Injecting for function:  _ZN9LAMMPS_NS4Atom11create_avecEPciPS1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Atom11create_avecEPciPS1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 71  Injecting for function:  _ZN9LAMMPS_NS8Neighbor17clear_pages_innerEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor17clear_pages_innerEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 72  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomicC1EPNS_6LAMMPSEiPPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomicC1EPNS_6LAMMPSEiPPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 73  Injecting for function:  _ZN9LAMMPS_NS8Variable4copyEiPPcS2_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Variable4copyEiPPcS2_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 74  Injecting for function:  _ZN9LAMMPS_NS11ComputeTempD0Ev
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS11ComputeTempD0Ev;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 75  Injecting for function:  _ZN9LAMMPS_NS8Variable3setEPcS1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Variable3setEPcS1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 76  Injecting for function:  _ZN9LAMMPS_NS6Memory7smallocEiPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=8;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory7smallocEiPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 77  Injecting for function:  _ZN9LAMMPS_NS8Variable8retrieveEPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Variable8retrieveEPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 78  Injecting for function:  _ZN9LAMMPS_NS11ComputeTemp7recountEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS11ComputeTemp7recountEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 79  Injecting for function:  _ZN9LAMMPS_NS15ComputePressure14compute_scalarEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS15ComputePressure14compute_scalarEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 80  Injecting for function:  _ZN9LAMMPS_NS5Input16variable_commandEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Input16variable_commandEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 81  Injecting for function:  _ZN9LAMMPS_NS7Lattice9add_basisEddd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7Lattice9add_basisEddd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 82  Injecting for function:  _ZN9LAMMPS_NS6Memory19create_2d_int_arrayEiiPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory19create_2d_int_arrayEiiPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 83  Injecting for function:  _ZN9LAMMPS_NS7Lattice3dotEPdS1_
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7Lattice3dotEPdS1_;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 84  Injecting for function:  _ZN9LAMMPS_NS5Input15execute_commandEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=8;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Input15execute_commandEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 85  Injecting for function:  _ZN9LAMMPS_NS4Atom8memcheckEPKc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=7;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Atom8memcheckEPKc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 86  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomic14unpack_reverseEiPiPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=8;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomic14unpack_reverseEiPiPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 87  Injecting for function:  _ZN9LAMMPS_NS4Pair14virial_computeEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Pair14virial_computeEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 88  Injecting for function:  _ZN9LAMMPS_NS8Neighbor9bin_atomsEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=4;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS8Neighbor9bin_atomsEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 89  Injecting for function:  _ZN9LAMMPS_NS7RanPark5resetEiPd
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=5;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7RanPark5resetEiPd;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 90  Injecting for function:  _ZN9LAMMPS_NS7Compute12memory_usageEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7Compute12memory_usageEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 91  Injecting for function:  _ZN9LAMMPS_NS4Comm8exchangeEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=6;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Comm8exchangeEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 92  Injecting for function:  _ZN9LAMMPS_NS11ComputeTempD2Ev
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS11ComputeTempD2Ev;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 93  Injecting for function:  _ZN9LAMMPS_NS6Memory8sreallocEPviPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=7;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Memory8sreallocEPviPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 94  Injecting for function:  _ZN9LAMMPS_NS13AtomVecAtomicD1Ev
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS13AtomVecAtomicD1Ev;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 95  Injecting for function:  _ZN9LAMMPS_NS4Comm11communicateEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS4Comm11communicateEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 96  Injecting for function:  _ZN9LAMMPS_NS6Thermo12compute_stepEv
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS6Thermo12compute_stepEv;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 97  Injecting for function:  _ZN9LAMMPS_NS5Group5countEi
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Group5countEi;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 98  Injecting for function:  _ZN9LAMMPS_NS5Force10pair_matchEPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS5Force10pair_matchEPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 99  Injecting for function:  _ZN9LAMMPS_NS7AtomVecD2Ev
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=2;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7AtomVecD2Ev;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+
+
+ ***********************************************************
+CASE: 100  Injecting for function:  _ZN9LAMMPS_NS7ComputeC1EPNS_6LAMMPSEiPPc
+------------------------------------------------------------
+date;export PIN_INJECT=1;export PIN_LOCK_FILE="/g/g90/mitra3/lock.lammps";export PIN_FAULTY_EXEC=3;export PIN_FAULTY_FUNC=_ZN9LAMMPS_NS7ComputeC1EPNS_6LAMMPSEiPPc;rm -f /g/g90/mitra3/lock.lammps;rm -f uniquefile*;srun -ppdebug -n 16 pin -t /g/g90/mitra3/work/pin-2.12-58423-gcc.4.4.7-linux/source/tools/hang_injector/obj-intel64/hang_injector.so -- /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++ -var x 40 -var y 40 -var z 80 < in.lj >> injector_output_file.txt
+ ***************************************************************
+

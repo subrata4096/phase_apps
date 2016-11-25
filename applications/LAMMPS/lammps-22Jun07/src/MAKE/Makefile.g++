@@ -1,0 +1,52 @@
+# g++ = RedHat Linux box, g++, MPICH, FFTW
+
+SHELL = /bin/sh
+#.IGNORE:
+
+# System-specific settings
+
+#CC =		g++
+CC =		mpic++
+#CCFLAGS =	-g -O -I/home/sjplimp/tools/mpich/include 
+CCFLAGS =	-g -O0 -I/usr/local/tools/mvapich2-gnu-1.7/include \
+		-I/usr/local/tools/fftw/include -DFFT_FFTW -DGZIP
+DEPFLAGS =	-M
+#LINK =		g++
+LINK =		mpic++
+LINKFLAGS =	-g -O0 -L/usr/local/tools/mvapich2-gnu-1.7/lib -L/usr/local/tools/fftw/lib 
+#LINKFLAGS =	-g -O0 -L/usr/local/tools/mvapich2-gnu-1.7/lib -L/g/g90/mitra3/work/for_cab/automaded_old/install/lib -lstracker -rdynamic -L/usr/global/tools/adept/callpath/chaos_5_x86_64_ib/lib\
+		 -lcallpath -L/usr/global/tools/adept-utils/chaos_5_x86_64_ib/lib -ladept_utils\
+		-L/usr/local/tools/fftw/lib 
+#LINKFLAGS =	-g -O0 -L/usr/local/tools/mvapich2-gnu-1.7/lib -L/g/g90/mitra3/work/code/automaded_profiler/install/lib -lstracker -rdynamic -L/usr/global/tools/adept/callpath/chaos_5_x86_64_ib/lib\
+		 -lcallpath -L/usr/global/tools/adept-utils/chaos_5_x86_64_ib/lib -ladept_utils\
+		-L/usr/local/tools/fftw/lib 
+USRLIB =	-lfftw -lmpich
+#USRLIB =	
+SYSLIB =
+ARCHIVE =	ar
+ARFLAGS =	-rc
+SIZE =		size
+
+# Link target
+
+$(EXE):	$(OBJ)
+	$(LINK) $(LINKFLAGS) $(OBJ) $(USRLIB) $(SYSLIB) -o $(EXE)
+	$(SIZE) $(EXE)
+
+# Library target
+
+lib:	$(OBJ)
+	$(ARCHIVE) $(ARFLAGS) $(EXE) $(OBJ)
+
+# Compilation rules
+
+%.o:%.cpp
+	$(CC) $(CCFLAGS) -c $<
+
+%.d:%.cpp
+	$(CC) $(CCFLAGS) $(DEPFLAGS) $< > $@
+
+# Individual dependencies
+
+DEPENDS = $(OBJ:.o=.d)
+include $(DEPENDS)

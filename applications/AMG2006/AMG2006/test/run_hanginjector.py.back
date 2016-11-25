@@ -1,0 +1,26 @@
+#!/usr/gapps/asde/python/chaos_5_x86_64_ib/bin/python
+
+import sys
+import os
+
+input_file = sys.argv[1]
+f = open(input_file, 'r')
+for line in f:
+	line = line.strip()
+	fields = line.split(",")
+	func_name = fields[0]
+	call_num = fields[1]
+        
+	print "\n ***********************************************************"
+	print "Injecting for function: " , func_name 
+	print "------------------------------------------------------------"
+
+        os.system("rm -f /g/g90/mitra3/lock")
+	os.system("rm -f uniquefile*")
+
+	syscall = "date; ./hang_ing.sh " + func_name + " " + call_num + " >> injector_output_file.txt" 
+	os.system(syscall)
+	print " ***************************************************************\n"
+
+
+f.close()

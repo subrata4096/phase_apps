@@ -1,0 +1,2 @@
+_ZN9LAMMPS_NS4Comm9grow_listEii , 2
+_ZN9LAMMPS_NS5Input16variable_commandEv , 2

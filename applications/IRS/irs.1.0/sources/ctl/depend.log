@@ -1,0 +1,145 @@
+make[2]: Entering directory `/g/g0/spelce1/Sequoia_Final/irs.0.9.2/sources/ctl'
+makedepend -- -DUNIX -DFUNCTION_TIMERS -Dlinux -DCOMMPI -I../.. -I../../includes -I/usr/local/include -I/usr/local/apps/include     -- SystemWrapper.c conditionals.c ctlecho.c ctlerror.c ctlmsg.c ctlmsg1.c ctlnotice.c ctloutput.c ctlwarning.c delfq.c domsg.c endfile.c endout.c eval.c exit_cleanup.c expressions.c fqcyc.c geta.c geta_discard.c geta_leftparen.c geta_rightparen.c getf.c getflst.c getfq.c geti.c getnxcy.c getnxtm.c getsym.c getversion.c gpdef.c gpdef0.c ifnotin.c initget.c irspcs.c lfchk.c lineop.c lnadv.c main.c newfile.c newline.c noop.c nxtsym.c outfile.c parmsym.c peekc.c peekc2.c printdate.c printhelp.c printmap.c printmsg.c printrc.c printtc.c prirup.c pversion.c redofq.c resetio.c resetmsg.c run.c setiomrk.c setirup.c setup_attrs.c showfq.c step.c unsetio.c userexitfn.c walltime.c terry_trace.c
+makedepend: warning:  SystemWrapper.c (reading /usr/include/stdio.h, line 34): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/bits/types.h, line 31): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/_G_config.h, line 14): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/wchar.h, line 48): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/gconv.h, line 31): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/libio.h, line 53): cannot find include file "stdarg.h"
+	not in ../../stdarg.h
+	not in ../../includes/stdarg.h
+	not in /usr/local/include/stdarg.h
+	not in /usr/local/apps/include/stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/stdlib.h, line 33): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/sys/types.h, line 147): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/alloca.h, line 25): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/string.h, line 33): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/malloc.h, line 24): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  SystemWrapper.c (reading ../../includes/FunctionTimer.h, line 27): cannot find include file "mpi.h"
+	not in ../../mpi.h
+	not in ../../includes/mpi.h
+	not in /usr/local/include/mpi.h
+	not in /usr/local/apps/include/mpi.h
+	not in /usr/include/mpi.h
+makedepend: warning:  SystemWrapper.c (reading /usr/include/unistd.h, line 197): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  ctloutput.c, line 3: cannot find include file "stdarg.h"
+	not in ../../stdarg.h
+	not in ../../includes/stdarg.h
+	not in /usr/local/include/stdarg.h
+	not in /usr/local/apps/include/stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  fqcyc.c (reading /usr/include/limits.h, line 125): cannot find include file "limits.h"
+makedepend: warning:  fqcyc.c, line 7: cannot find include file "CycleMesg.hh"
+	not in CycleMesg.hh
+	not in CycleMesg.hh
+	not in ../../CycleMesg.hh
+	not in ../../includes/CycleMesg.hh
+	not in /usr/local/include/CycleMesg.hh
+	not in /usr/local/apps/include/CycleMesg.hh
+	not in /usr/include/CycleMesg.hh
+makedepend: warning:  fqcyc.c, line 8: cannot find include file "FreqMesg.hh"
+	not in FreqMesg.hh
+	not in FreqMesg.hh
+	not in ../../FreqMesg.hh
+	not in ../../includes/FreqMesg.hh
+	not in /usr/local/include/FreqMesg.hh
+	not in /usr/local/apps/include/FreqMesg.hh
+	not in /usr/include/FreqMesg.hh
+makedepend: warning:  fqcyc.c, line 9: cannot find include file "TimePlot.hh"
+	not in TimePlot.hh
+	not in TimePlot.hh
+	not in ../../TimePlot.hh
+	not in ../../includes/TimePlot.hh
+	not in /usr/local/include/TimePlot.hh
+	not in /usr/local/apps/include/TimePlot.hh
+	not in /usr/include/TimePlot.hh
+makedepend: warning:  getversion.c, line 1: cannot find include file "irsversion.h"
+	not in irsversion.h
+	not in irsversion.h
+	not in ../../irsversion.h
+	not in ../../includes/irsversion.h
+	not in /usr/local/include/irsversion.h
+	not in /usr/local/apps/include/irsversion.h
+	not in /usr/include/irsversion.h
+makedepend: warning:  getversion.c, line 4: cannot find include file "VersionData.hh"
+	not in VersionData.hh
+	not in VersionData.hh
+	not in ../../VersionData.hh
+	not in ../../includes/VersionData.hh
+	not in /usr/local/include/VersionData.hh
+	not in /usr/local/apps/include/VersionData.hh
+	not in /usr/include/VersionData.hh
+makedepend: warning:  main.c, line 15: cannot find include file "irsctl.hh"
+	not in irsctl.hh
+	not in irsctl.hh
+	not in ../../irsctl.hh
+	not in ../../includes/irsctl.hh
+	not in /usr/local/include/irsctl.hh
+	not in /usr/local/apps/include/irsctl.hh
+	not in /usr/include/irsctl.hh
+makedepend: warning:  main.c, line 21: cannot find include file "Gparm.hh"
+	not in Gparm.hh
+	not in Gparm.hh
+	not in ../../Gparm.hh
+	not in ../../includes/Gparm.hh
+	not in /usr/local/include/Gparm.hh
+	not in /usr/local/apps/include/Gparm.hh
+	not in /usr/include/Gparm.hh
+irs_fixdepend Makefile
+make[2]: Leaving directory `/g/g0/spelce1/Sequoia_Final/irs.0.9.2/sources/ctl'

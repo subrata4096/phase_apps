@@ -1,0 +1,95 @@
+make[2]: Entering directory `/g/g0/spelce1/Sequoia_Final/irs.0.9.2/sources/rgst'
+makedepend -- -DUNIX -DFUNCTION_TIMERS -Dlinux -DCOMMPI -I../.. -I../../includes -I/usr/local/include -I/usr/local/apps/include     -- build_proc_name.c copy_toc.c domain_hash_tbl_rgst.c free_toc.c get_words_at_prompt.c hash_print_obj.c hash_print_structs_of_type.c hash_tbl_create_n_rgst.c hash_tbl_rgst.c printattr.c printattrlist.c printhash.c printrgst.c rgst_add.c rgst_add_attr.c rgst_add_ctype_td_defn.c rgst_add_enum_td_defn.c rgst_add_struct_td_defn.c rgst_alloc.c rgst_check_attr_name.c rgst_check_for_obj.c rgst_check_for_td_defn.c rgst_check_ndxs.c rgst_cleanup.c rgst_construct.c rgst_conv_enum_type_to_str.c rgst_copy.c rgst_copy_attr_elm_list.c rgst_create_RGST_ATTR_ELM_TYPE.c rgst_create_typedef_name_str.c rgst_del.c rgst_del_attr.c rgst_extract_array_ndxs.c rgst_free_RGST_ATTR_ELM_TYPE.c rgst_free_RGST_ATTR_TYPE.c rgst_free_attr_elm_list.c rgst_get.c rgst_get_RGST_OBJECT.c rgst_get_RGST_STRUCT_TD_DEFN.c rgst_get_attr_type.c rgst_get_datatype_size.c rgst_get_dims_of_type.c rgst_get_ds_field_ndx.c rgst_get_field_addr.c rgst_get_field_array_elm_ptr.c rgst_get_field_array_size.c rgst_get_field_array_sizes.c rgst_get_long.c rgst_get_nelms_in_field.c rgst_get_nelms_in_rgst_obj.c rgst_get_object_datatype.c rgst_get_object_len.c rgst_get_struct_array_elm_ptr.c rgst_get_t.c rgst_get_td_defn.c rgst_init.c rgst_init_struct.c rgst_list_attr.c rgst_list_attr_and.c rgst_list_objs_by_type.c rgst_list_vars_with_attr.c rgst_num_with_attr.c rgst_obj_is_dim_array.c rgst_obj_is_ptr_array.c rgst_print.c rgst_print_0_ptr_array.c rgst_print_1_ptr_array.c rgst_print_2_ptr_array.c rgst_print_addr.c rgst_print_addr_member.c rgst_print_ctype_td_defn.c rgst_print_ds_member.c rgst_print_field.c rgst_print_function.c rgst_print_obj.c rgst_print_ptrs.c rgst_print_struct.c rgst_print_struct_td_defn.c rgst_print_structs.c rgst_print_type.c rgst_query_attr.c rgst_read_field.c rgst_read_struct.c rgst_read_struct_array.c rgst_split_type_n_fld.c rgst_verify_struct_td_defn.c rgst_write_struct.c rgst_write_struct_array.c  
+makedepend: warning:  build_proc_name.c (reading /usr/include/stdio.h, line 34): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/bits/types.h, line 31): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/_G_config.h, line 14): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/wchar.h, line 48): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/gconv.h, line 31): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/libio.h, line 53): cannot find include file "stdarg.h"
+	not in ../../stdarg.h
+	not in ../../includes/stdarg.h
+	not in /usr/local/include/stdarg.h
+	not in /usr/local/apps/include/stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/stdlib.h, line 33): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/sys/types.h, line 147): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/alloca.h, line 25): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/string.h, line 33): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  build_proc_name.c (reading /usr/include/malloc.h, line 24): cannot find include file "stddef.h"
+	not in ../../stddef.h
+	not in ../../includes/stddef.h
+	not in /usr/local/include/stddef.h
+	not in /usr/local/apps/include/stddef.h
+	not in /usr/include/stddef.h
+makedepend: warning:  printrgst.c (reading /usr/include/limits.h, line 125): cannot find include file "limits.h"
+makedepend: warning:  rgst_add_attr.c, line 3: cannot find include file "stdarg.h"
+	not in ../../stdarg.h
+	not in ../../includes/stdarg.h
+	not in /usr/local/include/stdarg.h
+	not in /usr/local/apps/include/stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  rgst_del_attr.c, line 3: cannot find include file "stdarg.h"
+	not in ../../stdarg.h
+	not in ../../includes/stdarg.h
+	not in /usr/local/include/stdarg.h
+	not in /usr/local/apps/include/stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  rgst_list_attr_and.c, line 3: cannot find include file "stdarg.h"
+	not in ../../stdarg.h
+	not in ../../includes/stdarg.h
+	not in /usr/local/include/stdarg.h
+	not in /usr/local/apps/include/stdarg.h
+	not in /usr/include/stdarg.h
+makedepend: warning:  rgst_query_attr.c, line 3: cannot find include file "stdarg.h"
+	not in ../../stdarg.h
+	not in ../../includes/stdarg.h
+	not in /usr/local/include/stdarg.h
+	not in /usr/local/apps/include/stdarg.h
+	not in /usr/include/stdarg.h
+irs_fixdepend Makefile
+make[2]: Leaving directory `/g/g0/spelce1/Sequoia_Final/irs.0.9.2/sources/rgst'

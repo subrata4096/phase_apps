@@ -1,0 +1,5 @@
+hypre_BoomerAMGCycle,10
+hypre_BoxCreate,50
+HYPRE_SStructMatrixCreate,100
+hypre_PCGSetup,20
+

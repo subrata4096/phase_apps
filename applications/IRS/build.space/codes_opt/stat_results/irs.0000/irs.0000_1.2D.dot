@@ -1,0 +1,14 @@
+digraph G {
+	node [shape=record,style=filled,labeljust=c,height=0.2];
+	0 [pos="0,0", label="/", fillcolor="#AAAAAA",fontcolor="#FFFFFF"];
+	-2017523079 [pos="0,0", label="xirs@/g/g90/mitra3/work/IRS/build.space/sources/lag/xirs.c:146", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-1945886969 [pos="0,0", label="main@/g/g90/mitra3/work/IRS/build.space/sources/ctl/main.c:436", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-488561881 [pos="0,0", label="__libc_start_main@/usr/src/debug/glibc-2.12-2-gc4ccff1/csu/libc-start.c:226", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	1928213826 [pos="0,0", label="_start@?", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	2035390978 [pos="0,0", label="run@/g/g90/mitra3/work/IRS/build.space/sources/ctl/run.c:19", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	2035390978 -> -2017523079 [label="[0-7]"]
+	-488561881 -> -1945886969 [label="[0-7]"]
+	1928213826 -> -488561881 [label="[0-7]"]
+	0 -> 1928213826 [label="[0-7]"]
+	-1945886969 -> 2035390978 [label="[0-7]"]
+}

@@ -1,0 +1,62 @@
+<HTML>
+<CENTER><A HREF = "http://lammps.sandia.gov">LAMMPS WWW Site</A> - <A HREF = "Manual.html">LAMMPS Documentation</A> - <A HREF = "Section_commands.html#comm">LAMMPS Commands</A> 
+</CENTER>
+
+
+
+
+
+
+<HR>
+
+<H3>fix wall/reflect command 
+</H3>
+<P><B>Syntax:</B>
+</P>
+<PRE>fix ID group-ID wall/reflect keyword ... 
+</PRE>
+<UL><LI>ID, group-ID are documented in <A HREF = "fix.html">fix</A> command
+<LI>wall/reflect = style name of this fix command
+<LI>one or more keyword/value pairs may be appended to the args
+<LI>keyword = <I>xlo</I> or <I>xhi</I> or <I>ylo</I> or <I>yhi</I> or <I>zlo</I> or <I>zhi</I> 
+</UL>
+<P><B>Examples:</B>
+</P>
+<PRE>fix xwalls all wall/reflect xlo xhi
+fix walls all wall/reflect xlo ylo zlo xhi yhi zhi 
+</PRE>
+<P><B>Description:</B>
+</P>
+<P>Bound the simulation with one or more walls which reflect particles
+when they attempt to move thru them. 
+</P>
+<P>Reflection means that if an atom moves outside the box on a timestep
+by a distance delta (e.g. due to <A HREF = "fix_nve.html">fix nve</A>), then it is
+put back inside the box by the same delta and the sign of the
+corresponding component of its velocity is flipped.
+</P>
+<P>IMPORTANT NOTE: This fix performs its operations at the same point in
+the timestep as other time integration fixes, such as <A HREF = "fix_nve.html">fix
+nve</A>, <A HREF = "fix_nvt.html">fix nvt</A>, or <A HREF = "fix_npt.html">fix npt</A>.
+Thus fix wall/reflect should normally be the last such fix specified
+in the input script, since the adjustments it makes to atom
+coordinates should come after the changes made by time integration.
+LAMMPS will warn you if your fixes are not ordered this way.
+</P>
+<P><B>Restrictions:</B>
+</P>
+<P>Any dimension (xyz) that has a reflecting wall must be non-periodic.
+</P>
+<P>A reflecting wall cannot be used with rigid bodies such as those
+defined by a "fix rigid" command.  This is because the wall/reflect
+displaces atoms directly rather than exerts a force on them.  For
+rigid bodies, use a soft wall instead, such as <A HREF = "fix_wall_lj93.html">fix
+wall/lj93</A>.
+</P>
+<P><B>Related commands:</B>
+</P>
+<P><A HREF = "fix_wall_lj93.html">fix wall/lj93</A> command
+</P>
+<P><B>Default:</B> none
+</P>
+</HTML>

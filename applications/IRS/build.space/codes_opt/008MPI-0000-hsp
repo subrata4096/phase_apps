@@ -1,0 +1,102 @@
+(c) Copyright 1996-2007 Regents of University of California
+MPI ID:PID MAPPING          0:    101017
+
+IRS Sequoia Benchmark Version 1.0
+
+NCPUS not specified, assuming NCPUS is equal to NDOMS.  Setting NCPUS to 8
+
+
+NZONES_PER_DOM_SIDE not specified, defaulting to 25 zones per domain side
+
+
+User Specified NDOMS = 8
+User Specified NCPUS = 8
+User Specified NZONES_PER_DOM_SIDE = 25
+
+Deck Calculated NDOMS_PER_SIDE = 2
+Deck Calculated ZONES_PER_SIDE = 50
+{0.125 * (5.0 - 0.3 * meshx))}$
+{0.125 * (5.0 - 0.3 * meshx))}$
+
+Ratio of real zones to total zones - 0.640658
+
+Total number of domains is    8.
+Largest  domain is    0 with      15625 zones.
+Smallest domain is    0 with      15625 zones.
+Average domain has      15625 zones.
+
+Total number of zones      125000.
+
+ 
+generation completed
+ 
+      query_timer(xmain)$
+   endmsg$
+      tplot walltime$
+      tplot eval {walldiff}$
+      tplot eval {rdifitsum+rdifit}$
+      tplot eval {scale * (walltime-wall0) / (rdifitsum+rdifit)}$
+   endmsg$
+      tplot deltat$
+      tplot cycle$
+      tplot rdifit$
+   endmsg$
+      tplot query_timer(xmain) vs cycle$
+   endmsg$
+      def rdifitsum {rdifitsum + rdifit}$
+      def benchmark {scale * (walltime-wall0) / (rdifitsum+0.0)}$
+      def walldiff {walltime - walllast}$
+      def walllast {walltime}$
+      echo "-----------------------------"$
+      echo "rdifit - ",eval {rdifit}$
+      ptc$
+      echo "-----------------------------"$
+   endmsg$
+{walltime > checktime}$
+      def checktime {walltime + 30}$
+      echo "walltime               = ",eval{walltime}$
+      echo "iiterations last cycle = ",eval{rdifit}$
+      echo "iterations total       = ",eval{rdifitsum}$
+      ptc$
+   endmsg$
+$
+      def fom_num {NCPUS * 1.0e6}$
+      def fom {fom_num/benchmark}$
+      echo " "$
+      echo " "$
+$
+$
+$
+      echo "BENCHMARK microseconds per zone-iteration = ",eval{benchmark}$
+      echo "BENCHMARK FOM = ",eval{fom}$
+$
+$
+$
+$
+$
+$
+      if {rdifit < rdifitx} $
+        echo "BENCHMARK CORRECTNESS : PASSED"$
+      endif$
+$
+      if {rdifit >= rdifitx} $
+        echo "BENCHMARK CORRECTNESS : FAILED"$
+      endif$
+$
+      echo ""$
+$
+$
+$
+   endmsg$
+ 
+INITIAL Setup NCPUS                  = 8
+INITIAL Setup NZONES PER DOMAIN SIDE = 25
+INITIAL Setup ZONES PER DOMAIN       = 15625
+INITIAL Setup TOTAL NDOMS            = 8
+INITIAL Setup TOTAL ZONECOUNT        = 125000
+INITIAL Setup TOTAL NDOMS PER SIDE   = 2
+INITIAL Setup TOTAL ZONES PER SIDE   = 50
+ 
+-----------------------------
+rdifit - 0
+time = 0.000000e+00 cycle = 0 subcycle = 0 dtc:0(-1,-1,-1) = 1.000000e-04

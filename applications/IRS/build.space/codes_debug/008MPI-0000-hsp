@@ -1,0 +1,17 @@
+(c) Copyright 1996-2007 Regents of University of California
+MPI ID:PID MAPPING          0:     93142
+
+IRS Sequoia Benchmark Version 1.0
+
+NCPUS not specified, assuming NCPUS is equal to NDOMS.  Setting NCPUS to 512
+
+
+NZONES_PER_DOM_SIDE not specified, defaulting to 25 zones per domain side
+
+
+User Specified NDOMS = 512
+User Specified NCPUS = 512
+User Specified NZONES_PER_DOM_SIDE = 25
+
+Deck Calculated NDOMS_PER_SIDE = 8
+Deck Calculated ZONES_PER_SIDE = 200

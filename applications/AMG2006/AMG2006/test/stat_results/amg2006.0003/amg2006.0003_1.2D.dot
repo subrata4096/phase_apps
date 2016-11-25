@@ -1,0 +1,22 @@
+digraph G {
+	node [shape=record,style=filled,labeljust=c,height=0.2];
+	0 [pos="0,0", label="/", fillcolor="#AAAAAA",fontcolor="#FFFFFF"];
+	-1621989046 [pos="0,0", label="hypre_BoomerAMGCoarsenFalgout@/g/g90/mitra3/work/AMG2006/AMG2006/parcsr_ls/par_coarsen.c:1955", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-1421545218 [pos="0,0", label="hypre_BoomerAMGSetup@/g/g90/mitra3/work/AMG2006/AMG2006/parcsr_ls/par_amg_setup.c:609", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-831403521 [pos="0,0", label="main@/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006.c:2441", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-815524930 [pos="0,0", label="hypre_PCGSetup@/g/g90/mitra3/work/AMG2006/AMG2006/krylov/pcg.c:236", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-730384146 [pos="0,0", label="hypre_BoomerAMGCoarsen@/g/g90/mitra3/work/AMG2006/AMG2006/parcsr_ls/par_coarsen.c:123", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-488561881 [pos="0,0", label="__libc_start_main@/usr/src/debug/glibc-2.12-2-gc4ccff1/csu/libc-start.c:226", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	1136011267 [pos="0,0", label="HYPRE_BoomerAMGSetup@/g/g90/mitra3/work/AMG2006/AMG2006/parcsr_ls/HYPRE_parcsr_amg.c:71", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	1679565999 [pos="0,0", label="HYPRE_PCGSetup@/g/g90/mitra3/work/AMG2006/AMG2006/krylov/HYPRE_pcg.c:72", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	1928213826 [pos="0,0", label="_start@?", fillcolor="#f1c71c",fontcolor="#FFFFFF"];
+	-1421545218 -> -1621989046 [label="[0-63]"]
+	1136011267 -> -1421545218 [label="[0-63]"]
+	-488561881 -> -831403521 [label="[0-63]"]
+	1679565999 -> -815524930 [label="[0-63]"]
+	-1621989046 -> -730384146 [label="[0-63]"]
+	1928213826 -> -488561881 [label="[0-63]"]
+	-815524930 -> 1136011267 [label="[0-63]"]
+	-831403521 -> 1679565999 [label="[0-63]"]
+	0 -> 1928213826 [label="[0-63]"]
+}

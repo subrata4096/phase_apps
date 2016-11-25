@@ -1,0 +1,7 @@
+hypre_PCGSetup,1
+hypre_BoomerAMGCoarsen,2
+hypre_ParCSRCommHandleCreate,20
+hypre_BoomerAMGRelax,10
+hypre_BinarySearch,20
+hypre_RankLinkCreate,3
+HYPRE_SStructGridSetExtents,2

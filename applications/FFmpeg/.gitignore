@@ -1,0 +1,19 @@
+# Ignore everything
+#*
+
+# But not these files...
+#!.gitignore
+#!*.c
+#!*.h
+#!*.py
+# etc...
+
+# ...even if they are in subdirectories
+#!*/
+
+
+*.txt
+approx_vid*
+callgrind*
+build
+doc

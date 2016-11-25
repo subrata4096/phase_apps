@@ -1,0 +1,1114 @@
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+**********************************************
+PIN_FAULTY_PROCESS=cab7-77007
+Injecting in - Name-_ZN9LAMMPS_NS7Lattice11lattice2boxERdS1_S1_-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-115775:0,cab1-115776:1,cab1-115777:2,cab1-115778:3,cab1-115779:4,cab1-115780:5,cab1-115781:6,cab1-115782:7,cab1-115783:8,cab1-115784:9,cab1-115785:10,cab1-115786:11,cab1-115787:12,cab1-115788:13,cab1-115789:14,cab1-115790:15,cab2-30336:16,cab2-30337:17,cab2-30338:18,cab2-30339:19,cab2-30340:20,cab2-30341:21,cab2-30342:22,cab2-30343:23,cab2-30344:24,cab2-30345:25,cab2-30346:26,cab2-30347:27,cab2-30348:28,cab2-30349:29,cab2-30350:30,cab2-30351:31,cab3-112791:32,cab3-112792:33,cab3-112793:34,cab3-112794:35,cab3-112795:36,cab3-112796:37,cab3-112797:38,cab3-112798:39,cab3-112799:40,cab3-112800:41,cab3-112801:42,cab3-112802:43,cab3-112803:44,cab3-112804:45,cab3-112805:46,cab3-112806:47,cab4-126293:48,cab4-126294:49,cab4-126295:50,cab4-126296:51,cab4-126297:52,cab4-126298:53,cab4-126299:54,cab4-126300:55,cab4-126301:56,cab4-126302:57,cab4-126303:58,cab4-126304:59,cab4-126305:60,cab4-126306:61,cab4-126307:62,cab4-126308:63,cab5-130765:64,cab5-130766:65,cab5-130767:66,cab5-130768:67,cab5-130769:68,cab5-130770:69,cab5-130771:70,cab5-130772:71,cab5-130773:72,cab5-130774:73,cab5-130775:74,cab5-130776:75,cab5-130777:76,cab5-130778:77,cab5-130779:78,cab5-130780:79,cab6-53423:80,cab6-53424:81,cab6-53425:82,cab6-53426:83,cab6-53427:84,cab6-53428:85,cab6-53429:86,cab6-53430:87,cab6-53431:88,cab6-53432:89,cab6-53433:90,cab6-53434:91,cab6-53435:92,cab6-53436:93,cab6-53437:94,cab6-53438:95,cab7-77001:96,cab7-77002:97,cab7-77003:98,cab7-77004:99,cab7-77005:100,cab7-77006:101,cab7-77007:102,cab7-77008:103,cab7-77009:104,cab7-77010:105,cab7-77011:106,cab7-77012:107,cab7-77013:108,cab7-77014:109,cab7-77015:110,cab7-77016:111,cab8-88513:112,cab8-88514:113,cab8-88515:114,cab8-88516:115,cab8-88517:116,cab8-88518:117,cab8-88519:118,cab8-88520:119,cab8-88521:120,cab8-88522:121,cab8-88523:122,cab8-88524:123,cab8-88525:124,cab8-88526:125,cab8-88527:126,cab8-88528:127,
+*** MEMORY USED 1: 170780 ***
+------ NUMBER OF TOTAL LOOPS : 3
+*** MEMORY USED 2: 171616 ***
+i to j:0-1=>src to dst:27-42
+PROBABILITY BASED analysis between:27-42
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.590965e+00 1.590965e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [102]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e1a9) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3ab5c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50f9f2) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x480312) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [102]
+1: [0-101,103-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+**********************************************
+PIN_FAULTY_PROCESS=cab9-130538
+Injecting in - Name-_ZN9LAMMPS_NS13AtomVecAtomic9pack_commEiPiPdiS1_-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab9-130531:0,cab9-130532:1,cab9-130533:2,cab9-130534:3,cab9-130535:4,cab9-130536:5,cab9-130537:6,cab9-130538:7,cab9-130539:8,cab9-130540:9,cab9-130541:10,cab9-130542:11,cab9-130543:12,cab9-130544:13,cab9-130545:14,cab9-130546:15,cab10-83169:16,cab10-83170:17,cab10-83171:18,cab10-83172:19,cab10-83173:20,cab10-83174:21,cab10-83175:22,cab10-83176:23,cab10-83177:24,cab10-83178:25,cab10-83179:26,cab10-83180:27,cab10-83181:28,cab10-83182:29,cab10-83183:30,cab10-83184:31,cab11-116762:32,cab11-116763:33,cab11-116764:34,cab11-116765:35,cab11-116766:36,cab11-116767:37,cab11-116768:38,cab11-116769:39,cab11-116770:40,cab11-116771:41,cab11-116772:42,cab11-116773:43,cab11-116774:44,cab11-116775:45,cab11-116776:46,cab11-116777:47,cab12-89502:48,cab12-89503:49,cab12-89504:50,cab12-89505:51,cab12-89506:52,cab12-89507:53,cab12-89508:54,cab12-89509:55,cab12-89510:56,cab12-89511:57,cab12-89512:58,cab12-89513:59,cab12-89514:60,cab12-89515:61,cab12-89516:62,cab12-89517:63,cab13-100928:64,cab13-100929:65,cab13-100930:66,cab13-100931:67,cab13-100932:68,cab13-100933:69,cab13-100934:70,cab13-100935:71,cab13-100936:72,cab13-100937:73,cab13-100938:74,cab13-100939:75,cab13-100940:76,cab13-100941:77,cab13-100942:78,cab13-100943:79,cab14-3080:80,cab14-3081:81,cab14-3082:82,cab14-3083:83,cab14-3084:84,cab14-3085:85,cab14-3086:86,cab14-3087:87,cab14-3088:88,cab14-3089:89,cab14-3090:90,cab14-3091:91,cab14-3092:92,cab14-3093:93,cab14-3094:94,cab14-3095:95,cab15-54641:96,cab15-54642:97,cab15-54643:98,cab15-54644:99,cab15-54645:100,cab15-54646:101,cab15-54647:102,cab15-54648:103,cab15-54649:104,cab15-54650:105,cab15-54651:106,cab15-54652:107,cab15-54653:108,cab15-54654:109,cab15-54655:110,cab15-54656:111,cab16-113851:112,cab16-113852:113,cab16-113853:114,cab16-113854:115,cab16-113855:116,cab16-113856:117,cab16-113857:118,cab16-113858:119,cab16-113859:120,cab16-113860:121,cab16-113861:122,cab16-113862:123,cab16-113863:124,cab16-113864:125,cab16-113865:126,cab16-113866:127,
+*** MEMORY USED 1: 175956 ***
+------ NUMBER OF TOTAL LOOPS : 11
+*** MEMORY USED 2: 176948 ***
+i to j:0-1=>src to dst:105-106
+LOOP BASED analysis between:105-106
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:105-108
+LOOP BASED analysis between:105-108
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:105-112
+LOOP BASED analysis between:105-112
+LOOP analysis returned: 2
+i to j:0-4=>src to dst:105-116
+LOOP BASED analysis between:105-116
+LOOP analysis returned: 2
+i to j:1-2=>src to dst:106-108
+LOOP BASED analysis between:106-108
+DISTANCE BASED analysis between:106-108
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:106-112
+LOOP BASED analysis between:106-112
+DISTANCE BASED analysis between:106-112
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:106-116
+LOOP BASED analysis between:106-116
+DISTANCE BASED analysis between:106-116
+LOOP analysis returned: 2
+i to j:2-3=>src to dst:108-112
+LOOP BASED analysis between:108-112
+DISTANCE BASED analysis between:108-112
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:108-116
+LOOP BASED analysis between:108-116
+DISTANCE BASED analysis between:108-116
+LOOP analysis returned: 2
+i to j:3-4=>src to dst:112-116
+LOOP BASED analysis between:112-116
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 
+    --------------------
+s 0|  0   0   0   0   0 
+s 1|  1   0   0   0   0 
+s 2|  1   1   0   0   0 
+s 3|  1   1   1   0   0 
+s 4|  1   1   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.924546e+00 1.924546e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [7]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fbdd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3cdb9) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcc4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcd7) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470257) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+4: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [7]
+1: [5]
+2: [0,6,16-23,48-55,64-95,112-119]
+3: [1,3]
+4: [2,4,8-15,24-47,56-63,96-111,120-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+**********************************************
+PIN_FAULTY_PROCESS=cab19-128861
+Injecting in - Name-_ZN9LAMMPS_NS13AtomVecAtomic11create_atomEiPd-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-33032:0,cab1-33033:1,cab1-33034:2,cab1-33035:3,cab1-33036:4,cab1-33037:5,cab1-33038:6,cab1-33039:7,cab1-33040:8,cab1-33041:9,cab1-33042:10,cab1-33043:11,cab1-33044:12,cab1-33045:13,cab1-33046:14,cab1-33047:15,cab2-76365:16,cab2-76366:17,cab2-76367:18,cab2-76368:19,cab2-76369:20,cab2-76370:21,cab2-76371:22,cab2-76372:23,cab2-76373:24,cab2-76374:25,cab2-76375:26,cab2-76376:27,cab2-76377:28,cab2-76378:29,cab2-76379:30,cab2-76380:31,cab5-38807:32,cab5-38808:33,cab5-38809:34,cab5-38810:35,cab5-38811:36,cab5-38812:37,cab5-38813:38,cab5-38814:39,cab5-38815:40,cab5-38816:41,cab5-38817:42,cab5-38818:43,cab5-38819:44,cab5-38820:45,cab5-38821:46,cab5-38822:47,cab17-72686:48,cab17-72687:49,cab17-72688:50,cab17-72689:51,cab17-72690:52,cab17-72691:53,cab17-72692:54,cab17-72693:55,cab17-72694:56,cab17-72695:57,cab17-72696:58,cab17-72697:59,cab17-72698:60,cab17-72699:61,cab17-72700:62,cab17-72701:63,cab19-128856:64,cab19-128857:65,cab19-128858:66,cab19-128859:67,cab19-128860:68,cab19-128861:69,cab19-128862:70,cab19-128863:71,cab19-128864:72,cab19-128865:73,cab19-128866:74,cab19-128867:75,cab19-128868:76,cab19-128869:77,cab19-128870:78,cab19-128871:79,cab20-118830:80,cab20-118831:81,cab20-118832:82,cab20-118833:83,cab20-118834:84,cab20-118835:85,cab20-118836:86,cab20-118837:87,cab20-118838:88,cab20-118839:89,cab20-118840:90,cab20-118841:91,cab20-118842:92,cab20-118843:93,cab20-118844:94,cab20-118845:95,cab31-98427:96,cab31-98428:97,cab31-98429:98,cab31-98430:99,cab31-98431:100,cab31-98432:101,cab31-98433:102,cab31-98434:103,cab31-98435:104,cab31-98436:105,cab31-98437:106,cab31-98438:107,cab31-98439:108,cab31-98440:109,cab31-98441:110,cab31-98442:111,cab32-55249:112,cab32-55250:113,cab32-55251:114,cab32-55252:115,cab32-55253:116,cab32-55254:117,cab32-55255:118,cab32-55256:119,cab32-55257:120,cab32-55258:121,cab32-55259:122,cab32-55260:123,cab32-55261:124,cab32-55262:125,cab32-55263:126,cab32-55264:127,
+*** MEMORY USED 1: 171508 ***
+------ NUMBER OF TOTAL LOOPS : 3
+*** MEMORY USED 2: 172388 ***
+i to j:0-1=>src to dst:27-42
+PROBABILITY BASED analysis between:27-42
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.563681e+00 1.563681e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [69]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e1a9) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3ab5c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50f9f2) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x480312) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [69]
+1: [0-68,70-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+     100   0.75923226   -5.7607322            0   -4.6218882   0.22962705 
+Loop time of 14.3719 on 128 procs for 100 steps with 256000 atoms
+
+Pair  time (%) = 7.5079 (52.2401)
+Neigh time (%) = 0.842543 (5.86243)
+Comm  time (%) = 5.55545 (38.6549)
+Outpt time (%) = 0.0215751 (0.15012)
+Other time (%) = 0.444433 (3.09237)
+
+Nlocal:    2000 ave 2044 max 1958 min
+Histogram: 3 7 13 23 20 25 17 11 5 4
+Nghost:    4125.39 ave 4177 max 4070 min
+Histogram: 2 4 11 17 29 25 17 14 4 5
+Neighs:    75205.3 ave 77569 max 72770 min
+Histogram: 3 3 11 20 26 28 13 15 4 5
+
+Total # of neighbors = 9626281
+Ave neighs/atom = 37.6027
+Neighbor list builds = 5
+Dangerous builds = 0
+
+---- Total time taken by LAMMPS: 1.758000e+01 
+*** MEMORY USED: 174920 ***
+*** MEMORY USED: 174920 ***
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+**********************************************
+PIN_FAULTY_PROCESS=cab20-126425
+Injecting in - Name-_ZN9LAMMPS_NS6Memory8sreallocEPviPc-
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-40696:0,cab1-40697:1,cab1-40698:2,cab1-40699:3,cab1-40700:4,cab1-40701:5,cab1-40702:6,cab1-40703:7,cab1-40704:8,cab1-40705:9,cab1-40706:10,cab1-40707:11,cab1-40708:12,cab1-40709:13,cab1-40710:14,cab1-40711:15,cab2-83958:16,cab2-83959:17,cab2-83960:18,cab2-83961:19,cab2-83962:20,cab2-83963:21,cab2-83964:22,cab2-83965:23,cab2-83966:24,cab2-83967:25,cab2-83968:26,cab2-83969:27,cab2-83970:28,cab2-83971:29,cab2-83972:30,cab2-83973:31,cab5-46399:32,cab5-46400:33,cab5-46401:34,cab5-46402:35,cab5-46403:36,cab5-46404:37,cab5-46405:38,cab5-46406:39,cab5-46407:40,cab5-46408:41,cab5-46409:42,cab5-46410:43,cab5-46411:44,cab5-46412:45,cab5-46413:46,cab5-46414:47,cab17-80282:48,cab17-80283:49,cab17-80284:50,cab17-80285:51,cab17-80286:52,cab17-80287:53,cab17-80288:54,cab17-80289:55,cab17-80290:56,cab17-80291:57,cab17-80292:58,cab17-80293:59,cab17-80294:60,cab17-80295:61,cab17-80296:62,cab17-80297:63,cab19-5969:64,cab19-5970:65,cab19-5971:66,cab19-5972:67,cab19-5973:68,cab19-5974:69,cab19-5975:70,cab19-5976:71,cab19-5977:72,cab19-5978:73,cab19-5979:74,cab19-5980:75,cab19-5981:76,cab19-5982:77,cab19-5983:78,cab19-5984:79,cab20-126423:80,cab20-126424:81,cab20-126425:82,cab20-126426:83,cab20-126427:84,cab20-126428:85,cab20-126429:86,cab20-126430:87,cab20-126431:88,cab20-126432:89,cab20-126433:90,cab20-126434:91,cab20-126435:92,cab20-126436:93,cab20-126437:94,cab20-126438:95,cab31-106029:96,cab31-106030:97,cab31-106031:98,cab31-106032:99,cab31-106033:100,cab31-106034:101,cab31-106035:102,cab31-106036:103,cab31-106037:104,cab31-106038:105,cab31-106039:106,cab31-106040:107,cab31-106041:108,cab31-106042:109,cab31-106043:110,cab31-106044:111,cab32-62841:112,cab32-62842:113,cab32-62843:114,cab32-62844:115,cab32-62845:116,cab32-62846:117,cab32-62847:118,cab32-62848:119,cab32-62849:120,cab32-62850:121,cab32-62851:122,cab32-62852:123,cab32-62853:124,cab32-62854:125,cab32-62855:126,cab32-62856:127,
+*** MEMORY USED 1: 175184 ***
+------ NUMBER OF TOTAL LOOPS : 8
+*** MEMORY USED 2: 176124 ***
+i to j:0-1=>src to dst:83-86
+PROBABILITY BASED analysis between:83-86
+i to j:0-2=>src to dst:83-90
+PROBABILITY BASED analysis between:83-90
+i to j:0-3=>src to dst:83-92
+PROBABILITY BASED analysis between:83-92
+i to j:1-2=>src to dst:86-90
+LOOP BASED analysis between:86-90
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:86-92
+PROBABILITY BASED analysis between:86-92
+i to j:2-3=>src to dst:90-92
+PROBABILITY BASED analysis between:90-92
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 
+    ----------------
+s 0|  0   0   0   0 
+s 1|  1   0   0   0 
+s 2|  1   1   0   0 
+s 3|  1   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.934798e+00 1.934798e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [82]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c78cd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4712e4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dca5) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7bc1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470257) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7bc1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7bec) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x538a35) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5b7345) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5b7818) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [82]
+1: [80,83]
+2: [40-44,48-52,56-60,72-76,81,84,88-92,104-108,112-116,120-124]
+3: [0-39,45-47,53-55,61-71,77-79,85-87,93-103,109-111,117-119,125-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+**********************************************
+PIN_FAULTY_PROCESS=cab4-49427
+Injecting in - Name-_ZN9LAMMPS_NS6FixNVE17initial_integrateEv-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab4-49420:0,cab4-49421:1,cab4-49422:2,cab4-49423:3,cab4-49424:4,cab4-49425:5,cab4-49426:6,cab4-49427:7,cab4-49428:8,cab4-49429:9,cab4-49430:10,cab4-49431:11,cab4-49432:12,cab4-49433:13,cab4-49434:14,cab4-49435:15,cab10-106360:16,cab10-106361:17,cab10-106362:18,cab10-106363:19,cab10-106364:20,cab10-106365:21,cab10-106366:22,cab10-106367:23,cab10-106368:24,cab10-106369:25,cab10-106370:26,cab10-106371:27,cab10-106372:28,cab10-106373:29,cab10-106374:30,cab10-106375:31,cab11-9472:32,cab11-9473:33,cab11-9474:34,cab11-9475:35,cab11-9476:36,cab11-9477:37,cab11-9478:38,cab11-9479:39,cab11-9480:40,cab11-9481:41,cab11-9482:42,cab11-9483:43,cab11-9484:44,cab11-9485:45,cab11-9486:46,cab11-9487:47,cab12-112697:48,cab12-112698:49,cab12-112699:50,cab12-112700:51,cab12-112701:52,cab12-112702:53,cab12-112703:54,cab12-112704:55,cab12-112705:56,cab12-112706:57,cab12-112707:58,cab12-112708:59,cab12-112709:60,cab12-112710:61,cab12-112711:62,cab12-112712:63,cab13-124163:64,cab13-124164:65,cab13-124165:66,cab13-124166:67,cab13-124167:68,cab13-124168:69,cab13-124169:70,cab13-124170:71,cab13-124171:72,cab13-124172:73,cab13-124173:74,cab13-124174:75,cab13-124175:76,cab13-124176:77,cab13-124177:78,cab13-124178:79,cab14-26429:80,cab14-26430:81,cab14-26431:82,cab14-26432:83,cab14-26433:84,cab14-26434:85,cab14-26435:86,cab14-26436:87,cab14-26437:88,cab14-26438:89,cab14-26439:90,cab14-26440:91,cab14-26441:92,cab14-26442:93,cab14-26443:94,cab14-26444:95,cab15-77841:96,cab15-77842:97,cab15-77843:98,cab15-77844:99,cab15-77845:100,cab15-77846:101,cab15-77847:102,cab15-77848:103,cab15-77849:104,cab15-77850:105,cab15-77851:106,cab15-77852:107,cab15-77853:108,cab15-77854:109,cab15-77855:110,cab15-77856:111,cab16-6643:112,cab16-6644:113,cab16-6645:114,cab16-6646:115,cab16-6647:116,cab16-6648:117,cab16-6649:118,cab16-6650:119,cab16-6651:120,cab16-6652:121,cab16-6653:122,cab16-6654:123,cab16-6655:124,cab16-6656:125,cab16-6657:126,cab16-6658:127,
+*** MEMORY USED 1: 175756 ***
+------ NUMBER OF TOTAL LOOPS : 11
+*** MEMORY USED 2: 176740 ***
+i to j:0-1=>src to dst:106-108
+LOOP BASED analysis between:106-108
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:106-112
+LOOP BASED analysis between:106-112
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:106-116
+LOOP BASED analysis between:106-116
+LOOP analysis returned: 2
+i to j:0-4=>src to dst:106-117
+LOOP BASED analysis between:106-117
+LOOP analysis returned: 1
+i to j:1-2=>src to dst:108-112
+LOOP BASED analysis between:108-112
+DISTANCE BASED analysis between:108-112
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:108-116
+LOOP BASED analysis between:108-116
+DISTANCE BASED analysis between:108-116
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:108-117
+LOOP BASED analysis between:108-117
+LOOP analysis returned: 1
+i to j:2-3=>src to dst:112-116
+LOOP BASED analysis between:112-116
+DISTANCE BASED analysis between:112-116
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:112-117
+LOOP BASED analysis between:112-117
+LOOP analysis returned: 1
+i to j:3-4=>src to dst:116-117
+LOOP BASED analysis between:116-117
+LOOP analysis returned: 1
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 
+    --------------------
+s 0|  0   0   0   0   1 
+s 1|  1   0   0   0   1 
+s 2|  1   1   0   0   1 
+s 3|  1   1   1   0   1 
+s 4|  0   0   0   0   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.951544e+00 1.951544e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 4, tasks: [7]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcc4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcd7) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470257) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+4: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dca5) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [0,5,8,13,24,29,32,37,40,45,56,61,96,101,104,109,120,125]
+1: [1,6,9,14-15,25,30-31,33,38-39,41,46-47,57,62-63,97,102-103,105,110-111,121,126-127]
+2: [2-3,10-11,26-27,34-35,42-43,58-59,98-99,106-107,122-123]
+3: [4,12,16-23,28,36,44,48-55,60,64-95,100,108,112-119,124]
+4: [7]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+**********************************************
+PIN_FAULTY_PROCESS=cab20-3399
+Injecting in - Name-_ZN9LAMMPS_NS8Neighbor9coord2binEPd-
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-48304:0,cab1-48305:1,cab1-48306:2,cab1-48307:3,cab1-48308:4,cab1-48309:5,cab1-48310:6,cab1-48311:7,cab1-48312:8,cab1-48313:9,cab1-48314:10,cab1-48315:11,cab1-48316:12,cab1-48317:13,cab1-48318:14,cab1-48319:15,cab2-91557:16,cab2-91558:17,cab2-91559:18,cab2-91560:19,cab2-91561:20,cab2-91562:21,cab2-91563:22,cab2-91564:23,cab2-91565:24,cab2-91566:25,cab2-91567:26,cab2-91568:27,cab2-91569:28,cab2-91570:29,cab2-91571:30,cab2-91572:31,cab5-53989:32,cab5-53990:33,cab5-53991:34,cab5-53992:35,cab5-53993:36,cab5-53994:37,cab5-53995:38,cab5-53996:39,cab5-53997:40,cab5-53998:41,cab5-53999:42,cab5-54000:43,cab5-54001:44,cab5-54002:45,cab5-54003:46,cab5-54004:47,cab17-87871:48,cab17-87872:49,cab17-87873:50,cab17-87874:51,cab17-87875:52,cab17-87876:53,cab17-87877:54,cab17-87878:55,cab17-87879:56,cab17-87880:57,cab17-87881:58,cab17-87882:59,cab17-87883:60,cab17-87884:61,cab17-87885:62,cab17-87886:63,cab19-13608:64,cab19-13609:65,cab19-13610:66,cab19-13611:67,cab19-13612:68,cab19-13613:69,cab19-13614:70,cab19-13615:71,cab19-13616:72,cab19-13617:73,cab19-13618:74,cab19-13619:75,cab19-13620:76,cab19-13621:77,cab19-13622:78,cab19-13623:79,cab20-3397:80,cab20-3398:81,cab20-3399:82,cab20-3400:83,cab20-3401:84,cab20-3402:85,cab20-3403:86,cab20-3404:87,cab20-3405:88,cab20-3406:89,cab20-3407:90,cab20-3408:91,cab20-3409:92,cab20-3410:93,cab20-3411:94,cab20-3412:95,cab31-113618:96,cab31-113619:97,cab31-113620:98,cab31-113621:99,cab31-113622:100,cab31-113623:101,cab31-113624:102,cab31-113625:103,cab31-113626:104,cab31-113627:105,cab31-113628:106,cab31-113629:107,cab31-113630:108,cab31-113631:109,cab31-113632:110,cab31-113633:111,cab32-70431:112,cab32-70432:113,cab32-70433:114,cab32-70434:115,cab32-70435:116,cab32-70436:117,cab32-70437:118,cab32-70438:119,cab32-70439:120,cab32-70440:121,cab32-70441:122,cab32-70442:123,cab32-70443:124,cab32-70444:125,cab32-70445:126,cab32-70446:127,
+*** MEMORY USED 1: 174504 ***
+------ NUMBER OF TOTAL LOOPS : 8
+*** MEMORY USED 2: 175420 ***
+i to j:0-1=>src to dst:83-86
+PROBABILITY BASED analysis between:83-86
+i to j:0-2=>src to dst:83-90
+PROBABILITY BASED analysis between:83-90
+i to j:0-3=>src to dst:83-92
+PROBABILITY BASED analysis between:83-92
+i to j:1-2=>src to dst:86-90
+LOOP BASED analysis between:86-90
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:86-92
+PROBABILITY BASED analysis between:86-92
+i to j:2-3=>src to dst:90-92
+PROBABILITY BASED analysis between:90-92
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 
+    ----------------
+s 0|  0   0   0   0 
+s 1|  1   0   0   0 
+s 2|  1   1   0   0 
+s 3|  1   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.894484e+00 1.894484e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [82]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c78cd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4712e4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dca5) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7bc1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470257) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7bc1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5ade65) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7bec) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x538a35) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5b7345) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5b7818) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [82]
+1: [80,83]
+2: [40-44,48-52,56-60,72-76,81,84,88-92,104-108,112-116,120-124]
+3: [0-39,45-47,53-55,61-71,77-79,85-87,93-103,109-111,117-119,125-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+**********************************************
+PIN_FAULTY_PROCESS=cab11-17063
+Injecting in - Name-_ZN9LAMMPS_NS7RanPark7uniformEv-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab4-57030:0,cab4-57031:1,cab4-57032:2,cab4-57033:3,cab4-57034:4,cab4-57035:5,cab4-57036:6,cab4-57037:7,cab4-57038:8,cab4-57039:9,cab4-57040:10,cab4-57041:11,cab4-57042:12,cab4-57043:13,cab4-57044:14,cab4-57045:15,cab10-113952:16,cab10-113953:17,cab10-113954:18,cab10-113955:19,cab10-113956:20,cab10-113957:21,cab10-113958:22,cab10-113959:23,cab10-113960:24,cab10-113961:25,cab10-113962:26,cab10-113963:27,cab10-113964:28,cab10-113965:29,cab10-113966:30,cab10-113967:31,cab11-17063:32,cab11-17064:33,cab11-17065:34,cab11-17066:35,cab11-17067:36,cab11-17068:37,cab11-17069:38,cab11-17070:39,cab11-17071:40,cab11-17072:41,cab11-17073:42,cab11-17074:43,cab11-17075:44,cab11-17076:45,cab11-17077:46,cab11-17078:47,cab12-120290:48,cab12-120291:49,cab12-120292:50,cab12-120293:51,cab12-120294:52,cab12-120295:53,cab12-120296:54,cab12-120297:55,cab12-120298:56,cab12-120299:57,cab12-120300:58,cab12-120301:59,cab12-120302:60,cab12-120303:61,cab12-120304:62,cab12-120305:63,cab13-1071:64,cab13-1072:65,cab13-1073:66,cab13-1074:67,cab13-1075:68,cab13-1076:69,cab13-1077:70,cab13-1078:71,cab13-1079:72,cab13-1080:73,cab13-1081:74,cab13-1082:75,cab13-1083:76,cab13-1084:77,cab13-1085:78,cab13-1086:79,cab14-34020:80,cab14-34021:81,cab14-34022:82,cab14-34023:83,cab14-34024:84,cab14-34025:85,cab14-34026:86,cab14-34027:87,cab14-34028:88,cab14-34029:89,cab14-34030:90,cab14-34031:91,cab14-34032:92,cab14-34033:93,cab14-34034:94,cab14-34035:95,cab15-85432:96,cab15-85433:97,cab15-85434:98,cab15-85435:99,cab15-85436:100,cab15-85437:101,cab15-85438:102,cab15-85439:103,cab15-85440:104,cab15-85441:105,cab15-85442:106,cab15-85443:107,cab15-85444:108,cab15-85445:109,cab15-85446:110,cab15-85447:111,cab16-14270:112,cab16-14271:113,cab16-14272:114,cab16-14273:115,cab16-14274:116,cab16-14275:117,cab16-14276:118,cab16-14277:119,cab16-14278:120,cab16-14279:121,cab16-14280:122,cab16-14281:123,cab16-14282:124,cab16-14283:125,cab16-14284:126,cab16-14285:127,
+*** MEMORY USED 1: 171404 ***
+------ NUMBER OF TOTAL LOOPS : 4
+*** MEMORY USED 2: 172244 ***
+i to j:0-1=>src to dst:49-50
+PROBABILITY BASED analysis between:49-50
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.544580e+00 1.544580e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [32]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x51026d) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c482f) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c4ad8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47b3fd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47b42f) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x505fcd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425d1) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x51026d) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c482f) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c56e3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c664d) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x505fcd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [32]
+1: [0-31,33-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+**********************************************
+PIN_FAULTY_PROCESS=cab1-56008
+Injecting in - Name-_ZN9LAMMPS_NS13AtomVecAtomic13pack_exchangeEiPd-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-56001:0,cab1-56002:1,cab1-56003:2,cab1-56004:3,cab1-56005:4,cab1-56006:5,cab1-56007:6,cab1-56008:7,cab1-56009:8,cab1-56010:9,cab1-56011:10,cab1-56012:11,cab1-56013:12,cab1-56014:13,cab1-56015:14,cab1-56016:15,cab2-99185:16,cab2-99186:17,cab2-99187:18,cab2-99188:19,cab2-99189:20,cab2-99190:21,cab2-99191:22,cab2-99192:23,cab2-99193:24,cab2-99194:25,cab2-99195:26,cab2-99196:27,cab2-99197:28,cab2-99198:29,cab2-99199:30,cab2-99200:31,cab5-61756:32,cab5-61757:33,cab5-61758:34,cab5-61759:35,cab5-61760:36,cab5-61761:37,cab5-61762:38,cab5-61763:39,cab5-61764:40,cab5-61765:41,cab5-61766:42,cab5-61767:43,cab5-61768:44,cab5-61769:45,cab5-61770:46,cab5-61771:47,cab17-95499:48,cab17-95500:49,cab17-95501:50,cab17-95502:51,cab17-95503:52,cab17-95504:53,cab17-95505:54,cab17-95506:55,cab17-95507:56,cab17-95508:57,cab17-95509:58,cab17-95510:59,cab17-95511:60,cab17-95512:61,cab17-95513:62,cab17-95514:63,cab19-21285:64,cab19-21286:65,cab19-21287:66,cab19-21288:67,cab19-21289:68,cab19-21290:69,cab19-21291:70,cab19-21292:71,cab19-21293:72,cab19-21294:73,cab19-21295:74,cab19-21296:75,cab19-21297:76,cab19-21298:77,cab19-21299:78,cab19-21300:79,cab20-11171:80,cab20-11172:81,cab20-11173:82,cab20-11174:83,cab20-11175:84,cab20-11176:85,cab20-11177:86,cab20-11178:87,cab20-11179:88,cab20-11180:89,cab20-11181:90,cab20-11182:91,cab20-11183:92,cab20-11184:93,cab20-11185:94,cab20-11186:95,cab31-121253:96,cab31-121254:97,cab31-121255:98,cab31-121256:99,cab31-121257:100,cab31-121258:101,cab31-121259:102,cab31-121260:103,cab31-121261:104,cab31-121262:105,cab31-121263:106,cab31-121264:107,cab31-121265:108,cab31-121266:109,cab31-121267:110,cab31-121268:111,cab32-78058:112,cab32-78059:113,cab32-78060:114,cab32-78061:115,cab32-78062:116,cab32-78063:117,cab32-78064:118,cab32-78065:119,cab32-78066:120,cab32-78067:121,cab32-78068:122,cab32-78069:123,cab32-78070:124,cab32-78071:125,cab32-78072:126,cab32-78073:127,
+*** MEMORY USED 1: 176264 ***
+------ NUMBER OF TOTAL LOOPS : 13
+*** MEMORY USED 2: 177324 ***
+i to j:0-1=>src to dst:118-120
+LOOP BASED analysis between:118-120
+DISTANCE BASED analysis between:118-120
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:118-126
+LOOP BASED analysis between:118-126
+DISTANCE BASED analysis between:118-126
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:118-132
+LOOP BASED analysis between:118-132
+DISTANCE BASED analysis between:118-132
+LOOP analysis returned: 2
+i to j:0-4=>src to dst:118-136
+PROBABILITY BASED analysis between:118-136
+i to j:0-5=>src to dst:118-134
+PROBABILITY BASED analysis between:118-134
+i to j:0-6=>src to dst:118-135
+PROBABILITY BASED analysis between:118-135
+i to j:0-7=>src to dst:118-117
+PROBABILITY BASED analysis between:118-117
+i to j:1-2=>src to dst:120-126
+LOOP BASED analysis between:120-126
+DISTANCE BASED analysis between:120-126
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:120-132
+LOOP BASED analysis between:120-132
+DISTANCE BASED analysis between:120-132
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:120-136
+PROBABILITY BASED analysis between:120-136
+i to j:1-5=>src to dst:120-134
+PROBABILITY BASED analysis between:120-134
+i to j:1-6=>src to dst:120-135
+PROBABILITY BASED analysis between:120-135
+i to j:1-7=>src to dst:120-117
+PROBABILITY BASED analysis between:120-117
+i to j:2-3=>src to dst:126-132
+LOOP BASED analysis between:126-132
+DISTANCE BASED analysis between:126-132
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:126-136
+PROBABILITY BASED analysis between:126-136
+i to j:2-5=>src to dst:126-134
+PROBABILITY BASED analysis between:126-134
+i to j:2-6=>src to dst:126-135
+PROBABILITY BASED analysis between:126-135
+i to j:2-7=>src to dst:126-117
+PROBABILITY BASED analysis between:126-117
+i to j:3-4=>src to dst:132-136
+PROBABILITY BASED analysis between:132-136
+i to j:3-5=>src to dst:132-134
+PROBABILITY BASED analysis between:132-134
+i to j:3-6=>src to dst:132-135
+PROBABILITY BASED analysis between:132-135
+i to j:3-7=>src to dst:132-117
+PROBABILITY BASED analysis between:132-117
+i to j:4-5=>src to dst:136-134
+LOOP BASED analysis between:136-134
+DISTANCE BASED analysis between:136-134
+LOOP analysis returned: 2
+i to j:4-6=>src to dst:136-135
+LOOP BASED analysis between:136-135
+DISTANCE BASED analysis between:136-135
+LOOP analysis returned: 2
+i to j:4-7=>src to dst:136-117
+PROBABILITY BASED analysis between:136-117
+i to j:5-6=>src to dst:134-135
+LOOP BASED analysis between:134-135
+DISTANCE BASED analysis between:134-135
+LOOP analysis returned: 2
+i to j:5-7=>src to dst:134-117
+PROBABILITY BASED analysis between:134-117
+i to j:6-7=>src to dst:135-117
+PROBABILITY BASED analysis between:135-117
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 s 5 s 6 s 7 
+    --------------------------------
+s 0|  0   0   0   0   0   0   0   0 
+s 1|  1   0   0   0   0   0   0   0 
+s 2|  1   1   0   0   0   0   0   0 
+s 3|  1   1   1   0   0   0   0   0 
+s 4|  1   1   1   1   0   0   0   0 
+s 5|  1   1   1   1   1   0   0   0 
+s 6|  1   1   1   1   1   1   0   0 
+s 7|  0   0   0   0   0   0   0   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 2.010452e+00 2.010452e+00
+------------------------------
+Number of states with LP-tasks: 2
+STATE 0, tasks: [6,14,22,30-31,38,46,54,62-63,70,78,86,94-95,102-103,110,118,126-127]
+STATE 7, tasks: [7]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4708ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3bf93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470958) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3bf93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470a40) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470b28) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+4: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7efb) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4711cd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3bf93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+5: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7efb) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4712cb) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+6: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7efb) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4712e4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+7: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dca5) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [6,14,22,30-31,38,46,54,62-63,70,78,86,94-95,102-103,110,118,126-127]
+1: [0,8,15-16,24,32,39-40,47-48,56,64,72,79-80,88,96,104,111-112,120]
+2: [5,13,21,23,29,37,45,53,55,61,69,71,77,85,87,93,101,109,117,119,125]
+3: [1,9,17,25,33,41,49,57,65,73,81,89,97,105,113,121]
+4: [4,12,20,28,36,44,52,60,68,76,84,92,100,108,116,124]
+5: [2,10,18,26,34,42,50,58,66,74,82,90,98,106,114,122]
+6: [3,11,19,27,35,43,51,59,67,75,83,91,99,107,115,123]
+7: [7]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+**********************************************
+PIN_FAULTY_PROCESS=cab16-21899
+Injecting in - Name-_ZN9LAMMPS_NS7RanPark5resetEiPd-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab4-64820:0,cab4-64821:1,cab4-64822:2,cab4-64823:3,cab4-64824:4,cab4-64825:5,cab4-64826:6,cab4-64827:7,cab4-64828:8,cab4-64829:9,cab4-64830:10,cab4-64831:11,cab4-64832:12,cab4-64833:13,cab4-64834:14,cab4-64835:15,cab10-121582:16,cab10-121583:17,cab10-121584:18,cab10-121585:19,cab10-121586:20,cab10-121587:21,cab10-121588:22,cab10-121589:23,cab10-121590:24,cab10-121591:25,cab10-121592:26,cab10-121593:27,cab10-121594:28,cab10-121595:29,cab10-121596:30,cab10-121597:31,cab11-24749:32,cab11-24750:33,cab11-24751:34,cab11-24752:35,cab11-24753:36,cab11-24754:37,cab11-24755:38,cab11-24756:39,cab11-24757:40,cab11-24758:41,cab11-24759:42,cab11-24760:43,cab11-24761:44,cab11-24762:45,cab11-24763:46,cab11-24764:47,cab12-127948:48,cab12-127949:49,cab12-127950:50,cab12-127951:51,cab12-127952:52,cab12-127953:53,cab12-127954:54,cab12-127955:55,cab12-127956:56,cab12-127957:57,cab12-127958:58,cab12-127959:59,cab12-127960:60,cab12-127961:61,cab12-127962:62,cab12-127963:63,cab13-8902:64,cab13-8903:65,cab13-8904:66,cab13-8905:67,cab13-8906:68,cab13-8907:69,cab13-8908:70,cab13-8909:71,cab13-8910:72,cab13-8911:73,cab13-8912:74,cab13-8913:75,cab13-8914:76,cab13-8915:77,cab13-8916:78,cab13-8917:79,cab14-41649:80,cab14-41650:81,cab14-41651:82,cab14-41652:83,cab14-41653:84,cab14-41654:85,cab14-41655:86,cab14-41656:87,cab14-41657:88,cab14-41658:89,cab14-41659:90,cab14-41660:91,cab14-41661:92,cab14-41662:93,cab14-41663:94,cab14-41664:95,cab15-93061:96,cab15-93062:97,cab15-93063:98,cab15-93064:99,cab15-93065:100,cab15-93066:101,cab15-93067:102,cab15-93068:103,cab15-93069:104,cab15-93070:105,cab15-93071:106,cab15-93072:107,cab15-93073:108,cab15-93074:109,cab15-93075:110,cab15-93076:111,cab16-21899:112,cab16-21900:113,cab16-21901:114,cab16-21902:115,cab16-21903:116,cab16-21904:117,cab16-21905:118,cab16-21906:119,cab16-21907:120,cab16-21908:121,cab16-21909:122,cab16-21910:123,cab16-21911:124,cab16-21912:125,cab16-21913:126,cab16-21914:127,
+*** MEMORY USED 1: 171312 ***
+------ NUMBER OF TOTAL LOOPS : 4
+*** MEMORY USED 2: 172148 ***
+i to j:0-1=>src to dst:49-50
+PROBABILITY BASED analysis between:49-50
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.615675e+00 1.615675e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [112]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x51026d) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c482f) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c4ad8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47b3fd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47b42f) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x505fcd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425d1) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x51026d) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c482f) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c56e3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c664d) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x505fcd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x425ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [112]
+1: [0-111,113-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+**********************************************
+PIN_FAULTY_PROCESS=cab1-63663
+Injecting in - Name-_ZN9LAMMPS_NS13AtomVecAtomic9pack_commEiPiPdiS1_-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-63663:0,cab1-63664:1,cab1-63665:2,cab1-63666:3,cab1-63667:4,cab1-63668:5,cab1-63669:6,cab1-63670:7,cab1-63671:8,cab1-63672:9,cab1-63673:10,cab1-63674:11,cab1-63675:12,cab1-63676:13,cab1-63677:14,cab1-63678:15,cab2-106777:16,cab2-106778:17,cab2-106779:18,cab2-106780:19,cab2-106781:20,cab2-106782:21,cab2-106783:22,cab2-106784:23,cab2-106785:24,cab2-106786:25,cab2-106787:26,cab2-106788:27,cab2-106789:28,cab2-106790:29,cab2-106791:30,cab2-106792:31,cab3-28867:32,cab3-28868:33,cab3-28869:34,cab3-28870:35,cab3-28871:36,cab3-28872:37,cab3-28873:38,cab3-28874:39,cab3-28875:40,cab3-28876:41,cab3-28877:42,cab3-28878:43,cab3-28879:44,cab3-28880:45,cab3-28881:46,cab3-28882:47,cab5-69349:48,cab5-69350:49,cab5-69351:50,cab5-69352:51,cab5-69353:52,cab5-69354:53,cab5-69355:54,cab5-69356:55,cab5-69357:56,cab5-69358:57,cab5-69359:58,cab5-69360:59,cab5-69361:60,cab5-69362:61,cab5-69363:62,cab5-69364:63,cab6-99704:64,cab6-99705:65,cab6-99706:66,cab6-99707:67,cab6-99708:68,cab6-99709:69,cab6-99710:70,cab6-99711:71,cab6-99712:72,cab6-99713:73,cab6-99714:74,cab6-99715:75,cab6-99716:76,cab6-99717:77,cab6-99718:78,cab6-99719:79,cab7-115861:80,cab7-115862:81,cab7-115863:82,cab7-115864:83,cab7-115865:84,cab7-115866:85,cab7-115867:86,cab7-115868:87,cab7-115869:88,cab7-115870:89,cab7-115871:90,cab7-115872:91,cab7-115873:92,cab7-115874:93,cab7-115875:94,cab7-115876:95,cab8-120018:96,cab8-120019:97,cab8-120020:98,cab8-120021:99,cab8-120022:100,cab8-120023:101,cab8-120024:102,cab8-120025:103,cab8-120026:104,cab8-120027:105,cab8-120028:106,cab8-120029:107,cab8-120030:108,cab8-120031:109,cab8-120032:110,cab8-120033:111,cab9-15931:112,cab9-15932:113,cab9-15933:114,cab9-15934:115,cab9-15935:116,cab9-15936:117,cab9-15937:118,cab9-15938:119,cab9-15939:120,cab9-15940:121,cab9-15941:122,cab9-15942:123,cab9-15943:124,cab9-15944:125,cab9-15945:126,cab9-15946:127,
+*** MEMORY USED 1: 174964 ***
+------ NUMBER OF TOTAL LOOPS : 11
+*** MEMORY USED 2: 175912 ***
+i to j:0-1=>src to dst:105-106
+LOOP BASED analysis between:105-106
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:105-108
+LOOP BASED analysis between:105-108
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:105-112
+LOOP BASED analysis between:105-112
+LOOP analysis returned: 2
+i to j:0-4=>src to dst:105-116
+LOOP BASED analysis between:105-116
+LOOP analysis returned: 2
+i to j:1-2=>src to dst:106-108
+LOOP BASED analysis between:106-108
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:106-112
+LOOP BASED analysis between:106-112
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:106-116
+LOOP BASED analysis between:106-116
+LOOP analysis returned: 2
+i to j:2-3=>src to dst:108-112
+LOOP BASED analysis between:108-112
+DISTANCE BASED analysis between:108-112
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:108-116
+LOOP BASED analysis between:108-116
+DISTANCE BASED analysis between:108-116
+LOOP analysis returned: 2
+i to j:3-4=>src to dst:112-116
+LOOP BASED analysis between:112-116
+DISTANCE BASED analysis between:112-116
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 
+    --------------------
+s 0|  0   0   0   0   0 
+s 1|  1   0   0   0   0 
+s 2|  1   1   0   0   0 
+s 3|  1   1   1   0   0 
+s 4|  1   1   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.888502e+00 1.888502e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [0]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fbdd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3cdb9) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcc4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcd7) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470257) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+4: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [0]
+1: [1,6,9,14,25,30,33,38,41,46,57,62]
+2: [2,7-8,10,15,24,26,31-32,34,39-40,42,47,56,58,63]
+3: [3-4,11-12,27-28,35-36,43-44,59-60]
+4: [5,13,16-23,29,37,45,48-55,61,64-127]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+**********************************************
+PIN_FAULTY_PROCESS=cab12-4941
+Injecting in - Name-_ZN9LAMMPS_NS4Comm11communicateEv-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab4-72431:0,cab4-72432:1,cab4-72433:2,cab4-72434:3,cab4-72435:4,cab4-72436:5,cab4-72437:6,cab4-72438:7,cab4-72439:8,cab4-72440:9,cab4-72441:10,cab4-72442:11,cab4-72443:12,cab4-72444:13,cab4-72445:14,cab4-72446:15,cab10-129174:16,cab10-129175:17,cab10-129176:18,cab10-129177:19,cab10-129178:20,cab10-129179:21,cab10-129180:22,cab10-129181:23,cab10-129182:24,cab10-129183:25,cab10-129184:26,cab10-129185:27,cab10-129186:28,cab10-129187:29,cab10-129188:30,cab10-129189:31,cab11-32351:32,cab11-32352:33,cab11-32353:34,cab11-32354:35,cab11-32355:36,cab11-32356:37,cab11-32357:38,cab11-32358:39,cab11-32359:40,cab11-32360:41,cab11-32361:42,cab11-32362:43,cab11-32363:44,cab11-32364:45,cab11-32365:46,cab11-32366:47,cab12-4940:48,cab12-4941:49,cab12-4942:50,cab12-4943:51,cab12-4944:52,cab12-4945:53,cab12-4946:54,cab12-4947:55,cab12-4948:56,cab12-4949:57,cab12-4950:58,cab12-4951:59,cab12-4952:60,cab12-4953:61,cab12-4954:62,cab12-4955:63,cab13-16494:64,cab13-16495:65,cab13-16496:66,cab13-16497:67,cab13-16498:68,cab13-16499:69,cab13-16500:70,cab13-16501:71,cab13-16502:72,cab13-16503:73,cab13-16504:74,cab13-16505:75,cab13-16506:76,cab13-16507:77,cab13-16508:78,cab13-16509:79,cab14-49241:80,cab14-49242:81,cab14-49243:82,cab14-49244:83,cab14-49245:84,cab14-49246:85,cab14-49247:86,cab14-49248:87,cab14-49249:88,cab14-49250:89,cab14-49251:90,cab14-49252:91,cab14-49253:92,cab14-49254:93,cab14-49255:94,cab14-49256:95,cab15-100654:96,cab15-100655:97,cab15-100656:98,cab15-100657:99,cab15-100658:100,cab15-100659:101,cab15-100660:102,cab15-100661:103,cab15-100662:104,cab15-100663:105,cab15-100664:106,cab15-100665:107,cab15-100666:108,cab15-100667:109,cab15-100668:110,cab15-100669:111,cab16-29498:112,cab16-29499:113,cab16-29500:114,cab16-29501:115,cab16-29502:116,cab16-29503:117,cab16-29504:118,cab16-29505:119,cab16-29506:120,cab16-29507:121,cab16-29508:122,cab16-29509:123,cab16-29510:124,cab16-29511:125,cab16-29512:126,cab16-29513:127,
+*** MEMORY USED 1: 177872 ***
+------ NUMBER OF TOTAL LOOPS : 14
+*** MEMORY USED 2: 178872 ***
+i to j:0-1=>src to dst:106-108
+LOOP BASED analysis between:106-108
+DISTANCE BASED analysis between:106-108
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:106-112
+LOOP BASED analysis between:106-112
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:106-116
+LOOP BASED analysis between:106-116
+LOOP analysis returned: 2
+i to j:0-4=>src to dst:106-117
+LOOP BASED analysis between:106-117
+LOOP analysis returned: 1
+i to j:1-2=>src to dst:108-112
+LOOP BASED analysis between:108-112
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:108-116
+LOOP BASED analysis between:108-116
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:108-117
+LOOP BASED analysis between:108-117
+LOOP analysis returned: 1
+i to j:2-3=>src to dst:112-116
+LOOP BASED analysis between:112-116
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:112-117
+LOOP BASED analysis between:112-117
+LOOP analysis returned: 1
+i to j:3-4=>src to dst:116-117
+LOOP BASED analysis between:116-117
+LOOP analysis returned: 1
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 
+    --------------------
+s 0|  0   0   0   0   1 
+s 1|  1   0   0   0   1 
+s 2|  1   1   0   0   1 
+s 3|  1   1   1   0   1 
+s 4|  0   0   0   0   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.893883e+00 1.893883e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 4, tasks: [49]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcc4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcd7) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470257) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+4: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dca5) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [10,15,18,23,26,31,42,47,50,55,58,63,74,79,82,87,90,95]
+1: [8-9,11,16-17,19,24-25,27,40-41,43,48,51,56-57,59,72-73,75,80-81,83,88-89,91]
+2: [12-13,20-21,28-29,44-45,52-53,60-61,76-77,84-85,92-93]
+3: [0-7,14,22,30,32-39,46,54,62,64-71,78,86,94,96-127]
+4: [49]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+**********************************************
+PIN_FAULTY_PROCESS=cab8-127609
+Injecting in - Name-_ZN9LAMMPS_NS6FixNVE15final_integrateEv-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-71361:0,cab1-71362:1,cab1-71363:2,cab1-71364:3,cab1-71365:4,cab1-71366:5,cab1-71367:6,cab1-71368:7,cab1-71369:8,cab1-71370:9,cab1-71371:10,cab1-71372:11,cab1-71373:12,cab1-71374:13,cab1-71375:14,cab1-71376:15,cab2-114441:16,cab2-114442:17,cab2-114443:18,cab2-114444:19,cab2-114445:20,cab2-114446:21,cab2-114447:22,cab2-114448:23,cab2-114449:24,cab2-114450:25,cab2-114451:26,cab2-114452:27,cab2-114453:28,cab2-114454:29,cab2-114455:30,cab2-114456:31,cab3-36507:32,cab3-36508:33,cab3-36509:34,cab3-36510:35,cab3-36511:36,cab3-36512:37,cab3-36513:38,cab3-36514:39,cab3-36515:40,cab3-36516:41,cab3-36517:42,cab3-36518:43,cab3-36519:44,cab3-36520:45,cab3-36521:46,cab3-36522:47,cab5-76976:48,cab5-76977:49,cab5-76978:50,cab5-76979:51,cab5-76980:52,cab5-76981:53,cab5-76982:54,cab5-76983:55,cab5-76984:56,cab5-76985:57,cab5-76986:58,cab5-76987:59,cab5-76988:60,cab5-76989:61,cab5-76990:62,cab5-76991:63,cab6-107294:64,cab6-107295:65,cab6-107296:66,cab6-107297:67,cab6-107298:68,cab6-107299:69,cab6-107300:70,cab6-107301:71,cab6-107302:72,cab6-107303:73,cab6-107304:74,cab6-107305:75,cab6-107306:76,cab6-107307:77,cab6-107308:78,cab6-107309:79,cab7-123451:80,cab7-123452:81,cab7-123453:82,cab7-123454:83,cab7-123455:84,cab7-123456:85,cab7-123457:86,cab7-123458:87,cab7-123459:88,cab7-123460:89,cab7-123461:90,cab7-123462:91,cab7-123463:92,cab7-123464:93,cab7-123465:94,cab7-123466:95,cab8-127609:96,cab8-127610:97,cab8-127611:98,cab8-127612:99,cab8-127613:100,cab8-127614:101,cab8-127615:102,cab8-127616:103,cab8-127617:104,cab8-127618:105,cab8-127619:106,cab8-127620:107,cab8-127621:108,cab8-127622:109,cab8-127623:110,cab8-127624:111,cab9-23521:112,cab9-23522:113,cab9-23523:114,cab9-23524:115,cab9-23525:116,cab9-23526:117,cab9-23527:118,cab9-23528:119,cab9-23529:120,cab9-23530:121,cab9-23531:122,cab9-23532:123,cab9-23533:124,cab9-23534:125,cab9-23535:126,cab9-23536:127,
+*** MEMORY USED 1: 176968 ***
+------ NUMBER OF TOTAL LOOPS : 14
+*** MEMORY USED 2: 178040 ***
+i to j:0-1=>src to dst:106-108
+LOOP BASED analysis between:106-108
+LOOP analysis returned: 1
+i to j:0-2=>src to dst:106-112
+LOOP BASED analysis between:106-112
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:106-116
+LOOP BASED analysis between:106-116
+LOOP analysis returned: 2
+i to j:0-4=>src to dst:106-117
+LOOP BASED analysis between:106-117
+LOOP analysis returned: 1
+i to j:1-2=>src to dst:108-112
+LOOP BASED analysis between:108-112
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:108-116
+LOOP BASED analysis between:108-116
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:108-117
+LOOP BASED analysis between:108-117
+LOOP analysis returned: 1
+i to j:2-3=>src to dst:112-116
+LOOP BASED analysis between:112-116
+DISTANCE BASED analysis between:112-116
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:112-117
+LOOP BASED analysis between:112-117
+LOOP analysis returned: 1
+i to j:3-4=>src to dst:116-117
+LOOP BASED analysis between:116-117
+LOOP analysis returned: 1
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 
+    --------------------
+s 0|  0   1   0   0   1 
+s 1|  0   0   0   0   1 
+s 2|  1   1   0   0   1 
+s 3|  1   1   1   0   1 
+s 4|  0   0   0   0   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.987119e+00 1.987119e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 4, tasks: [96]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcc4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7dd3) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x46fcd7) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470257) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+4: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c82e9) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x47027b) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dca5) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [1,6,9,14,25,30,65,70,73,78,89,94,97,102,105,110,121,126]
+1: [0,2,7-8,10,15,24,26,31,64,66,71-72,74,79,88,90,95,98,103-104,106,111,120,122,127]
+2: [3-4,11-12,27-28,67-68,75-76,91-92,99-100,107-108,123-124]
+3: [5,13,16-23,29,32-63,69,77,80-87,93,101,109,112-119,125]
+4: [96]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+LAMMPS (22 Jun 2007)
+Lattice spacing in x,y,z = 1.6796 1.6796 1.6796
+Created orthogonal box = (0 0 0) to (67.1838 67.1838 67.1838)
+  4 by 4 by 8 processor grid
+Created 256000 atoms
+Setting up run ...
+Memory usage per processor = 1.79095 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0         1.44   -6.7733681            0   -4.6133765    -5.019674 
+**********************************************
+PIN_FAULTY_PROCESS=cab15-108292
+Injecting in - Name-_ZN9LAMMPS_NS13AtomVecAtomic15unpack_exchangeEPd-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab4-80077:0,cab4-80078:1,cab4-80079:2,cab4-80080:3,cab4-80081:4,cab4-80082:5,cab4-80083:6,cab4-80084:7,cab4-80085:8,cab4-80086:9,cab4-80087:10,cab4-80088:11,cab4-80089:12,cab4-80090:13,cab4-80091:14,cab4-80092:15,cab10-6328:16,cab10-6329:17,cab10-6330:18,cab10-6331:19,cab10-6332:20,cab10-6333:21,cab10-6334:22,cab10-6335:23,cab10-6336:24,cab10-6337:25,cab10-6339:26,cab10-6341:27,cab10-6343:28,cab10-6345:29,cab10-6347:30,cab10-6349:31,cab11-39978:32,cab11-39979:33,cab11-39980:34,cab11-39981:35,cab11-39982:36,cab11-39983:37,cab11-39984:38,cab11-39985:39,cab11-39986:40,cab11-39987:41,cab11-39988:42,cab11-39989:43,cab11-39990:44,cab11-39991:45,cab11-39992:46,cab11-39993:47,cab12-12710:48,cab12-12711:49,cab12-12712:50,cab12-12713:51,cab12-12714:52,cab12-12715:53,cab12-12716:54,cab12-12717:55,cab12-12718:56,cab12-12719:57,cab12-12720:58,cab12-12721:59,cab12-12722:60,cab12-12723:61,cab12-12724:62,cab12-12725:63,cab13-24189:64,cab13-24190:65,cab13-24191:66,cab13-24192:67,cab13-24193:68,cab13-24194:69,cab13-24195:70,cab13-24196:71,cab13-24197:72,cab13-24198:73,cab13-24199:74,cab13-24200:75,cab13-24201:76,cab13-24202:77,cab13-24203:78,cab13-24204:79,cab14-56867:80,cab14-56868:81,cab14-56869:82,cab14-56870:83,cab14-56871:84,cab14-56872:85,cab14-56873:86,cab14-56874:87,cab14-56875:88,cab14-56876:89,cab14-56877:90,cab14-56878:91,cab14-56879:92,cab14-56880:93,cab14-56881:94,cab14-56882:95,cab15-108285:96,cab15-108286:97,cab15-108287:98,cab15-108288:99,cab15-108289:100,cab15-108290:101,cab15-108291:102,cab15-108292:103,cab15-108293:104,cab15-108294:105,cab15-108295:106,cab15-108296:107,cab15-108297:108,cab15-108298:109,cab15-108299:110,cab15-108300:111,cab16-37124:112,cab16-37125:113,cab16-37126:114,cab16-37127:115,cab16-37128:116,cab16-37129:117,cab16-37130:118,cab16-37131:119,cab16-37132:120,cab16-37133:121,cab16-37134:122,cab16-37135:123,cab16-37136:124,cab16-37137:125,cab16-37138:126,cab16-37139:127,
+*** MEMORY USED 1: 175908 ***
+------ NUMBER OF TOTAL LOOPS : 13
+*** MEMORY USED 2: 176868 ***
+i to j:0-1=>src to dst:118-120
+LOOP BASED analysis between:118-120
+DISTANCE BASED analysis between:118-120
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:118-126
+LOOP BASED analysis between:118-126
+DISTANCE BASED analysis between:118-126
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:118-132
+LOOP BASED analysis between:118-132
+DISTANCE BASED analysis between:118-132
+LOOP analysis returned: 2
+i to j:0-4=>src to dst:118-133
+LOOP BASED analysis between:118-133
+LOOP analysis returned: 1
+i to j:0-5=>src to dst:118-134
+PROBABILITY BASED analysis between:118-134
+i to j:0-6=>src to dst:118-138
+PROBABILITY BASED analysis between:118-138
+i to j:0-7=>src to dst:118-140
+PROBABILITY BASED analysis between:118-140
+i to j:1-2=>src to dst:120-126
+LOOP BASED analysis between:120-126
+DISTANCE BASED analysis between:120-126
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:120-132
+LOOP BASED analysis between:120-132
+DISTANCE BASED analysis between:120-132
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:120-133
+LOOP BASED analysis between:120-133
+LOOP analysis returned: 1
+i to j:1-5=>src to dst:120-134
+PROBABILITY BASED analysis between:120-134
+i to j:1-6=>src to dst:120-138
+PROBABILITY BASED analysis between:120-138
+i to j:1-7=>src to dst:120-140
+PROBABILITY BASED analysis between:120-140
+i to j:2-3=>src to dst:126-132
+LOOP BASED analysis between:126-132
+DISTANCE BASED analysis between:126-132
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:126-133
+LOOP BASED analysis between:126-133
+LOOP analysis returned: 1
+i to j:2-5=>src to dst:126-134
+PROBABILITY BASED analysis between:126-134
+i to j:2-6=>src to dst:126-138
+PROBABILITY BASED analysis between:126-138
+i to j:2-7=>src to dst:126-140
+PROBABILITY BASED analysis between:126-140
+i to j:3-4=>src to dst:132-133
+LOOP BASED analysis between:132-133
+LOOP analysis returned: 1
+i to j:3-5=>src to dst:132-134
+PROBABILITY BASED analysis between:132-134
+i to j:3-6=>src to dst:132-138
+PROBABILITY BASED analysis between:132-138
+i to j:3-7=>src to dst:132-140
+PROBABILITY BASED analysis between:132-140
+i to j:4-5=>src to dst:133-134
+PROBABILITY BASED analysis between:133-134
+i to j:4-6=>src to dst:133-138
+PROBABILITY BASED analysis between:133-138
+i to j:4-7=>src to dst:133-140
+PROBABILITY BASED analysis between:133-140
+i to j:5-6=>src to dst:134-138
+LOOP BASED analysis between:134-138
+LOOP analysis returned: 2
+i to j:5-7=>src to dst:134-140
+LOOP BASED analysis between:134-140
+LOOP analysis returned: 2
+i to j:6-7=>src to dst:138-140
+LOOP BASED analysis between:138-140
+DISTANCE BASED analysis between:138-140
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 s 5 s 6 s 7 
+    --------------------------------
+s 0|  0   0   0   0   1   0   0   0 
+s 1|  1   0   0   0   1   0   0   0 
+s 2|  1   1   0   0   1   0   0   0 
+s 3|  1   1   1   0   1   0   0   0 
+s 4|  0   0   0   0   0   0   0   0 
+s 5|  1   1   1   1   1   0   0   0 
+s 6|  1   1   1   1   1   1   0   0 
+s 7|  1   1   1   1   1   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.980007e+00 1.980007e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 4, tasks: [103]
+States: 
+-------
+0: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4708ac) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3bf93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+1: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470958) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3bf93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+2: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470a40) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+3: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470b28) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+4: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7ee8) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x470b28) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dca5) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ae36) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+5: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7efb) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4711cd) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3bf93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+6: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7efb) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4712cb) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31e8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+7: /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x43a429) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x518034) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50e32e) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x50ffd1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5adef1) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x5c7efb) : /g/g90/mitra3/work/LAMMPS/lammps-22Jun07/bench/lmp_g++(0x4712e4) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x3dc8c) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x31b93) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4af06) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4ad89) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f72d) : /g/g90/mitra3/work/for_cab/automaded_LA_24Oct/install/lib/libstracker.so.0.0.0(0x4f2c7)
+Task locations: 
+---------------
+0: [102,110,118,126-127]
+1: [96,104,111-112,120]
+2: [101,109,117,119,125]
+3: [97,105,113,121]
+4: [103]
+5: [0-1,4-9,12-17,20-25,28-31,36,44,52,60,64-65,68-73,76-81,84-89,92-95,100,108,116,124]
+6: [2,10,18,26,34,42,50,58,66,74,82,90,98,106,114,122]
+7: [3,11,19,27,32-33,35,37-41,43,45-49,51,53-57,59,61-63,67,75,83,91,99,107,115,123]
+Stack created using callpath, support for filename and line number will be provided later

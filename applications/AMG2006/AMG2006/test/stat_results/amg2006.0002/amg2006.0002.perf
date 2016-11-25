@@ -1,0 +1,28 @@
+STAT version 2.0.0
+Application: amg2006
+Number of Nodes: 4
+Number of Processes: 128
+
+All times reported in seconds
+
+MRNet Launch Time:
+	Launchmon Launch Time: 0.577
+	App Node List Creation Time: 0.000
+	Create Topology File Time: 0.002
+	MRNet Constructor Time: 0.009
+	Create Daemon Rank Map Time: 0.000
+	Launchmon Send Time: 0.000
+	Connect to Daemons Time: 1.373
+	Stream Creation and Filter Load Time: 0.006
+	Total MRNet Launch Time: 1.982
+Attach Time: 0.198
+Sample Traces Time: 0.259
+Gather 2D Traces Time (receive and merge):
+	Merge: 0.001
+Graph Rank Ordering Time: 0.000
+Export Graph Files Time: 0.002
+Sample Traces Time: 2.085
+Gather 2D Traces Time (receive and merge):
+	Merge: 0.002
+Graph Rank Ordering Time: 0.001
+Export Graph Files Time: 0.004

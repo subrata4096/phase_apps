@@ -1,0 +1,50 @@
+# IBM BGP = mpCC_r, native MPI, FFTW
+
+SHELL = /bin/sh
+.SUFFIXES: .cpp .u
+.IGNORE:
+
+# System-specific settings
+
+CC =		mpCC_r
+CCFLAGS =	-O3 -I/bgsys/local/fftw-2.1.5/include -DFFT_FFTW  -DMPICH_SKIP_MPICXX
+DEPFLAGS =	-M
+LINK =		mpCC_r
+LINKFLAGS =	-O3 -L/usr/lib -L/bgsys/local/fftw-2.1.5/lib
+USRLIB =	-lfftw ## -lfftw_mpi
+TRACE  =        /bgusr/walkup/hpm/lib/libmpihpm.a
+SYSLIB =	-lm
+SIZE =		size
+
+# Link rule
+
+$(EXE):	$(OBJ)
+	$(LINK) $(LINKFLAGS) $(OBJ) $(USRLIB) $(SYSLIB) -o $(EXE)
+	$(SIZE) $(EXE)
+
+# --------- old section -------------
+
+# Compilation rules
+
+#.cpp.o:
+#	$(CC) $(CCFLAGS) -c $<
+
+# Individual dependencies
+
+#$(OBJ):	     $(INC)
+
+# --------- new section -------------
+
+# Compilation rules
+
+%.o:%.cpp
+	$(CC) $(CCFLAGS) -c $<
+
+%.u:%.cpp
+	$(CC) $(CCFLAGS) $(DEPFLAGS) -c $<
+
+# Individual dependencies
+
+DEPENDS = $(OBJ:.o=.u)
+include $(DEPENDS)
+

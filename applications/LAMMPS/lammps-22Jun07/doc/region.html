@@ -1,0 +1,147 @@
+<HTML>
+<CENTER><A HREF = "http://lammps.sandia.gov">LAMMPS WWW Site</A> - <A HREF = "Manual.html">LAMMPS Documentation</A> - <A HREF = "Section_commands.html#comm">LAMMPS Commands</A> 
+</CENTER>
+
+
+
+
+
+
+<HR>
+
+<H3>region command 
+</H3>
+<P><B>Syntax:</B>
+</P>
+<PRE>region ID style args keyword value ... 
+</PRE>
+<UL><LI>ID = user-assigned name for the region 
+
+<LI>style = <I>block</I> or <I>cylinder</I> or <I>prism</I> or <I>sphere</I> or <I>union</I> or <I>intersect</I> 
+
+<PRE>  <I>block</I> args = xlo xhi ylo yhi zlo zhi
+      xlo,xhi,ylo,yhi,zlo,zhi = bounds of block in all
+        dimensions (distance units)
+  <I>cylinder</I> args = dim c1 c2 radius lo hi
+    dim = <I>x</I> or <I>y</I> or <I>z</I> = axis of cylinder
+    c1,c2 = coords of cylinder axis in other 2 dimensions (distance units)
+    radius = cylinder radius (distance units)
+    lo,hi = bounds of cylinder in dim (distance units)
+  <I>prism</I> args = xlo xhi ylo yhi zlo zhi xy xz yz
+      xlo,xhi,ylo,yhi,zlo,zhi = bounds of untilted prism (distance units)
+      xy = distance to tilt y in x direction (distance units)
+      xz = distance to tilt z in x direction (distance units)
+      yz = distance to tilt z in y direction (distance units)
+  <I>sphere</I> args = x y z radius
+      x,y,z = center of sphere (distance units)
+      radius = radius of sphere (distance units)
+  <I>union</I> args = N reg-ID1 reg-ID2 ...
+    N = # of regions to follow, must be 2 or greater
+    reg-ID1,reg-ID2, ... = IDs of regions to join together
+  <I>intersect</I> args = N reg-ID1 reg-ID2 ...
+    N = # of regions to follow, must be 2 or greater
+    reg-ID1,reg-ID2, ... = IDs of regions to intersect 
+</PRE>
+<LI>zero or more keyword/value pairs may be appended to the args 
+
+<LI>keyword = <I>side</I> or <I>units</I> 
+
+<PRE>  <I>side</I> value = <I>in</I> or <I>out</I>
+    <I>in</I> = the region is inside the specified geometry
+    <I>out</I> = the region is outside the specified geometry
+  <I>units</I> value = <I>lattice</I> or <I>box</I>
+    <I>lattice</I> = the geometry is defined in lattice units
+    <I>box</I> = the geometry is defined in simulation box units 
+</PRE>
+
+</UL>
+<P><B>Examples:</B>
+</P>
+<PRE>region 1 block -3.0 5.0 INF 10.0 INF INF
+region 2 sphere 0.0 0.0 0.0 5 side out
+region void cylinder y 2 3 5 -5.0 INF units box
+region 1 prism 0 10 0 10 0 10 2 0 0
+region outside union 4 side1 side2 side3 side4 
+</PRE>
+<P><B>Description:</B>
+</P>
+<P>This command defines a geometric region of space.  Various other
+commands use regions.  For example, the region can be filled with
+atoms via the <A HREF = "create_atoms.html">create_atoms</A> command.  Or the atoms
+in the region can be identified as a group via the <A HREF = "group.html">group</A>
+command, or deleted via the <A HREF = "delete_atoms.html">delete_atoms</A> command.
+</P>
+<P>The lo/hi values for <I>block</I> or <I>cylinder</I> or <I>prism</I> styles can be
+specified as INF which means they extend all the way to the global
+simulation box boundary.  If a region is defined before the simulation
+box has been created (via <A HREF = "create_box.html">create_box</A> or
+<A HREF = "read_data.html">read_data</A> or <A HREF = "read_restart.html">read_restart</A>
+commands), then an INF parameter cannot be used.
+</P>
+<P>For style <I>cylinder</I>, the c1,c2 params are coordinates in the 2 other
+dimensions besides the cylinder axis dimension.  For dim = x, c1/c2 =
+y/z; for dim = y, c1/c2 = x/z; for dim = z, c1/c2 = x/y.  Thus the
+third example above specifes a cylinder with its axis in the
+y-direction located at x = 2.0 and z = 3.0, with a radius of 5.0, and
+extending in the y-direction from -5.0 to the upper box boundary.
+</P>
+<P>For style <I>prism</I>, a parallelepiped is defined (it's too hard to spell
+parallelepiped in an input script!).  Think of the parallelepided as
+initially an axis-aligned orthogonal box with the same xyz lo/hi
+parameters as region style <I>block</I> would define.  Then, while holding
+the (xlo,ylo,zlo) corner point fixed, the box is "skewed" or "tilted"
+in 3 directions.  First, for the lower xy face of the box, the <I>xy</I>
+factor is how far the upper y edge is shifted in the x direction.  The
+lower xy face is now a parallelogram.  A plus or minus value for <I>xy</I>
+can be specified; 0.0 means no tilt.  Then, the upper xy face of the
+box is translated in the x and y directions by <I>xz</I> and <I>yz</I>.  This
+results in a parallelepiped whose "origin" is at (xlo,ylo,zlo) with 3
+edge vectors starting from its origin given by a = (xhi-xlo,0,0); b =
+(xy,yhi-ylo,0); c = (xz,yz,zhi-zlo).
+</P>
+<P>A prism region used with the <A HREF = "create_box.html">create_box</A> command must
+have tilt factors (xy,xz,yz) that do not skew the box more than half
+the distance of the parallel box length.  For example, if xlo = 2 and
+xhi = 12, then the x box length is 10 and the xy tilt factor must be
+between -5 and 5.  Similarly, both xz and yz must be between
+-(xhi-xlo)/2 and +(yhi-ylo)/2.  Note that this is not a limitation,
+since if the maximum tilt factor is 5 (as in this example), then
+configurations with tilt = ..., -15, -5, 5, 15, 25, ... are all
+equivalent.
+</P>
+<P>The <I>union</I> style creates a region consisting of the volume of all the
+listed regions combined.  The <I>intesect</I> style creates a region
+consisting of the volume that is common to all the listed regions.
+</P>
+<P>The <I>side</I> keyword determines whether the region is considered to be
+inside or outside of the specified geometry.  Using this keyword in
+conjunction with <I>union</I> and <I>intersect</I> regions, complex geometries
+can be built up.  For example, if the interior of two spheres were
+each defined as regions, and a <I>union</I> style with <I>side</I> = out was
+constructed listing the region-IDs of the 2 spheres, the resulting
+region would be all the volume in the simulation box that was outside
+both of the spheres.
+</P>
+<P>The <I>units</I> keyword determines the meaning of the distance units used
+to define the region.  A <I>box</I> value selects standard distance units
+as defined by the <A HREF = "units.html">units</A> command, e.g. Angstroms for units
+= real or metal.  A <I>lattice</I> value means the distance units are in
+lattice spacings.  The <A HREF = "lattice.html">lattice</A> command must have been
+previously used to define the lattice spacing.
+</P>
+<P><B>Restrictions:</B>
+</P>
+<P>A prism cannot be of 0.0 thickness in any dimension; use a small z
+thickness for 2d simulations.  For 2d simulations, the xz and yz
+parameters must be 0.0.
+</P>
+<P><B>Related commands:</B>
+</P>
+<P><A HREF = "lattice.html">lattice</A>, <A HREF = "create_atoms.html">create_atoms</A>,
+<A HREF = "delete_atoms.html">delete_atoms</A>, <A HREF = "group.html">group</A>
+</P>
+<P><B>Default:</B>
+</P>
+<P>The option defaults are side = in and units = lattice.
+</P>
+</HTML>

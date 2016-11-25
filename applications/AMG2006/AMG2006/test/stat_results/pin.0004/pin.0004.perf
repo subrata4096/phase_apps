@@ -1,0 +1,23 @@
+STAT version 2.0.0
+Application: pin
+Number of Nodes: 2
+Number of Processes: 32
+
+All times reported in seconds
+
+MRNet Launch Time:
+	Launchmon Launch Time: 0.660
+	App Node List Creation Time: 0.000
+	Create Topology File Time: 0.002
+	MRNet Constructor Time: 0.010
+	Create Daemon Rank Map Time: 0.000
+	Launchmon Send Time: 0.000
+	Connect to Daemons Time: 1.325
+	Stream Creation and Filter Load Time: 0.004
+	Total MRNet Launch Time: 2.013
+Attach Time: 0.069
+Sample Traces Time: 0.045
+Gather 2D Traces Time (receive and merge):
+	Merge: 0.001
+Graph Rank Ordering Time: 0.000
+Export Graph Files Time: 0.002

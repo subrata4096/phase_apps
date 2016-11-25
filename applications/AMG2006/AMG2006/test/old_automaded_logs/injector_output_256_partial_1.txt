@@ -1,0 +1,455 @@
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 5.404685 seconds
+  cpu clock time  = 3.500000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab17-118426
+Injecting in - Name-hypre_BoomerAMGCreateS-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab14-47638:0,cab14-47639:1,cab14-47640:2,cab14-47641:3,cab14-47642:4,cab14-47643:5,cab14-47644:6,cab14-47645:7,cab14-47646:8,cab14-47647:9,cab14-47648:10,cab14-47649:11,cab14-47650:12,cab14-47651:13,cab14-47652:14,cab14-47653:15,cab14-47654:16,cab14-47655:17,cab14-47656:18,cab14-47657:19,cab14-47658:20,cab14-47659:21,cab14-47660:22,cab14-47661:23,cab14-47662:24,cab14-47663:25,cab14-47664:26,cab14-47665:27,cab14-47666:28,cab14-47667:29,cab14-47668:30,cab14-47669:31,cab15-99054:32,cab15-99055:33,cab15-99056:34,cab15-99057:35,cab15-99058:36,cab15-99059:37,cab15-99060:38,cab15-99061:39,cab15-99062:40,cab15-99063:41,cab15-99064:42,cab15-99065:43,cab15-99066:44,cab15-99067:45,cab15-99068:46,cab15-99069:47,cab15-99070:48,cab15-99071:49,cab15-99072:50,cab15-99073:51,cab15-99074:52,cab15-99075:53,cab15-99076:54,cab15-99077:55,cab15-99078:56,cab15-99079:57,cab15-99080:58,cab15-99081:59,cab15-99082:60,cab15-99083:61,cab15-99084:62,cab15-99085:63,cab16-27882:64,cab16-27883:65,cab16-27884:66,cab16-27885:67,cab16-27886:68,cab16-27887:69,cab16-27888:70,cab16-27889:71,cab16-27890:72,cab16-27891:73,cab16-27892:74,cab16-27893:75,cab16-27894:76,cab16-27895:77,cab16-27896:78,cab16-27897:79,cab16-27898:80,cab16-27899:81,cab16-27900:82,cab16-27901:83,cab16-27902:84,cab16-27903:85,cab16-27904:86,cab16-27905:87,cab16-27906:88,cab16-27907:89,cab16-27908:90,cab16-27909:91,cab16-27910:92,cab16-27911:93,cab16-27912:94,cab16-27913:95,cab17-118422:96,cab17-118423:97,cab17-118424:98,cab17-118425:99,cab17-118426:100,cab17-118427:101,cab17-118428:102,cab17-118429:103,cab17-118430:104,cab17-118431:105,cab17-118432:106,cab17-118433:107,cab17-118434:108,cab17-118435:109,cab17-118436:110,cab17-118437:111,cab17-118438:112,cab17-118439:113,cab17-118440:114,cab17-118441:115,cab17-118442:116,cab17-118443:117,cab17-118444:118,cab17-118445:119,cab17-118446:120,cab17-118447:121,cab17-118448:122,cab17-118449:123,cab17-118450:124,cab17-118451:125,cab17-118452:126,cab17-118453:127,cab18-102053:128,cab18-102054:129,cab18-102055:130,cab18-102056:131,cab18-102057:132,cab18-102058:133,cab18-102059:134,cab18-102060:135,cab18-102061:136,cab18-102062:137,cab18-102063:138,cab18-102064:139,cab18-102065:140,cab18-102066:141,cab18-102067:142,cab18-102068:143,cab18-102069:144,cab18-102070:145,cab18-102071:146,cab18-102072:147,cab18-102073:148,cab18-102074:149,cab18-102075:150,cab18-102076:151,cab18-102077:152,cab18-102078:153,cab18-102079:154,cab18-102080:155,cab18-102081:156,cab18-102082:157,cab18-102083:158,cab18-102084:159,cab19-27814:160,cab19-27815:161,cab19-27816:162,cab19-27817:163,cab19-27818:164,cab19-27819:165,cab19-27820:166,cab19-27821:167,cab19-27822:168,cab19-27823:169,cab19-27824:170,cab19-27825:171,cab19-27826:172,cab19-27827:173,cab19-27828:174,cab19-27829:175,cab19-27830:176,cab19-27831:177,cab19-27832:178,cab19-27833:179,cab19-27834:180,cab19-27835:181,cab19-27836:182,cab19-27837:183,cab19-27838:184,cab19-27839:185,cab19-27840:186,cab19-27841:187,cab19-27842:188,cab19-27843:189,cab19-27844:190,cab19-27845:191,cab20-17496:192,cab20-17497:193,cab20-17498:194,cab20-17499:195,cab20-17500:196,cab20-17501:197,cab20-17502:198,cab20-17503:199,cab20-17504:200,cab20-17505:201,cab20-17506:202,cab20-17507:203,cab20-17508:204,cab20-17509:205,cab20-17510:206,cab20-17511:207,cab20-17512:208,cab20-17513:209,cab20-17514:210,cab20-17515:211,cab20-17516:212,cab20-17517:213,cab20-17518:214,cab20-17519:215,cab20-17520:216,cab20-17521:217,cab20-17522:218,cab20-17523:219,cab20-17524:220,cab20-17525:221,cab20-17526:222,cab20-17527:223,cab21-31385:224,cab21-31386:225,cab21-31387:226,cab21-31388:227,cab21-31389:228,cab21-31390:229,cab21-31391:230,cab21-31392:231,cab21-31393:232,cab21-31394:233,cab21-31395:234,cab21-31396:235,cab21-31397:236,cab21-31398:237,cab21-31399:238,cab21-31400:239,cab21-31401:240,cab21-31402:241,cab21-31403:242,cab21-31404:243,cab21-31405:244,cab21-31406:245,cab21-31407:246,cab21-31408:247,cab21-31409:248,cab21-31410:249,cab21-31411:250,cab21-31412:251,cab21-31413:252,cab21-31414:253,cab21-31415:254,cab21-31416:255,
+*** MEMORY USED 1: 221084 ***
+------ NUMBER OF TOTAL LOOPS : 67
+*** MEMORY USED 2: 222644 ***
+i to j:0-1=>src to dst:447-202
+LOOP BASED analysis between:447-202
+DISTANCE BASED analysis between:447-202
+LOOP analysis returned: 1
+i to j:0-2=>src to dst:447-218
+LOOP BASED analysis between:447-218
+DISTANCE BASED analysis between:447-218
+LOOP analysis returned: 1
+i to j:0-3=>src to dst:447-228
+LOOP BASED analysis between:447-228
+DISTANCE BASED analysis between:447-228
+LOOP analysis returned: 1
+i to j:1-2=>src to dst:202-218
+LOOP BASED analysis between:202-218
+DISTANCE BASED analysis between:202-218
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:202-228
+LOOP BASED analysis between:202-228
+DISTANCE BASED analysis between:202-228
+LOOP analysis returned: 2
+i to j:2-3=>src to dst:218-228
+LOOP BASED analysis between:218-228
+DISTANCE BASED analysis between:218-228
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 
+    ----------------
+s 0|  0   1   1   1 
+s 1|  0   0   0   0 
+s 2|  0   1   0   0 
+s 3|  0   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.227022e+01 1.227022e+01
+------------------------------
+Number of states with LP-tasks: 1
+STATE 1, tasks: [36-37,40,64-79,83,87,90-91,96-99,101-112,115,118-119,121-123,128-141,143,147,151,154-155,160,164]
+States: 
+-------
+0: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448bf7) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4a1d7e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4fcf36) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512e26) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+1: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44d122) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+2: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44d617) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x498922) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+3: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44d617) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x498b0e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+Task locations: 
+---------------
+0: [100]
+1: [36-37,40,64-79,83,87,90-91,96-99,101-112,115,118-119,121-123,128-141,143,147,151,154-155,160,164]
+2: [0-20,22-28,31-35,38-39,41-63,80-82,84-86,88-89,92-95,113-114,116-117,120,124-127,142,144-146,148-150,152-153,156-159,161-163,165-207,209-211,215,218-219,222-225,227-228]
+3: [21,29-30,208,212-214,216-217,220-221,226,229-255]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 5.293666 seconds
+  cpu clock time  = 3.600000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 322.918988 seconds
+  cpu clock time  = 187.860000 seconds
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+  wall clock time = 147.747420 seconds
+  cpu clock time  = 84.910000 seconds
+
+AMG Sequoia Benchmark version 1.0
+Iterations = 10
+Final Relative Residual Norm = 4.191075e-07
+
+System Size * Iterations / Solve Phase Time: 8.871356e+03
+
+
+---- Total time taken by AMG: 2.562200e+02 
+*** MEMORY USED: 224404 ***
+*** MEMORY USED: 224404 ***
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 5.381033 seconds
+  cpu clock time  = 4.670000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 332.140682 seconds
+  cpu clock time  = 192.950000 seconds
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+  wall clock time = 155.764594 seconds
+  cpu clock time  = 96.640000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab10-4648
+Injecting in - Name-HYPRE_StructStencilDestroy-
+
+AMG Sequoia Benchmark version 1.0
+Iterations = 10
+Final Relative Residual Norm = 4.191075e-07
+
+System Size * Iterations / Solve Phase Time: 8.414749e+03
+
+
+---- Total time taken by AMG: 2.326200e+02 
+*** MEMORY USED: 224032 ***
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab10-4606:0,cab10-4619:1,cab10-4623:2,cab10-4624:3,cab10-4627:4,cab10-4647:5,cab10-4648:6,cab10-4649:7,cab10-4650:8,cab10-4651:9,cab10-4652:10,cab10-4653:11,cab10-4654:12,cab10-4655:13,cab10-4656:14,cab10-4657:15,cab10-4658:16,cab10-4659:17,cab10-4660:18,cab10-4661:19,cab10-4662:20,cab10-4663:21,cab10-4664:22,cab10-4665:23,cab10-4666:24,cab10-4667:25,cab10-4668:26,cab10-4669:27,cab10-4670:28,cab10-4671:29,cab10-4672:30,cab10-4673:31,cab11-38220:32,cab11-38221:33,cab11-38222:34,cab11-38223:35,cab11-38224:36,cab11-38225:37,cab11-38226:38,cab11-38227:39,cab11-38228:40,cab11-38229:41,cab11-38230:42,cab11-38231:43,cab11-38232:44,cab11-38233:45,cab11-38234:46,cab11-38235:47,cab11-38236:48,cab11-38237:49,cab11-38238:50,cab11-38239:51,cab11-38240:52,cab11-38241:53,cab11-38242:54,cab11-38243:55,cab11-38244:56,cab11-38245:57,cab11-38246:58,cab11-38247:59,cab11-38248:60,cab11-38249:61,cab11-38250:62,cab11-38251:63,cab12-10999:64,cab12-11000:65,cab12-11001:66,cab12-11002:67,cab12-11003:68,cab12-11004:69,cab12-11005:70,cab12-11006:71,cab12-11007:72,cab12-11008:73,cab12-11009:74,cab12-11010:75,cab12-11011:76,cab12-11012:77,cab12-11013:78,cab12-11014:79,cab12-11015:80,cab12-11016:81,cab12-11017:82,cab12-11018:83,cab12-11019:84,cab12-11020:85,cab12-11021:86,cab12-11022:87,cab12-11023:88,cab12-11024:89,cab12-11025:90,cab12-11026:91,cab12-11027:92,cab12-11028:93,cab12-11029:94,cab12-11030:95,cab13-22430:96,cab13-22431:97,cab13-22432:98,cab13-22433:99,cab13-22434:100,cab13-22435:101,cab13-22436:102,cab13-22437:103,cab13-22438:104,cab13-22439:105,cab13-22440:106,cab13-22441:107,cab13-22442:108,cab13-22443:109,cab13-22444:110,cab13-22445:111,cab13-22446:112,cab13-22447:113,cab13-22448:114,cab13-22449:115,cab13-22450:116,cab13-22451:117,cab13-22452:118,cab13-22453:119,cab13-22454:120,cab13-22455:121,cab13-22456:122,cab13-22457:123,cab13-22458:124,cab13-22459:125,cab13-22460:126,cab13-22461:127,cab14-55433:128,cab14-55434:129,cab14-55435:130,cab14-55436:131,cab14-55437:132,cab14-55438:133,cab14-55439:134,cab14-55440:135,cab14-55441:136,cab14-55442:137,cab14-55443:138,cab14-55444:139,cab14-55445:140,cab14-55446:141,cab14-55447:142,cab14-55448:143,cab14-55449:144,cab14-55450:145,cab14-55451:146,cab14-55452:147,cab14-55453:148,cab14-55454:149,cab14-55455:150,cab14-55456:151,cab14-55457:152,cab14-55458:153,cab14-55459:154,cab14-55460:155,cab14-55461:156,cab14-55462:157,cab14-55463:158,cab14-55464:159,cab15-106835:160,cab15-106836:161,cab15-106837:162,cab15-106838:163,cab15-106839:164,cab15-106840:165,cab15-106841:166,cab15-106842:167,cab15-106843:168,cab15-106844:169,cab15-106845:170,cab15-106846:171,cab15-106847:172,cab15-106848:173,cab15-106849:174,cab15-106850:175,cab15-106851:176,cab15-106852:177,cab15-106853:178,cab15-106854:179,cab15-106855:180,cab15-106856:181,cab15-106857:182,cab15-106858:183,cab15-106859:184,cab15-106860:185,cab15-106861:186,cab15-106862:187,cab15-106863:188,cab15-106864:189,cab15-106865:190,cab15-106866:191,cab16-35658:192,cab16-35659:193,cab16-35660:194,cab16-35661:195,cab16-35662:196,cab16-35663:197,cab16-35664:198,cab16-35665:199,cab16-35666:200,cab16-35667:201,cab16-35668:202,cab16-35669:203,cab16-35670:204,cab16-35671:205,cab16-35672:206,cab16-35673:207,cab16-35674:208,cab16-35675:209,cab16-35676:210,cab16-35677:211,cab16-35678:212,cab16-35679:213,cab16-35680:214,cab16-35681:215,cab16-35682:216,cab16-35683:217,cab16-35684:218,cab16-35685:219,cab16-35686:220,cab16-35687:221,cab16-35688:222,cab16-35689:223,cab17-126204:224,cab17-126205:225,cab17-126206:226,cab17-126207:227,cab17-126208:228,cab17-126209:229,cab17-126210:230,cab17-126211:231,cab17-126212:232,cab17-126213:233,cab17-126214:234,cab17-126215:235,cab17-126216:236,cab17-126217:237,cab17-126218:238,cab17-126219:239,cab17-126220:240,cab17-126221:241,cab17-126222:242,cab17-126223:243,cab17-126224:244,cab17-126225:245,cab17-126226:246,cab17-126227:247,cab17-126228:248,cab17-126229:249,cab17-126230:250,cab17-126231:251,cab17-126232:252,cab17-126233:253,cab17-126234:254,cab17-126235:255,
+*** MEMORY USED 1: 233948 ***
+------ NUMBER OF TOTAL LOOPS : 107
+*** MEMORY USED 2: 236708 ***
+i to j:0-1=>src to dst:651-652
+PROBABILITY BASED analysis between:651-652
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.661535e+01 1.661535e+01
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [6]
+States: 
+-------
+0: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4413a9) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4fcab4) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x50af0c) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512e26) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+1: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441b8a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4fe5a3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+Task locations: 
+---------------
+0: [6]
+1: [0-5,7-255]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 5.336003 seconds
+  cpu clock time  = 4.930000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab24-2943
+Injecting in - Name-hypre_SeqVectorCreate-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab18-109870:0,cab18-109871:1,cab18-109872:2,cab18-109873:3,cab18-109874:4,cab18-109875:5,cab18-109876:6,cab18-109877:7,cab18-109878:8,cab18-109879:9,cab18-109880:10,cab18-109881:11,cab18-109882:12,cab18-109883:13,cab18-109884:14,cab18-109885:15,cab18-109886:16,cab18-109887:17,cab18-109888:18,cab18-109889:19,cab18-109890:20,cab18-109891:21,cab18-109892:22,cab18-109893:23,cab18-109894:24,cab18-109895:25,cab18-109896:26,cab18-109897:27,cab18-109898:28,cab18-109899:29,cab18-109900:30,cab18-109901:31,cab19-35598:32,cab19-35599:33,cab19-35600:34,cab19-35601:35,cab19-35602:36,cab19-35603:37,cab19-35604:38,cab19-35605:39,cab19-35606:40,cab19-35607:41,cab19-35608:42,cab19-35609:43,cab19-35610:44,cab19-35611:45,cab19-35612:46,cab19-35613:47,cab19-35614:48,cab19-35615:49,cab19-35616:50,cab19-35617:51,cab19-35618:52,cab19-35619:53,cab19-35620:54,cab19-35621:55,cab19-35622:56,cab19-35623:57,cab19-35624:58,cab19-35625:59,cab19-35626:60,cab19-35627:61,cab19-35628:62,cab19-35629:63,cab20-25277:64,cab20-25278:65,cab20-25279:66,cab20-25280:67,cab20-25281:68,cab20-25282:69,cab20-25283:70,cab20-25284:71,cab20-25285:72,cab20-25286:73,cab20-25287:74,cab20-25288:75,cab20-25289:76,cab20-25290:77,cab20-25291:78,cab20-25292:79,cab20-25293:80,cab20-25294:81,cab20-25295:82,cab20-25296:83,cab20-25297:84,cab20-25298:85,cab20-25299:86,cab20-25300:87,cab20-25301:88,cab20-25302:89,cab20-25303:90,cab20-25304:91,cab20-25305:92,cab20-25306:93,cab20-25307:94,cab20-25308:95,cab21-39168:96,cab21-39169:97,cab21-39170:98,cab21-39171:99,cab21-39172:100,cab21-39173:101,cab21-39174:102,cab21-39175:103,cab21-39176:104,cab21-39177:105,cab21-39178:106,cab21-39179:107,cab21-39180:108,cab21-39181:109,cab21-39182:110,cab21-39183:111,cab21-39184:112,cab21-39185:113,cab21-39186:114,cab21-39187:115,cab21-39188:116,cab21-39189:117,cab21-39190:118,cab21-39191:119,cab21-39192:120,cab21-39193:121,cab21-39194:122,cab21-39195:123,cab21-39196:124,cab21-39197:125,cab21-39198:126,cab21-39199:127,cab22-51443:128,cab22-51444:129,cab22-51445:130,cab22-51446:131,cab22-51447:132,cab22-51448:133,cab22-51449:134,cab22-51450:135,cab22-51451:136,cab22-51452:137,cab22-51453:138,cab22-51454:139,cab22-51455:140,cab22-51456:141,cab22-51457:142,cab22-51458:143,cab22-51459:144,cab22-51460:145,cab22-51461:146,cab22-51462:147,cab22-51463:148,cab22-51464:149,cab22-51465:150,cab22-51466:151,cab22-51467:152,cab22-51468:153,cab22-51469:154,cab22-51470:155,cab22-51471:156,cab22-51472:157,cab22-51473:158,cab22-51474:159,cab23-8189:160,cab23-8190:161,cab23-8191:162,cab23-8192:163,cab23-8193:164,cab23-8194:165,cab23-8195:166,cab23-8196:167,cab23-8197:168,cab23-8198:169,cab23-8199:170,cab23-8200:171,cab23-8201:172,cab23-8202:173,cab23-8203:174,cab23-8204:175,cab23-8205:176,cab23-8206:177,cab23-8207:178,cab23-8208:179,cab23-8209:180,cab23-8210:181,cab23-8211:182,cab23-8212:183,cab23-8213:184,cab23-8214:185,cab23-8215:186,cab23-8216:187,cab23-8217:188,cab23-8218:189,cab23-8219:190,cab23-8220:191,cab24-2920:192,cab24-2921:193,cab24-2922:194,cab24-2923:195,cab24-2924:196,cab24-2925:197,cab24-2926:198,cab24-2927:199,cab24-2928:200,cab24-2929:201,cab24-2930:202,cab24-2931:203,cab24-2932:204,cab24-2933:205,cab24-2934:206,cab24-2935:207,cab24-2936:208,cab24-2937:209,cab24-2938:210,cab24-2939:211,cab24-2940:212,cab24-2941:213,cab24-2942:214,cab24-2943:215,cab24-2944:216,cab24-2945:217,cab24-2946:218,cab24-2947:219,cab24-2948:220,cab24-2949:221,cab24-2950:222,cab24-2951:223,cab25-84706:224,cab25-84707:225,cab25-84708:226,cab25-84709:227,cab25-84710:228,cab25-84711:229,cab25-84712:230,cab25-84713:231,cab25-84714:232,cab25-84715:233,cab25-84716:234,cab25-84717:235,cab25-84718:236,cab25-84719:237,cab25-84720:238,cab25-84721:239,cab25-84722:240,cab25-84723:241,cab25-84724:242,cab25-84725:243,cab25-84726:244,cab25-84727:245,cab25-84728:246,cab25-84729:247,cab25-84730:248,cab25-84731:249,cab25-84732:250,cab25-84733:251,cab25-84734:252,cab25-84735:253,cab25-84736:254,cab25-84737:255,
+*** MEMORY USED 1: 218192 ***
+------ NUMBER OF TOTAL LOOPS : 67
+*** MEMORY USED 2: 219812 ***
+i to j:0-1=>src to dst:447-202
+LOOP BASED analysis between:447-202
+DISTANCE BASED analysis between:447-202
+LOOP analysis returned: 1
+i to j:0-2=>src to dst:447-218
+LOOP BASED analysis between:447-218
+DISTANCE BASED analysis between:447-218
+LOOP analysis returned: 1
+i to j:0-3=>src to dst:447-228
+LOOP BASED analysis between:447-228
+DISTANCE BASED analysis between:447-228
+LOOP analysis returned: 1
+i to j:0-4=>src to dst:447-238
+LOOP BASED analysis between:447-238
+DISTANCE BASED analysis between:447-238
+LOOP analysis returned: 1
+i to j:0-5=>src to dst:447-248
+LOOP BASED analysis between:447-248
+DISTANCE BASED analysis between:447-248
+LOOP analysis returned: 1
+i to j:0-6=>src to dst:447-250
+LOOP BASED analysis between:447-250
+DISTANCE BASED analysis between:447-250
+LOOP analysis returned: 1
+i to j:1-2=>src to dst:202-218
+LOOP BASED analysis between:202-218
+DISTANCE BASED analysis between:202-218
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:202-228
+LOOP BASED analysis between:202-228
+DISTANCE BASED analysis between:202-228
+LOOP analysis returned: 2
+i to j:1-4=>src to dst:202-238
+LOOP BASED analysis between:202-238
+DISTANCE BASED analysis between:202-238
+LOOP analysis returned: 2
+i to j:1-5=>src to dst:202-248
+LOOP BASED analysis between:202-248
+DISTANCE BASED analysis between:202-248
+LOOP analysis returned: 2
+i to j:1-6=>src to dst:202-250
+LOOP BASED analysis between:202-250
+DISTANCE BASED analysis between:202-250
+LOOP analysis returned: 2
+i to j:2-3=>src to dst:218-228
+LOOP BASED analysis between:218-228
+DISTANCE BASED analysis between:218-228
+LOOP analysis returned: 2
+i to j:2-4=>src to dst:218-238
+LOOP BASED analysis between:218-238
+DISTANCE BASED analysis between:218-238
+LOOP analysis returned: 2
+i to j:2-5=>src to dst:218-248
+LOOP BASED analysis between:218-248
+DISTANCE BASED analysis between:218-248
+LOOP analysis returned: 2
+i to j:2-6=>src to dst:218-250
+LOOP BASED analysis between:218-250
+DISTANCE BASED analysis between:218-250
+LOOP analysis returned: 2
+i to j:3-4=>src to dst:228-238
+LOOP BASED analysis between:228-238
+DISTANCE BASED analysis between:228-238
+LOOP analysis returned: 2
+i to j:3-5=>src to dst:228-248
+LOOP BASED analysis between:228-248
+DISTANCE BASED analysis between:228-248
+LOOP analysis returned: 2
+i to j:3-6=>src to dst:228-250
+LOOP BASED analysis between:228-250
+DISTANCE BASED analysis between:228-250
+LOOP analysis returned: 2
+i to j:4-5=>src to dst:238-248
+LOOP BASED analysis between:238-248
+DISTANCE BASED analysis between:238-248
+LOOP analysis returned: 2
+i to j:4-6=>src to dst:238-250
+LOOP BASED analysis between:238-250
+DISTANCE BASED analysis between:238-250
+LOOP analysis returned: 2
+i to j:5-6=>src to dst:248-250
+LOOP BASED analysis between:248-250
+DISTANCE BASED analysis between:248-250
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 s 4 s 5 s 6 
+    ----------------------------
+s 0|  0   1   1   1   1   1   1 
+s 1|  0   0   0   0   0   0   0 
+s 2|  0   1   0   0   0   0   0 
+s 3|  0   1   1   0   0   0   0 
+s 4|  0   1   1   1   0   0   0 
+s 5|  0   1   1   1   1   0   0 
+s 6|  0   1   1   1   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.194574e+01 1.194574e+01
+------------------------------
+Number of states with LP-tasks: 1
+STATE 1, tasks: [168,172,176,178-180,182-184,186-187,192,196,200,204,208-214,216-219,232,236,240,242-244,246-248,250-251]
+States: 
+-------
+0: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448bf7) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4a1d7e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4fcf36) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512e26) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+1: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44d122) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+2: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44d617) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x498922) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+3: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44d617) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x498b0e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+4: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44d6fd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+5: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44dabc) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495c0a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4febf0) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+6: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x448eea) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x45159f) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44daf7) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x50aedf) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+Task locations: 
+---------------
+0: [215]
+1: [168,172,176,178-180,182-184,186-187,192,196,200,204,208-214,216-219,232,236,240,242-244,246-248,250-251]
+2: [131-133,135-137,139-161,163-167,169-171,173-175,177,181,185,188-191,193-195,197-199,201-203,205-207,220-225,227-231,233-235,237-239,241,245,249,252-255]
+3: [96-130,134,138,162,226]
+4: [64-95]
+5: [32-63]
+6: [0-31]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 5.303047 seconds
+  cpu clock time  = 4.210000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 323.274553 seconds
+  cpu clock time  = 179.550000 seconds
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+  wall clock time = 154.856960 seconds
+  cpu clock time  = 94.310000 seconds
+
+**********************************************
+PIN_FAULTY_PROCESS=cab5-24504
+Injecting in - Name-hypre_StructGridDestroy-
+AMG Sequoia Benchmark version 1.0
+Iterations = 10
+Final Relative Residual Norm = 4.191075e-07
+
+System Size * Iterations / Solve Phase Time: 8.464069e+03
+
+
+---- Total time taken by AMG: 2.482500e+02 
+*** MEMORY USED: 224212 ***
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab4-79503:0,cab4-79504:1,cab4-79505:2,cab4-79506:3,cab4-79507:4,cab4-79508:5,cab4-79509:6,cab4-79510:7,cab4-79511:8,cab4-79512:9,cab4-79513:10,cab4-79514:11,cab4-79515:12,cab4-79516:13,cab4-79517:14,cab4-79518:15,cab4-79519:16,cab4-79520:17,cab4-79521:18,cab4-79522:19,cab4-79523:20,cab4-79524:21,cab4-79525:22,cab4-79526:23,cab4-79527:24,cab4-79528:25,cab4-79529:26,cab4-79530:27,cab4-79531:28,cab4-79532:29,cab4-79533:30,cab4-79534:31,cab5-24493:32,cab5-24494:33,cab5-24495:34,cab5-24496:35,cab5-24497:36,cab5-24498:37,cab5-24499:38,cab5-24500:39,cab5-24501:40,cab5-24502:41,cab5-24503:42,cab5-24504:43,cab5-24505:44,cab5-24506:45,cab5-24507:46,cab5-24508:47,cab5-24509:48,cab5-24510:49,cab5-24511:50,cab5-24512:51,cab5-24513:52,cab5-24514:53,cab5-24515:54,cab5-24516:55,cab5-24517:56,cab5-24518:57,cab5-24519:58,cab5-24520:59,cab5-24521:60,cab5-24522:61,cab5-24523:62,cab5-24524:63,cab6-35366:64,cab6-35367:65,cab6-35368:66,cab6-35369:67,cab6-35370:68,cab6-35371:69,cab6-35372:70,cab6-35373:71,cab6-35374:72,cab6-35375:73,cab6-35376:74,cab6-35377:75,cab6-35378:76,cab6-35379:77,cab6-35380:78,cab6-35381:79,cab6-35382:80,cab6-35383:81,cab6-35384:82,cab6-35385:83,cab6-35386:84,cab6-35387:85,cab6-35388:86,cab6-35389:87,cab6-35390:88,cab6-35391:89,cab6-35392:90,cab6-35393:91,cab6-35394:92,cab6-35395:93,cab6-35396:94,cab6-35397:95,cab7-37245:96,cab7-37246:97,cab7-37247:98,cab7-37248:99,cab7-37249:100,cab7-37250:101,cab7-37251:102,cab7-37252:103,cab7-37253:104,cab7-37254:105,cab7-37255:106,cab7-37256:107,cab7-37257:108,cab7-37258:109,cab7-37259:110,cab7-37260:111,cab7-37261:112,cab7-37262:113,cab7-37263:114,cab7-37264:115,cab7-37265:116,cab7-37266:117,cab7-37267:118,cab7-37268:119,cab7-37269:120,cab7-37270:121,cab7-37271:122,cab7-37272:123,cab7-37273:124,cab7-37274:125,cab7-37275:126,cab7-37276:127,cab8-18017:128,cab8-18018:129,cab8-18019:130,cab8-18020:131,cab8-18021:132,cab8-18022:133,cab8-18023:134,cab8-18024:135,cab8-18025:136,cab8-18026:137,cab8-18027:138,cab8-18028:139,cab8-18029:140,cab8-18030:141,cab8-18031:142,cab8-18032:143,cab8-18033:144,cab8-18034:145,cab8-18035:146,cab8-18036:147,cab8-18037:148,cab8-18038:149,cab8-18039:150,cab8-18040:151,cab8-18041:152,cab8-18042:153,cab8-18043:154,cab8-18044:155,cab8-18045:156,cab8-18046:157,cab8-18047:158,cab8-18048:159,cab9-36916:160,cab9-36917:161,cab9-36918:162,cab9-36919:163,cab9-36920:164,cab9-36921:165,cab9-36922:166,cab9-36923:167,cab9-36924:168,cab9-36925:169,cab9-36926:170,cab9-36927:171,cab9-36928:172,cab9-36929:173,cab9-36930:174,cab9-36931:175,cab9-36932:176,cab9-36933:177,cab9-36934:178,cab9-36935:179,cab9-36936:180,cab9-36937:181,cab9-36938:182,cab9-36939:183,cab9-36940:184,cab9-36941:185,cab9-36942:186,cab9-36943:187,cab9-36944:188,cab9-36945:189,cab9-36946:190,cab9-36947:191,cab10-12583:192,cab10-12584:193,cab10-12585:194,cab10-12586:195,cab10-12587:196,cab10-12588:197,cab10-12589:198,cab10-12590:199,cab10-12591:200,cab10-12592:201,cab10-12593:202,cab10-12594:203,cab10-12595:204,cab10-12596:205,cab10-12597:206,cab10-12598:207,cab10-12599:208,cab10-12600:209,cab10-12601:210,cab10-12602:211,cab10-12603:212,cab10-12604:213,cab10-12605:214,cab10-12606:215,cab10-12607:216,cab10-12608:217,cab10-12609:218,cab10-12610:219,cab10-12611:220,cab10-12612:221,cab10-12613:222,cab10-12614:223,cab11-45998:224,cab11-45999:225,cab11-46000:226,cab11-46001:227,cab11-46002:228,cab11-46003:229,cab11-46004:230,cab11-46005:231,cab11-46006:232,cab11-46007:233,cab11-46008:234,cab11-46009:235,cab11-46010:236,cab11-46011:237,cab11-46012:238,cab11-46013:239,cab11-46014:240,cab11-46015:241,cab11-46016:242,cab11-46017:243,cab11-46018:244,cab11-46019:245,cab11-46020:246,cab11-46021:247,cab11-46022:248,cab11-46023:249,cab11-46024:250,cab11-46025:251,cab11-46026:252,cab11-46027:253,cab11-46028:254,cab11-46029:255,
+*** MEMORY USED 1: 234076 ***
+------ NUMBER OF TOTAL LOOPS : 107
+*** MEMORY USED 2: 236820 ***
+i to j:0-1=>src to dst:651-652
+PROBABILITY BASED analysis between:651-652
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.666443e+01 1.666443e+01
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [43]
+States: 
+-------
+0: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4413a9) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4fcab4) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x50af0c) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512e26) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+1: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441b8a) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4fe5a3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+Task locations: 
+---------------
+0: [43]
+1: [0-42,44-255]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 5.390007 seconds
+  cpu clock time  = 3.710000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab21-46946
+Injecting in - Name-hypre_MatvecCommPkgCreate_core-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab21-46945:0,cab21-46946:1,cab21-46947:2,cab21-46948:3,cab21-46949:4,cab21-46950:5,cab21-46951:6,cab21-46952:7,cab21-46953:8,cab21-46954:9,cab21-46955:10,cab21-46956:11,cab21-46957:12,cab21-46958:13,cab21-46959:14,cab21-46960:15,cab21-46961:16,cab21-46962:17,cab21-46963:18,cab21-46964:19,cab21-46965:20,cab21-46966:21,cab21-46967:22,cab21-46968:23,cab21-46969:24,cab21-46970:25,cab21-46971:26,cab21-46972:27,cab21-46973:28,cab21-46974:29,cab21-46975:30,cab21-46976:31,cab22-59221:32,cab22-59222:33,cab22-59223:34,cab22-59224:35,cab22-59225:36,cab22-59226:37,cab22-59227:38,cab22-59228:39,cab22-59229:40,cab22-59230:41,cab22-59231:42,cab22-59232:43,cab22-59233:44,cab22-59234:45,cab22-59235:46,cab22-59236:47,cab22-59237:48,cab22-59238:49,cab22-59239:50,cab22-59240:51,cab22-59241:52,cab22-59242:53,cab22-59243:54,cab22-59244:55,cab22-59245:56,cab22-59246:57,cab22-59247:58,cab22-59248:59,cab22-59249:60,cab22-59250:61,cab22-59251:62,cab22-59252:63,cab23-15966:64,cab23-15967:65,cab23-15968:66,cab23-15969:67,cab23-15970:68,cab23-15971:69,cab23-15972:70,cab23-15973:71,cab23-15974:72,cab23-15975:73,cab23-15976:74,cab23-15977:75,cab23-15978:76,cab23-15979:77,cab23-15980:78,cab23-15981:79,cab23-15982:80,cab23-15983:81,cab23-15984:82,cab23-15985:83,cab23-15986:84,cab23-15987:85,cab23-15988:86,cab23-15989:87,cab23-15990:88,cab23-15991:89,cab23-15992:90,cab23-15993:91,cab23-15994:92,cab23-15995:93,cab23-15996:94,cab23-15997:95,cab24-10886:96,cab24-10887:97,cab24-10888:98,cab24-10889:99,cab24-10890:100,cab24-10891:101,cab24-10892:102,cab24-10893:103,cab24-10894:104,cab24-10895:105,cab24-10896:106,cab24-10897:107,cab24-10898:108,cab24-10899:109,cab24-10900:110,cab24-10901:111,cab24-10902:112,cab24-10903:113,cab24-10904:114,cab24-10905:115,cab24-10906:116,cab24-10907:117,cab24-10908:118,cab24-10909:119,cab24-10910:120,cab24-10911:121,cab24-10912:122,cab24-10913:123,cab24-10914:124,cab24-10915:125,cab24-10916:126,cab24-10917:127,cab25-92485:128,cab25-92486:129,cab25-92487:130,cab25-92488:131,cab25-92489:132,cab25-92490:133,cab25-92491:134,cab25-92492:135,cab25-92493:136,cab25-92494:137,cab25-92495:138,cab25-92496:139,cab25-92497:140,cab25-92498:141,cab25-92499:142,cab25-92500:143,cab25-92501:144,cab25-92502:145,cab25-92503:146,cab25-92504:147,cab25-92505:148,cab25-92506:149,cab25-92507:150,cab25-92508:151,cab25-92509:152,cab25-92510:153,cab25-92511:154,cab25-92512:155,cab25-92513:156,cab25-92514:157,cab25-92515:158,cab25-92516:159,cab26-29093:160,cab26-29094:161,cab26-29095:162,cab26-29096:163,cab26-29097:164,cab26-29098:165,cab26-29099:166,cab26-29100:167,cab26-29101:168,cab26-29102:169,cab26-29103:170,cab26-29104:171,cab26-29105:172,cab26-29106:173,cab26-29107:174,cab26-29108:175,cab26-29109:176,cab26-29110:177,cab26-29111:178,cab26-29112:179,cab26-29113:180,cab26-29114:181,cab26-29115:182,cab26-29116:183,cab26-29117:184,cab26-29118:185,cab26-29119:186,cab26-29120:187,cab26-29121:188,cab26-29122:189,cab26-29123:190,cab26-29124:191,cab27-89627:192,cab27-89628:193,cab27-89629:194,cab27-89630:195,cab27-89631:196,cab27-89632:197,cab27-89633:198,cab27-89634:199,cab27-89635:200,cab27-89636:201,cab27-89637:202,cab27-89638:203,cab27-89639:204,cab27-89640:205,cab27-89641:206,cab27-89642:207,cab27-89643:208,cab27-89644:209,cab27-89645:210,cab27-89646:211,cab27-89647:212,cab27-89648:213,cab27-89649:214,cab27-89650:215,cab27-89651:216,cab27-89652:217,cab27-89653:218,cab27-89654:219,cab27-89655:220,cab27-89656:221,cab27-89657:222,cab27-89658:223,cab28-29058:224,cab28-29059:225,cab28-29060:226,cab28-29061:227,cab28-29062:228,cab28-29063:229,cab28-29064:230,cab28-29065:231,cab28-29066:232,cab28-29067:233,cab28-29068:234,cab28-29069:235,cab28-29070:236,cab28-29071:237,cab28-29072:238,cab28-29073:239,cab28-29074:240,cab28-29075:241,cab28-29076:242,cab28-29077:243,cab28-29078:244,cab28-29079:245,cab28-29080:246,cab28-29081:247,cab28-29082:248,cab28-29083:249,cab28-29084:250,cab28-29085:251,cab28-29086:252,cab28-29087:253,cab28-29088:254,cab28-29089:255,
+*** MEMORY USED 1: 225364 ***
+------ NUMBER OF TOTAL LOOPS : 67
+*** MEMORY USED 2: 227168 ***
+i to j:0-1=>src to dst:425-430
+LOOP BASED analysis between:425-430
+DISTANCE BASED analysis between:425-430
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 1.301978e+01 1.301978e+01
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [1]
+States: 
+-------
+0: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44b4cb) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x47dab8) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4997aa) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x507db8) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512e26) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+1: /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x438469) : /lib64/libc-2.12.so(0x1ecdd) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x441303) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f8954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4f927e) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x442954) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x44b4cb) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x47dbb3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x4967fa) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x495f49) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x508f66) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512ef6) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x512d89) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x5176b3) : /g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(0x51729e)
+Task locations: 
+---------------
+0: [1]
+1: [0,2-255]
+Stack created using callpath, support for filename and line number will be provided later

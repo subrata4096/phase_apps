@@ -1,0 +1,74 @@
+digraph G {
+	node [shape=record,style=filled,labeljust=c,height=0.2];
+	0 [pos="0,0", label="/", fillcolor="#AAAAAA",fontcolor="#FFFFFF"];
+	-2130208477 [pos="0,0", label="HYPRE_BoomerAMGSolve@/g/g90/mitra3/work/AMG2006/AMG2006/parcsr_ls/HYPRE_parcsr_amg.c:89", fillcolor="#f1c71c",fontcolor="#000000"];
+	-2118008439 [pos="0,0", label="State::operator\<(State const&) const@/g/g90/mitra3/work/for_cab/automaded_LA_24Oct/statetracker/src/model_components.C:49", fillcolor="#e38e38",fontcolor="#000000"];
+	-1965302397 [pos="0,0", label="hypre_PCGSolve@/g/g90/mitra3/work/AMG2006/AMG2006/krylov/pcg.c:413", fillcolor="#f1c71c",fontcolor="#000000"];
+	-1652842475 [pos="0,0", label="hypre_BoomerAMGSolve@/g/g90/mitra3/work/AMG2006/AMG2006/parcsr_ls/par_amg_solve.c:237", fillcolor="#f1c71c",fontcolor="#000000"];
+	-1612586769 [pos="0,0", label="MPIR_Barrier_MV2@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/barrier_osu.c:299", fillcolor="#d55555",fontcolor="#000000"];
+	-1156812447 [pos="0,0", label="__poll@/usr/src/debug/glibc-2.12-2-gc4ccff1/io/../sysdeps/unix/sysv/linux/poll.c:87", fillcolor="#f1c71c",fontcolor="#000000"];
+	-1142967791 [pos="0,0", label="psm_pe_yield@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpid/ch3/channels/psm/src/psm_queue.c:306", fillcolor="#c71c71",fontcolor="#000000"];
+	-1122554196 [pos="0,0", label="hypre_BoomerAMGCycle@/g/g90/mitra3/work/AMG2006/AMG2006/parcsr_ls/par_cycle.c:308", fillcolor="#f1c71c",fontcolor="#000000"];
+	-1028076549 [pos="0,0", label="loopAnalysis::populateAllLoopInformation()@/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_set.h:411", fillcolor="#e38e38",fontcolor="#000000"];
+	-831337920 [pos="0,0", label="main@/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006.c:2453", fillcolor="#f1c71c",fontcolor="#000000"];
+	-631113968 [pos="0,0", label="__sched_yield@/usr/src/debug////////glibc-2.12-2-gc4ccff1/posix/../sysdeps/unix/syscall-template.S:82", fillcolor="#c71c71",fontcolor="#000000"];
+	-488561881 [pos="0,0", label="__libc_start_main@/usr/src/debug/glibc-2.12-2-gc4ccff1/csu/libc-start.c:226", fillcolor="#f1c71c",fontcolor="#000000"];
+	-318979937 [pos="0,0", label="AnalysisDriver::findLeastProgressedTasks(bool)@/g/g90/mitra3/work/for_cab/automaded_LA_24Oct/statetracker/src/analysis_driver.C:67", fillcolor="#e38e38",fontcolor="#000000"];
+	-155546985 [pos="0,0", label="MPIR_Barrier_intra_MV2@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/barrier_osu.c:121", fillcolor="#c71c71",fontcolor="#000000"];
+	324005713 [pos="0,0", label="HYPRE_PCGSolve@/g/g90/mitra3/work/AMG2006/AMG2006/krylov/HYPRE_pcg.c:88", fillcolor="#f1c71c",fontcolor="#000000"];
+	363549059 [pos="0,0", label="ips_ptl_rcvthread_init@?", fillcolor="#f1c71c",fontcolor="#000000"];
+	597060504 [pos="0,0", label="MPIR_Barrier_impl@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/barrier.c:265", fillcolor="#d55555",fontcolor="#000000"];
+	785688497 [pos="0,0", label="PMPI_Barrier@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/barrier.c:410", fillcolor="#d55555",fontcolor="#000000"];
+	1071227729 [pos="0,0", label="std::_Rb_tree\<Edge, Edge, std::_Identity\<Edge\>, std::less\<Edge\>, std::allocator\<Edge\> \>::_M_insert_unique(Edge const&)@/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_function.h:230", fillcolor="#e38e38",fontcolor="#000000"];
+	1385856191 [pos="0,0", label="psm_progress_wait@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpid/ch3/channels/psm/src/psm_queue.c:228", fillcolor="#c71c71",fontcolor="#000000"];
+	1544065453 [pos="0,0", label="Edge::operator\<(Edge const&) const@/g/g90/mitra3/work/for_cab/automaded_LA_24Oct/statetracker/src/model_components.C:582", fillcolor="#e38e38",fontcolor="#000000"];
+	1928213826 [pos="0,0", label="_start@?", fillcolor="#f1c71c",fontcolor="#000000"];
+	1963227148 [pos="0,0", label="MPIDI_CH3I_SHMEM_COLL_Barrier_bcast@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/ch3_shmem_coll.c:743", fillcolor="#c71c71",fontcolor="#000000"];
+	2026216220 [pos="0,0", label="helperThread(void*)@/g/g90/mitra3/work/for_cab/automaded_LA_24Oct/statetracker/src/helper_thread.C:170", fillcolor="#e38e38",fontcolor="#000000"];
+	2026216229 [pos="0,0", label="helperThread(void*)@/g/g90/mitra3/work/for_cab/automaded_LA_24Oct/statetracker/src/helper_thread.C:179", fillcolor="#d55555",fontcolor="#000000"];
+	2031938289 [pos="0,0", label="AnalysisDriver::gatheredLPTAlgorithm(bool)@/g/g90/mitra3/work/for_cab/automaded_LA_24Oct/statetracker/src/analysis_driver.C:207", fillcolor="#e38e38",fontcolor="#000000"];
+	2037657306 [pos="0,0", label="start_thread@/usr/src/debug/glibc-2.12-2-gc4ccff1/nptl/pthread_create.c:301", fillcolor="#f1c71c",fontcolor="#000000"];
+	-1387966773 [pos="0,0", label="psm_pe_yield@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpid/ch3/channels/psm/src/psm_queue.c:306", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	-915687466 [pos="0,0", label="MPIC_Sendrecv@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/helper_fns.c:194", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	-155612578 [pos="0,0", label="MPIR_Barrier_intra_MV2@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/barrier_osu.c:117", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	681317052 [pos="0,0", label="MPIC_Sendrecv_ft@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/helper_fns.c:688", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	1155500409 [pos="0,0", label="psm_progress_wait@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpid/ch3/channels/psm/src/psm_queue.c:228", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	1752937170 [pos="0,0", label="MPIC_Wait@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/helper_fns.c:539", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	1808888534 [pos="0,0", label="__sched_yield@/usr/src/debug////////glibc-2.12-2-gc4ccff1/posix/../sysdeps/unix/syscall-template.S:82", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	2063387859 [pos="0,0", label="MPIR_Pairwise_Barrier_MV2@/usr/local/tools/mvapich2-gnu-1.7/src/src/mpi/coll/barrier_osu.c:67", fillcolor="#b8e38e",fontcolor="#FFFFFF"];
+	-1965302397 -> -2130208477 [label="[0-127]"]
+	1544065453 -> -2118008439 [label="[0]"]
+	324005713 -> -1965302397 [label="[0-127]"]
+	-2130208477 -> -1652842475 [label="[0-127]"]
+	597060504 -> -1612586769 [label="[1-127]"]
+	363549059 -> -1156812447 [label="[0-127]"]
+	1385856191 -> -1142967791 [label="[1-31,33-63,65-95,97-127]"]
+	-1652842475 -> -1122554196 [label="[0-127]"]
+	2031938289 -> -1028076549 [label="[0]"]
+	-488561881 -> -831337920 [label="[0-127]"]
+	-1142967791 -> -631113968 [label="[1-31,33-63,65-95,97-127]"]
+	1928213826 -> -488561881 [label="[0-127]"]
+	2026216220 -> -318979937 [label="[0]"]
+	-1612586769 -> -155546985 [label="[1-31,33-63,65-95,97-127]"]
+	-831337920 -> 324005713 [label="[0-127]"]
+	2037657306 -> 363549059 [label="[0-127]"]
+	785688497 -> 597060504 [label="[1-127]"]
+	2026216229 -> 785688497 [label="[1-127]"]
+	-1028076549 -> 1071227729 [label="[0]"]
+	1963227148 -> 1385856191 [label="[1-31,33-63,65-95,97-127]"]
+	1071227729 -> 1544065453 [label="[0]"]
+	0 -> 1928213826 [label="[0-127]"]
+	-155546985 -> 1963227148 [label="[1-31,33-63,65-95,97-127]"]
+	2037657306 -> 2026216220 [label="[0]"]
+	2037657306 -> 2026216229 [label="[1-127]"]
+	-318979937 -> 2031938289 [label="[0]"]
+	0 -> 2037657306 [label="[0-127]"]
+	1155500409 -> -1387966773 [label="[32,64,96]"]
+	681317052 -> -915687466 [label="[32,64,96]"]
+	-1612586769 -> -155612578 [label="[32,64,96]"]
+	2063387859 -> 681317052 [label="[32,64,96]"]
+	1752937170 -> 1155500409 [label="[32,64,96]"]
+	-915687466 -> 1752937170 [label="[32,64,96]"]
+	-1387966773 -> 1808888534 [label="[32,64,96]"]
+	-155612578 -> 2063387859 [label="[32,64,96]"]
+}

@@ -1,0 +1,460 @@
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.781898 seconds
+  cpu clock time  = 1.790000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab2-82214
+Injecting in - Name-hypre_BoomerAMGCoarsen-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-86673:0,cab1-86674:1,cab1-86675:2,cab1-86676:3,cab1-86677:4,cab1-86678:5,cab1-86679:6,cab1-86680:7,cab1-86681:8,cab1-86682:9,cab1-86683:10,cab1-86684:11,cab1-86685:12,cab1-86686:13,cab1-86687:14,cab1-86688:15,cab2-82206:16,cab2-82207:17,cab2-82208:18,cab2-82209:19,cab2-82210:20,cab2-82211:21,cab2-82212:22,cab2-82213:23,cab2-82214:24,cab2-82215:25,cab2-82216:26,cab2-82217:27,cab2-82218:28,cab2-82219:29,cab2-82220:30,cab2-82221:31,
+*** MEMORY USED 1: 137780 ***
+------ NUMBER OF TOTAL LOOPS : 66
+*** MEMORY USED 2: 139304 ***
+i to j:0-1=>src to dst:189-202
+LOOP BASED analysis between:189-202
+DISTANCE BASED analysis between:189-202
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:189-218
+LOOP BASED analysis between:189-218
+DISTANCE BASED analysis between:189-218
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:189-228
+LOOP BASED analysis between:189-228
+DISTANCE BASED analysis between:189-228
+LOOP analysis returned: 2
+i to j:1-2=>src to dst:202-218
+LOOP BASED analysis between:202-218
+DISTANCE BASED analysis between:202-218
+LOOP analysis returned: 2
+i to j:1-3=>src to dst:202-228
+LOOP BASED analysis between:202-228
+DISTANCE BASED analysis between:202-228
+LOOP analysis returned: 2
+i to j:2-3=>src to dst:218-228
+LOOP BASED analysis between:218-228
+DISTANCE BASED analysis between:218-228
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 
+    ----------------
+s 0|  0   0   0   0 
+s 1|  1   0   0   0 
+s 2|  1   1   0   0 
+s 3|  1   1   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 4.430378e+00 4.430378e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [24]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Comm_rank+0x45) [0x4fcae5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenRuge+0x1c4) [0x44e77a]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenFalgout+0x49) [0x451227]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x10f9) [0x448b99]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+1: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x512aa5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x2f) [0x4fe79f]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsen+0x39d) [0x44cdd1]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenFalgout+0x70) [0x45124e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x10f9) [0x448b99]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+2: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x512aa5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x2f) [0x4fe79f]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRMatrixExtractConvBExt+0x6c3) [0x4984d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsen+0x892) [0x44d2c6]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenFalgout+0x70) [0x45124e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x10f9) [0x448b99]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+3: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x512aa5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x2f) [0x4fe79f]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRMatrixExtractConvBExt+0x8af) [0x4986c1]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsen+0x892) [0x44d2c6]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenFalgout+0x70) [0x45124e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x10f9) [0x448b99]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [24]
+1: [16-19,21,23,25-31]
+2: [8-15,20,22]
+3: [0-7]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.786057 seconds
+  cpu clock time  = 1.800000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 25.683301 seconds
+  cpu clock time  = 25.620000 seconds
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab3-92732:0,cab3-92733:1,cab3-92734:2,cab3-92735:3,cab3-92736:4,cab3-92737:5,cab3-92738:6,cab3-92739:7,cab3-92740:8,cab3-92741:9,cab3-92742:10,cab3-92743:11,cab3-92744:12,cab3-92745:13,cab3-92746:14,cab3-92747:15,cab4-118062:16,cab4-118063:17,cab4-118064:18,cab4-118065:19,cab4-118066:20,cab4-118067:21,cab4-118068:22,cab4-118069:23,cab4-118070:24,cab4-118071:25,cab4-118072:26,cab4-118073:27,cab4-118074:28,cab4-118075:29,cab4-118076:30,cab4-118077:31,
+*** MEMORY USED 1: 186436 ***
+------ NUMBER OF TOTAL LOOPS : 75
+*** MEMORY USED 2: 188172 ***
+Matrix after removing undef. dependencies:
+    s 0 
+    ----
+s 0|  0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 6.604603e+00 6.604603e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [0-31]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x4d) [0x4fe7bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelax+0x6451) [0x487591]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelaxIF+0xea) [0x48b05e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCycle+0x5cb) [0x452f27]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSolve+0x5b1) [0x44ba75]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSolve+0x33) [0x44263e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSolve+0x48d) [0x4f93a2]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSolve+0x33) [0x4f8542]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x2728) [0x441035]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [0-31]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.780710 seconds
+  cpu clock time  = 1.780000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 25.524156 seconds
+  cpu clock time  = 25.470000 seconds
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab5-17819:0,cab5-17820:1,cab5-17821:2,cab5-17822:3,cab5-17823:4,cab5-17824:5,cab5-17825:6,cab5-17826:7,cab5-17827:8,cab5-17828:9,cab5-17829:10,cab5-17830:11,cab5-17831:12,cab5-17832:13,cab5-17833:14,cab5-17834:15,cab6-76508:16,cab6-76509:17,cab6-76510:18,cab6-76511:19,cab6-76512:20,cab6-76513:21,cab6-76514:22,cab6-76515:23,cab6-76516:24,cab6-76517:25,cab6-76518:26,cab6-76519:27,cab6-76520:28,cab6-76521:29,cab6-76522:30,cab6-76523:31,
+*** MEMORY USED 1: 186568 ***
+------ NUMBER OF TOTAL LOOPS : 75
+*** MEMORY USED 2: 188340 ***
+Matrix after removing undef. dependencies:
+    s 0 
+    ----
+s 0|  0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 6.638765e+00 6.638765e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [0-31]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x4d) [0x4fe7bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelax+0x6451) [0x487591]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelaxIF+0xea) [0x48b05e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCycle+0x5cb) [0x452f27]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSolve+0x5b1) [0x44ba75]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSolve+0x33) [0x44263e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSolve+0x48d) [0x4f93a2]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSolve+0x33) [0x4f8542]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x2728) [0x441035]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [0-31]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.775235 seconds
+  cpu clock time  = 1.780000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 25.418543 seconds
+  cpu clock time  = 25.360000 seconds
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-102056:0,cab1-102057:1,cab1-102058:2,cab1-102059:3,cab1-102060:4,cab1-102061:5,cab1-102062:6,cab1-102063:7,cab1-102064:8,cab1-102065:9,cab1-102066:10,cab1-102067:11,cab1-102068:12,cab1-102069:13,cab1-102070:14,cab1-102071:15,cab2-97418:16,cab2-97419:17,cab2-97420:18,cab2-97421:19,cab2-97422:20,cab2-97423:21,cab2-97424:22,cab2-97425:23,cab2-97426:24,cab2-97427:25,cab2-97428:26,cab2-97429:27,cab2-97430:28,cab2-97431:29,cab2-97432:30,cab2-97433:31,
+*** MEMORY USED 1: 186524 ***
+------ NUMBER OF TOTAL LOOPS : 75
+*** MEMORY USED 2: 188260 ***
+Matrix after removing undef. dependencies:
+    s 0 
+    ----
+s 0|  0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 6.614952e+00 6.614952e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [0-31]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x4d) [0x4fe7bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelax+0x6451) [0x487591]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelaxIF+0xea) [0x48b05e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCycle+0x5cb) [0x452f27]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSolve+0x5b1) [0x44ba75]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSolve+0x33) [0x44263e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSolve+0x48d) [0x4f93a2]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSolve+0x33) [0x4f8542]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x2728) [0x441035]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [0-31]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.810040 seconds
+  cpu clock time  = 1.820000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab4-2609
+Injecting in - Name-hypre_ParCSRMatrixSetRowStartsOwner-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab3-109138:0,cab3-109139:1,cab3-109140:2,cab3-109141:3,cab3-109142:4,cab3-109143:5,cab3-109144:6,cab3-109145:7,cab3-109146:8,cab3-109147:9,cab3-109148:10,cab3-109149:11,cab3-109150:12,cab3-109151:13,cab3-109152:14,cab3-109153:15,cab4-2599:16,cab4-2600:17,cab4-2601:18,cab4-2602:19,cab4-2603:20,cab4-2604:21,cab4-2605:22,cab4-2606:23,cab4-2607:24,cab4-2608:25,cab4-2609:26,cab4-2610:27,cab4-2611:28,cab4-2612:29,cab4-2613:30,cab4-2614:31,
+*** MEMORY USED 1: 173636 ***
+------ NUMBER OF TOTAL LOOPS : 67
+*** MEMORY USED 2: 175252 ***
+i to j:0-1=>src to dst:185-250
+LOOP BASED analysis between:185-250
+DISTANCE BASED analysis between:185-250
+LOOP analysis returned: 2
+i to j:0-2=>src to dst:185-202
+LOOP BASED analysis between:185-202
+DISTANCE BASED analysis between:185-202
+LOOP analysis returned: 2
+i to j:0-3=>src to dst:185-218
+LOOP BASED analysis between:185-218
+DISTANCE BASED analysis between:185-218
+LOOP analysis returned: 2
+i to j:1-2=>src to dst:250-202
+LOOP BASED analysis between:250-202
+DISTANCE BASED analysis between:250-202
+LOOP analysis returned: 1
+i to j:1-3=>src to dst:250-218
+LOOP BASED analysis between:250-218
+DISTANCE BASED analysis between:250-218
+LOOP analysis returned: 1
+i to j:2-3=>src to dst:202-218
+LOOP BASED analysis between:202-218
+DISTANCE BASED analysis between:202-218
+LOOP analysis returned: 2
+Matrix after removing undef. dependencies:
+    s 0 s 1 s 2 s 3 
+    ----------------
+s 0|  0   0   0   0 
+s 1|  1   0   1   1 
+s 2|  1   0   0   0 
+s 3|  1   0   1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 4.544928e+00 4.544928e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [26]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Comm_size+0x47) [0x507967]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRMatrixCreate+0x51) [0x49935d]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCreateS+0x1c2) [0x48dfea]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x1053) [0x448af3]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+1: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x512aa5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Allreduce+0x3e) [0x50aa8e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsen+0xd72) [0x44d7a6]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenFalgout+0x70) [0x45124e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x10f9) [0x448b99]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+2: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x512aa5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x2f) [0x4fe79f]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsen+0x39d) [0x44cdd1]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenFalgout+0x70) [0x45124e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x10f9) [0x448b99]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+3: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x512aa5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x2f) [0x4fe79f]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRMatrixExtractConvBExt+0x6c3) [0x4984d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsen+0x892) [0x44d2c6]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCoarsenFalgout+0x70) [0x45124e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x10f9) [0x448b99]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [26]
+1: [19]
+2: [0-3,5-10,15-18,20,22-25,27-31]
+3: [4,11-14,21]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.781870 seconds
+  cpu clock time  = 1.790000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 25.729857 seconds
+  cpu clock time  = 25.670000 seconds
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab5-33161:0,cab5-33162:1,cab5-33163:2,cab5-33164:3,cab5-33165:4,cab5-33166:5,cab5-33167:6,cab5-33168:7,cab5-33169:8,cab5-33170:9,cab5-33171:10,cab5-33172:11,cab5-33173:12,cab5-33174:13,cab5-33175:14,cab5-33176:15,cab6-91718:16,cab6-91719:17,cab6-91720:18,cab6-91721:19,cab6-91722:20,cab6-91723:21,cab6-91724:22,cab6-91725:23,cab6-91726:24,cab6-91727:25,cab6-91728:26,cab6-91729:27,cab6-91730:28,cab6-91731:29,cab6-91732:30,cab6-91733:31,
+*** MEMORY USED 1: 186648 ***
+------ NUMBER OF TOTAL LOOPS : 75
+*** MEMORY USED 2: 188416 ***
+Matrix after removing undef. dependencies:
+    s 0 
+    ----
+s 0|  0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 6.638706e+00 6.638706e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [0-31]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x4d) [0x4fe7bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelax+0x6451) [0x487591]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelaxIF+0xea) [0x48b05e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCycle+0x5cb) [0x452f27]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSolve+0x5b1) [0x44ba75]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSolve+0x33) [0x44263e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSolve+0x48d) [0x4f93a2]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSolve+0x33) [0x4f8542]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x2728) [0x441035]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [0-31]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.778436 seconds
+  cpu clock time  = 1.790000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab1-117552
+Injecting in - Name-hypre_BoomerAMGSetStrongThreshold-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab1-117549:0,cab1-117550:1,cab1-117551:2,cab1-117552:3,cab1-117553:4,cab1-117554:5,cab1-117555:6,cab1-117556:7,cab1-117557:8,cab1-117558:9,cab1-117559:10,cab1-117560:11,cab1-117561:12,cab1-117562:13,cab1-117563:14,cab1-117564:15,cab2-112629:16,cab2-112630:17,cab2-112631:18,cab2-112632:19,cab2-112633:20,cab2-112634:21,cab2-112635:22,cab2-112636:23,cab2-112637:24,cab2-112638:25,cab2-112639:26,cab2-112640:27,cab2-112641:28,cab2-112642:29,cab2-112643:30,cab2-112644:31,
+*** MEMORY USED 1: 129404 ***
+------ NUMBER OF TOTAL LOOPS : 22
+*** MEMORY USED 2: 130520 ***
+i to j:0-1=>src to dst:165-176
+PROBABILITY BASED analysis between:165-176
+Matrix after removing undef. dependencies:
+    s 0 s 1 
+    --------
+s 0|  0   0 
+s 1|  1   0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 3.047575e+00 3.047575e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [3]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x4d) [0x4fe7bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRMatrixMatvec+0x344) [0x4a0cec]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_ParCSRMatrixMatvec+0x3e) [0x494849]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x22e4) [0x440bf1]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+1: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager23transitionBeforeMPICallEv+0x25) [0x512aa5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Allreduce+0x3e) [0x50aa8e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRMatrixSetNumNonzeros+0xc2) [0x4997eb]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSetup+0x1cd) [0x447c6d]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSetup+0x33) [0x442603]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSetup+0x181) [0x4f8e31]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSetup+0x33) [0x4f8507]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x26a5) [0x440fb2]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [3]
+1: [0-2,4-31]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.786239 seconds
+  cpu clock time  = 1.790000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 25.569524 seconds
+  cpu clock time  = 25.510000 seconds
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab3-124987:0,cab3-124988:1,cab3-124989:2,cab3-124990:3,cab3-124991:4,cab3-124992:5,cab3-124993:6,cab3-124994:7,cab3-124995:8,cab3-124996:9,cab3-124997:10,cab3-124998:11,cab3-124999:12,cab3-125000:13,cab3-125001:14,cab3-125002:15,cab4-18420:16,cab4-18421:17,cab4-18422:18,cab4-18423:19,cab4-18424:20,cab4-18425:21,cab4-18426:22,cab4-18427:23,cab4-18428:24,cab4-18429:25,cab4-18430:26,cab4-18431:27,cab4-18432:28,cab4-18433:29,cab4-18434:30,cab4-18435:31,
+*** MEMORY USED 1: 186548 ***
+------ NUMBER OF TOTAL LOOPS : 75
+*** MEMORY USED 2: 188328 ***
+Matrix after removing undef. dependencies:
+    s 0 
+    ----
+s 0|  0 
+------------Times-------------
+[Variable] [Average] [Maximum]
+------------------------------
+TOTAL_ANALYSIS_TIME 6.654895e+00 6.654895e+00
+------------------------------
+Number of states with LP-tasks: 1
+STATE 0, tasks: [0-31]
+States: 
+-------
+0: |/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace15getGNUBacktraceEv+0x34) [0x5158d4]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN9Backtrace12getBacktraceEv+0x24) [0x515b14]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager10buildStateEv+0x18) [0x512938]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(_ZN18TransitionsManager22transitionAfterMPICallEv+0x25) [0x5129d5]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(MPI_Waitall+0x4d) [0x4fe7bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_ParCSRCommHandleDestroy+0x60) [0x4957bd]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelax+0x6451) [0x487591]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGRelaxIF+0xea) [0x48b05e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGCycle+0x5cb) [0x452f27]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_BoomerAMGSolve+0x5b1) [0x44ba75]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_BoomerAMGSolve+0x33) [0x44263e]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(hypre_PCGSolve+0x48d) [0x4f93a2]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(HYPRE_PCGSolve+0x33) [0x4f8542]|/g/g90/mitra3/work/AMG2006/AMG2006/test/amg2006(main+0x2728) [0x441035]|/lib64/libc.so.6(__libc_start_main+0xfc) [0x2aaac11c8cdc]
+Task locations: 
+---------------
+0: [0-31]
+Stack created using callpath, support for filename and line number will be provided later
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 60
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.780097 seconds
+  cpu clock time  = 1.780000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 25.636374 seconds
+  cpu clock time  = 25.580000 seconds

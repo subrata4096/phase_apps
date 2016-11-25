@@ -1,0 +1,635 @@
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 30
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.769558 seconds
+  cpu clock time  = 1.770000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 38.012435 seconds
+  cpu clock time  = 37.920000 seconds
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+  wall clock time = 18.147202 seconds
+  cpu clock time  = 18.120000 seconds
+
+AMG Sequoia Benchmark version 1.0
+Iterations = 9
+Final Relative Residual Norm = 7.255243e-07
+
+System Size * Iterations / Solve Phase Time: 3.250220e+04
+
+
+---- Total time taken by AMG: 5.874000e+01 
+*** MEMORY USED: 301688 ***
+*** MEMORY USED: 301688 ***
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 30
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.759815 seconds
+  cpu clock time  = 1.770000 seconds
+**********************************************
+PIN_FAULTY_PROCESS=cab22-67839
+Injecting in - Name-hypre_CSRMatrixDestroy-
+0dummy passed Barrier
+
+PROCS_TO_TASKS_MAPPING
+cab15-76505:0,cab15-76506:1,cab15-76507:2,cab15-76508:3,cab15-76509:4,cab15-76510:5,cab15-76511:6,cab15-76512:7,cab15-76513:8,cab15-76514:9,cab15-76515:10,cab15-76516:11,cab15-76517:12,cab15-76518:13,cab15-76519:14,cab15-76520:15,cab16-67287:16,cab16-67288:17,cab16-67289:18,cab16-67290:19,cab16-67291:20,cab16-67292:21,cab16-67293:22,cab16-67294:23,cab16-67295:24,cab16-67296:25,cab16-67297:26,cab16-67298:27,cab16-67299:28,cab16-67300:29,cab16-67301:30,cab16-67302:31,cab17-33778:32,cab17-33779:33,cab17-33780:34,cab17-33781:35,cab17-33782:36,cab17-33783:37,cab17-33784:38,cab17-33785:39,cab17-33786:40,cab17-33787:41,cab17-33788:42,cab17-33789:43,cab17-33790:44,cab17-33791:45,cab17-33792:46,cab17-33793:47,cab18-83691:48,cab18-83692:49,cab18-83693:50,cab18-83694:51,cab18-83695:52,cab18-83696:53,cab18-83697:54,cab18-83698:55,cab18-83699:56,cab18-83700:57,cab18-83701:58,cab18-83702:59,cab18-83703:60,cab18-83704:61,cab18-83705:62,cab18-83706:63,cab19-13759:64,cab19-13760:65,cab19-13761:66,cab19-13762:67,cab19-13763:68,cab19-13764:69,cab19-13765:70,cab19-13766:71,cab19-13767:72,cab19-13768:73,cab19-13769:74,cab19-13770:75,cab19-13771:76,cab19-13772:77,cab19-13773:78,cab19-13774:79,cab20-55619:80,cab20-55620:81,cab20-55621:82,cab20-55622:83,cab20-55623:84,cab20-55624:85,cab20-55625:86,cab20-55626:87,cab20-55627:88,cab20-55628:89,cab20-55629:90,cab20-55630:91,cab20-55631:92,cab20-55632:93,cab20-55633:94,cab20-55634:95,cab21-50794:96,cab21-50795:97,cab21-50796:98,cab21-50797:99,cab21-50798:100,cab21-50799:101,cab21-50800:102,cab21-50801:103,cab21-50802:104,cab21-50803:105,cab21-50804:106,cab21-50805:107,cab21-50806:108,cab21-50807:109,cab21-50808:110,cab21-50809:111,cab22-67838:112,cab22-67839:113,cab22-67840:114,cab22-67841:115,cab22-67842:116,cab22-67843:117,cab22-67844:118,cab22-67845:119,cab22-67846:120,cab22-67847:121,cab22-67848:122,cab22-67849:123,cab22-67850:124,cab22-67851:125,cab22-67852:126,cab22-67853:127,
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 30
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.765378 seconds
+  cpu clock time  = 1.770000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 38.848087 seconds
+  cpu clock time  = 38.760000 seconds
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+  wall clock time = 18.308721 seconds
+  cpu clock time  = 18.280000 seconds
+
+AMG Sequoia Benchmark version 1.0
+Iterations = 9
+Final Relative Residual Norm = 7.255243e-07
+
+System Size * Iterations / Solve Phase Time: 3.221547e+04
+
+
+---- Total time taken by AMG: 5.910000e+01 
+*** MEMORY USED: 301600 ***
+*** MEMORY USED: 301600 ***
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+AMG started
+===============================
+AutomaDeD started in MPI_Init
+Tool: statetracker
+By Ignacio Laguna et al.
+
+MPI_INIT_THREAD Level
+Required: 3
+Provided: 3
+===============================
+Timeout is= 30
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+  wall clock time = 1.764959 seconds
+  cpu clock time  = 1.770000 seconds
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+  wall clock time = 38.194760 seconds
+  cpu clock time  = 38.110000 seconds

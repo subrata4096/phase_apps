@@ -1,0 +1,57 @@
+"LAMMPS WWW Site"_lws - "LAMMPS Documentation"_ld - "LAMMPS Commands"_lc :c
+
+:link(lws,http://lammps.sandia.gov)
+:link(ld,Manual.html)
+:link(lc,Section_commands.html#comm)
+
+:line
+
+fix wall/reflect command :h3
+
+[Syntax:]
+
+fix ID group-ID wall/reflect keyword ... :pre
+
+ID, group-ID are documented in "fix"_fix.html command
+wall/reflect = style name of this fix command
+one or more keyword/value pairs may be appended to the args
+keyword = {xlo} or {xhi} or {ylo} or {yhi} or {zlo} or {zhi} :ul
+
+[Examples:]
+
+fix xwalls all wall/reflect xlo xhi
+fix walls all wall/reflect xlo ylo zlo xhi yhi zhi :pre
+
+[Description:]
+
+Bound the simulation with one or more walls which reflect particles
+when they attempt to move thru them. 
+
+Reflection means that if an atom moves outside the box on a timestep
+by a distance delta (e.g. due to "fix nve"_fix_nve.html), then it is
+put back inside the box by the same delta and the sign of the
+corresponding component of its velocity is flipped.
+
+IMPORTANT NOTE: This fix performs its operations at the same point in
+the timestep as other time integration fixes, such as "fix
+nve"_fix_nve.html, "fix nvt"_fix_nvt.html, or "fix npt"_fix_npt.html.
+Thus fix wall/reflect should normally be the last such fix specified
+in the input script, since the adjustments it makes to atom
+coordinates should come after the changes made by time integration.
+LAMMPS will warn you if your fixes are not ordered this way.
+
+[Restrictions:]
+
+Any dimension (xyz) that has a reflecting wall must be non-periodic.
+
+A reflecting wall cannot be used with rigid bodies such as those
+defined by a "fix rigid" command.  This is because the wall/reflect
+displaces atoms directly rather than exerts a force on them.  For
+rigid bodies, use a soft wall instead, such as "fix
+wall/lj93"_fix_wall_lj93.html.
+
+[Related commands:]
+
+"fix wall/lj93"_fix_wall_lj93.html command
+
+[Default:] none
